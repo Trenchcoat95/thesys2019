@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.17)  24 DEC 2019 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.17)  26 DEC 2019 18:43
 entering extended mode
 **./TesiFB.tex
 (TesiFB.tex
@@ -380,148 +380,150 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2 <./LEP-NuFlavours.png>] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
-[5]
 
-LaTeX Warning: Command \i invalid in math mode on input line 206.
+LaTeX Warning: Command \i invalid in math mode on input line 208.
 
 [6]
+
+LaTeX Warning: Reference `)' on page 7 undefined on input line 240.
+
 <mass-hierarchy.png, id=55, 722.7pt x 407.121pt>
 File: mass-hierarchy.png Graphic file (type png)
 <use mass-hierarchy.png>
-Package pdftex.def Info: mass-hierarchy.png  used on input line 244.
+Package pdftex.def Info: mass-hierarchy.png  used on input line 246.
 (pdftex.def)             Requested size: 312.00119pt x 175.76059pt.
- [7] [8 <./mass-hierarchy.png>] [9]
+[7] [8 <./mass-hierarchy.png>] [9]
 <2flavor_oscillation.png, id=67, 625.1355pt x 322.806pt>
 File: 2flavor_oscillation.png Graphic file (type png)
 <use 2flavor_oscillation.png>
-Package pdftex.def Info: 2flavor_oscillation.png  used on input line 307.
+Package pdftex.def Info: 2flavor_oscillation.png  used on input line 309.
 (pdftex.def)             Requested size: 272.99881pt x 140.97115pt.
-<WZ.png, id=68, 467.346pt x 173.448pt>
+ [10 <./2flavor_oscillation.png>]
+<WZ.png, id=72, 467.346pt x 173.448pt>
 File: WZ.png Graphic file (type png)
 <use WZ.png>
-Package pdftex.def Info: WZ.png  used on input line 319.
+Package pdftex.def Info: WZ.png  used on input line 322.
 (pdftex.def)             Requested size: 272.99881pt x 101.31712pt.
- [10 <./2flavor_oscillation.png>]
-[11 <./WZ.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 374.
+ [11 <./WZ.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 378.
 
-
-("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+ ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 374.
-
-[12] [13]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 378.
+ [12] [13]
 <SSM.png, id=84, 454.69875pt x 321.6015pt>
 File: SSM.png Graphic file (type png)
 <use SSM.png>
-Package pdftex.def Info: SSM.png  used on input line 432.
+Package pdftex.def Info: SSM.png  used on input line 437.
 (pdftex.def)             Requested size: 234.00238pt x 165.5064pt.
  [14]
 <SNO.png, id=89, 457.10776pt x 336.65775pt>
 File: SNO.png Graphic file (type png)
 <use SNO.png>
-Package pdftex.def Info: SNO.png  used on input line 447.
+Package pdftex.def Info: SNO.png  used on input line 452.
 (pdftex.def)             Requested size: 272.99881pt x 201.06639pt.
- [15 <./SSM.png>]
-Overfull \hbox (6.57104pt too wide) in paragraph at lines 457--462
-\OT1/cmr/m/n/12 matic flux of $[]\OML/cmm/m/it/12 Be$ \OT1/cmr/m/n/12 and $\OML
-/cmm/m/it/12 pep$ \OT1/cmr/m/n/12 neu-tri-nos and Super-K, the suc-ces-sor of K
-amiokande.
- []
-
-[16 <./SNO.png>]
+ [15 <./SSM.png>] [16 <./SNO.png>]
 <kamland.png, id=96, 450.483pt x 381.8265pt>
 File: kamland.png Graphic file (type png)
 <use kamland.png>
-Package pdftex.def Info: kamland.png  used on input line 469.
-(pdftex.def)             Requested size: 234.00238pt x 198.34117pt.
+Package pdftex.def Info: kamland.png  used on input line 474.
+(pdftex.def)             Requested size: 272.99881pt x 231.39319pt.
  [17 <./kamland.png>]
 <theta13.png, id=100, 1159.33125pt x 579.66562pt>
 File: theta13.png Graphic file (type png)
 <use theta13.png>
-Package pdftex.def Info: theta13.png  used on input line 483.
+Package pdftex.def Info: theta13.png  used on input line 488.
 (pdftex.def)             Requested size: 312.00119pt x 155.9988pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [18 <./theta13.png>]
 <superk.png, id=104, 569.12625pt x 271.0125pt>
 File: superk.png Graphic file (type png)
 <use superk.png>
-Package pdftex.def Info: superk.png  used on input line 492.
+Package pdftex.def Info: superk.png  used on input line 498.
 (pdftex.def)             Requested size: 350.99762pt x 167.1493pt.
 <atmnu.png, id=105, 1106.63437pt x 537.50812pt>
 File: atmnu.png Graphic file (type png)
 <use atmnu.png>
-Package pdftex.def Info: atmnu.png  used on input line 497.
+Package pdftex.def Info: atmnu.png  used on input line 503.
 (pdftex.def)             Requested size: 350.99762pt x 170.48059pt.
  [19 <./superk.png>]
-<cpt2k.png, id=110, 477.28313pt x 413.29407pt>
-File: cpt2k.png Graphic file (type png)
-<use cpt2k.png>
-Package pdftex.def Info: cpt2k.png  used on input line 510.
-(pdftex.def)             Requested size: 187.19833pt x 162.09845pt.
-<cpnova.png, id=111, 487.8225pt x 413.29407pt>
-File: cpnova.png Graphic file (type png)
-<use cpnova.png>
-Package pdftex.def Info: cpnova.png  used on input line 512.
-(pdftex.def)             Requested size: 187.19833pt x 158.59842pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./atmnu.png>]
-<massexp.png, id=115, 477.28313pt x 441.14813pt>
+ [20 <./atmnu.png>] [21]
+<cpt2k.png, id=116, 477.28313pt x 413.29407pt>
+File: cpt2k.png Graphic file (type png)
+<use cpt2k.png>
+Package pdftex.def Info: cpt2k.png  used on input line 523.
+(pdftex.def)             Requested size: 187.19833pt x 162.09845pt.
+<cpnova.png, id=117, 487.8225pt x 413.29407pt>
+File: cpnova.png Graphic file (type png)
+<use cpnova.png>
+Package pdftex.def Info: cpnova.png  used on input line 525.
+(pdftex.def)             Requested size: 187.19833pt x 158.59842pt.
+<massexp.png, id=118, 477.28313pt x 441.14813pt>
 File: massexp.png Graphic file (type png)
 <use massexp.png>
-Package pdftex.def Info: massexp.png  used on input line 530.
-(pdftex.def)             Requested size: 312.00119pt x 288.3786pt.
- [21 <./cpt2k.png> <./cpnova.png>]
-<stateoftheart.png, id=120, 1288.815pt x 520.94624pt>
+Package pdftex.def Info: massexp.png  used on input line 541.
+(pdftex.def)             Requested size: 339.2981pt x 313.60777pt.
+ [22 <./cpt2k.png> <./cpnova.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <./massexp.png>]
+<stateoftheart.png, id=126, 1288.815pt x 520.94624pt>
 File: stateoftheart.png Graphic file (type png)
 <use stateoftheart.png>
-Package pdftex.def Info: stateoftheart.png  used on input line 536.
+Package pdftex.def Info: stateoftheart.png  used on input line 549.
 (pdftex.def)             Requested size: 390.0pt x 157.6364pt.
- [22 <./massexp.png>] [23 <./stateoftheart.png>] [24
+ [24 <./stateoftheart.png>] [25] [26
 
-] [25] (TesiFB.aux) ) 
+] [27] [28] [29] [30] (TesiFB.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3429 strings out of 492895
- 47905 string characters out of 3123735
- 125144 words of memory out of 3000000
- 7234 multiletter control sequences out of 15000+200000
+ 3486 strings out of 492895
+ 48597 string characters out of 3123735
+ 125480 words of memory out of 3000000
+ 7291 multiletter control sequences out of 15000+200000
  14341 words of font info for 58 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 41i,21n,43p,995b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/39334/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/39334/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
-sers/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi6.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/39334/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/39334/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/39
-334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/39334/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/39334/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on TesiFB.pdf (31 pages, 1454813 bytes).
+ 41i,21n,43p,1053b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/39334/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/39334/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/3
+9334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/39334/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/39334/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/39334/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/symbols/msam10.pfb><C:/Users/39334/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on TesiFB.pdf (36 pages, 1469321 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
+ 199 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
