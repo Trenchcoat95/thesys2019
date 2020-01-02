@@ -369,7 +369,7 @@ Matter effects have some very crucial consequences in the field of neutrino osci
 	\hat{A} = \cos 2\theta
 	\end{equation} 
 	\item Oscillation probabilities can be different for neutrinos and antineutrinos even if there are is no CP violation, due to the $\pm$ sign in the effective potential $V_e$.
-	\item The resonant condition can be met only if $\hat{A} > 0$, which depends on the sign on the sign of the square mass difference $\Delta m^2$. This fact makes matter effects an effective probe to study mass hierarchy. In particular it can be studied in long baseline accelerator experiments which are sensitive to electron-muon neutrino oscillation ($\Delta m^2 \sim \Delta m_{23}^2$) if $L$ and $E$ are high enough.
+	\item The resonant condition can be met only if $\hat{A} > 0$, which depends on the sign of the square mass difference $\Delta m^2$. This fact makes matter effects an effective probe to study mass hierarchy. In particular it can be studied in long baseline accelerator experiments which are sensitive to electron-muon neutrino oscillation ($\Delta m^2 \sim \Delta m_{31}^2$) if $L$ and $E$ are high enough.
 \end{enumerate}
 \section{Neutrino oscillation experiments}
 \label{sec: Oscillation experiments}
@@ -531,6 +531,7 @@ As already mention in Section most experiments that want to perform  measurement
 \end{equation}
 This observable can be approximated in the three-flavour case as \cite{deltaCP}:
 \begin{equation}
+\label{eq:asymmetry}
 \mathcal{A}_{CP} \simeq \frac{\cos\theta_{23} \sin2\theta_{12}}{\sin\theta_{23}\sin\theta_{13}}\bigg( \frac{\Delta m_{21}^2 L}{4E_\nu}\bigg)\sin\delta_{CP} + \text{matter effects}
 \end{equation}
 It is clear then that if $\delta_{CP}$ is different from $0^\circ$ and $\pm 180 ^\circ$ one should expect to observe CP violation in the leptonic sector and $\mathcal{A}_{CP}$ would be different from 0 (i.e. $P(\nu_\mu \rightarrow \nu_e) \neq P(\bar{\nu}_\mu \rightarrow \bar{\nu}_e)$).\\
@@ -557,6 +558,199 @@ Neutrino physics is entering its precision era with global fits restricting more
 \end{itemize}
 While the first field of research is in the domain of the types of experiments described in Section and, the latter two are best studied in oscillation experiments. Such goals will require levels of precision still not achieved and new experiments in all categories (reactor, atmospheric, ecc.). \\
 In the long-baseline accelerator field DUNE (Deep Underground Neutrino Experiment), will be the next-generation flagship neutrino oscillation experiment of the Fermilab national laboratories. Having access to MSW effects and to a neutrino beam capable of producing both $\nu_\mu$ and $\bar{\nu}_\mu$ will make it particularly well suited to probe mass hierarchy and CP violations respectively. This will be discussed more in detail in Chapter 2.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{DUNE}
+The Deep Underground Neutrino Experiment (DUNE) will be a new generation world-leading Long Baseline oscillation experiment. Among its main goals are the precise measurement of the oscillation parameters, the study of matter-antimatter asymmetry and the determination of the neutrino mass ordering. It is conceived around three main components: The NuMi neutrino Beam, which is able to produce an intense and wide muon neutrino and antineutrino band; a fine-grained Near Detector (ND) situated at the Fermi National Accelerator Laboratories (Fermilab, Batavia, Illinois), just downstream of the neutrino source; a massive Liquid Argon Time Projection Chamber (LArTPC) Far Detector (FD) placed 1300 km downstream at the Sanford Underground Research Facility (Lead, South Dakota).\\
+In this chapter we will discuss DUNE's physics programme (Section 1) as well as the configuration of the neutrino beam (Section 2) and its main detectors (Section 3). KLOE, which is one of DUNE's Near Detectors and the subject of the simulations performed for this thesis will be discussed more in detail in the next chapter.
+
+\section{DUNE' s scientific program}
+
+The scientific objectives of DUNE are categorized into a $primary$ and an $ancillary$ scientific programme. The latter is further divided into secondary objectives that could be persued by the experiment just by virtue of how it will be built and additional secondary objectives that may require specific upgrades to the facility.\\
+The \emph{primary} programme is made up by the main measurements that DUNE will be built to perform with unprecedented precision which coincide with the fundamental questions that this experiment will try to answer:
+\begin{enumerate}
+	\item \textbf{Measurement of the charge-parity violating phase $\delta_{CP}$ and determination of the mass ordering of the neutrinos} (i.e. the sign of $\Delta m_{31}=m_3^2-m_1^2$). The study of $\delta_{CP}$ is particularly important in cosmological models trying to explain the matter-antimatter asymmetry in the universe.
+	\item \textbf{Precision measurements of the $\nu_\mu \rightarrow \nu_{\mu,e}$ oscillation parameters}: the $\theta_{13}$ mixing angle; the $\theta_{23}$ mixing angle and the octant it lies in; the value of the $|\Delta m_{32}^2|$  mass difference. Precision measurements of these parameters and comparisons with corresponding patterns in the quark sector will further our knowledge of the underlying symmetries in fundamental particle physics.
+	\item \textbf{Search for proton decay in one or more decay modes, improving significantly on previous lifetime limits}. Most Grand Unified Theories (GUTs) make lifetime predictions for nucleons and putting more and more stringent limits will be fundamental in assessing which one of them might be correct.
+	\item \textbf{Detection and measurements of the neutrino flux from a core-collapse supernova}. In particular the time structure and energy spectrum of the neutrino burst would much further our understanding of this astrophysical phenomenon.
+\end{enumerate}
+
+The \emph{ancillary} programme consists of objectives that DUNE is not specifically conceived to achieve, but that are nonetheless enabled by the facility's design.:
+\begin{enumerate}
+	\item Further accelerator oscillation measurements and search for non-standard interactions beyond the standard model (BSD)
+	\item Atmospheric neutrino oscillation measurements
+	\item Measurements of other astrophysical phenomena using moderate energy neutrinos
+\end{enumerate}
+Finally the \emph{additional secondary} programme includes measurements potentially made possible by future upgrades to the facility such as monitoring of the diffuse supernova flux, solar neutrino and other low energy astrophysical neutrino measurements.\\
+The high granularity and precision required by the \emph{DUNE Near Detector (ND)} will also allow it to have a scientific programme of its own. Its main objective will be to perform all the precision measurements necessary to acieve the goals of the primary programme. It will also pursue precision studies of the weak interaction, studies of nuclear and nucleon structure and searches for new physics.
+
+\subsection{Sensitivities and systematics} 
+
+In order to make any precision measurement one should be acutely aware of the systematic uncertainties related to the analysis strategy and the performance of the detector. In a two detectors Long Baseline experiment the $\nu_\mu$ spectrum measured in the Near Detector $N_{ND}^{data}(\nu_\mu)$ is propagated to the Far Detector and is used to predict the expected signal of $\nu_\mu$ and oscillated $\nu_e$ (and much smaller component of oscillated $\nu_\tau$) i.e. $N_{FD}^{exp}(\nu_\mu)$ and $N_{FD}^{exp}(\nu_e)$. Likewise the $\nu_e$ measured spectrum in the ND, mostly comprised of electron neutrinos from the beam and misidentified NC$\pi^0$ is used to predict the background at the FD. \\
+The measured neutrino spectrum at the near detector is given by:
+\begin{equation}
+N_{ND}^{data}(\nu_{\mu,e})= \Phi_{ND}(\nu_{\mu,e}) \otimes \varepsilon_{ND}(\nu_{\mu,e}) \otimes \sigma_{ND}(\nu_{\mu,e})
+\end{equation}
+where $\Phi_{ND}(\nu_{\mu,e})$ is the beam flux, $\varepsilon_{ND}(\nu_{\mu,e})$ is the detector's efficiency and $\varepsilon_{ND}(\nu_{\mu,e})$ is the neutrino interaction cross section. In order to use such data to predict the signal and background expected at the far detector one needs to take into consideration:
+\begin{itemize}
+	\item \emph{Differences in how the neutrino interact $\sigma_{FD}/\sigma_{ND}$.} These are null in the case that the target nuclei in the Near and Far Detector are the same. Otherwise the dominating uncertainties in the prediction of $\nu_e$ in FD from measurement of $\nu_\mu$ in ND are the ones arising from differences in the electronic and muonic cross sections between the detectors: $\sigma_{FD}(\nu_e)/\sigma_{ND}(\nu_\mu)$.
+	\item \emph{Differences in detector efficiencies $\varepsilon_{FD}/\varepsilon_{ND}$.} These uncertainties mostly arise from the differences in event selection between the two detectors and in particular the modelling of the energy scales. These are also virtually inexistent in the case that ND and FD are identical.
+	\item \emph{Differences in the neutrino flux $\Phi_{FD}/\Phi_{ND}$.} The fluxes at the Near and Far detector are radically different since the ND is very close to the beamline and sees an expended source, while the FD is 1300 km away. A Monte Carlo is used to simulate the beam propagation, but it is itself not immune from inaccuracies: errors in the hadron production, focusing of the horns composition of the beam pipe and decay channel geometry can all contribute. 
+\end{itemize} 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.81\textwidth]{uncertainties.png}
+	\caption{\label{uncertainties:fig} Dominant systematics on the $\nu_e$ appearence channel for T2K and MINOS and projection for LBNE (Long Baseline Neutrino Experiment), the preliminary name used for DUNE} 
+\end{figure}
+Taking all of this into consideration one can then use neutrinos' oscillation and survival probability in order to predict the muonic and electronic signal in the Far Detector. The $\nu_\mu$ expected signal is given by:
+\begin{equation}
+N_{FD}^{exp}(\nu_\mu) = N_{ND}^{data}(\nu_\mu) \otimes \frac{\Phi_{FD}(\nu_\mu)}{\Phi_{ND}(\nu_\mu)} \otimes P(\nu_\mu \rightarrow \nu_\mu) \otimes \frac{\varepsilon_{FD}(\nu_\mu)}{\varepsilon_{ND}(\nu_\mu)} \otimes \frac{\sigma_{FD}(\nu_\mu)}{\sigma_{ND}(\nu_\mu)} 
+\end{equation}
+The $\nu_e$ expected signal is given by:
+\begin{equation}
+\begin{split}
+N_{FD}^{exp}(\nu_\mu) & = \underbrace{N_{ND}^{data}(\nu_\mu) \otimes \frac{\Phi_{FD}(\nu_\mu)}{\Phi_{ND}(\nu_\mu)} \otimes P(\nu_\mu \rightarrow \nu_e) \otimes \frac{\varepsilon_{FD}(\nu_e)}{\varepsilon_{ND}(\nu_\mu)} \otimes \frac{\sigma_{FD}(\nu_e)}{\sigma_{ND}(\nu_\mu)}}_{\text{Expected signal}} \\
+& + \underbrace{N_{ND}^{data}(\nu_e) \otimes \frac{\Phi_{FD}(\nu_e)}{\Phi_{ND}(\nu_e)} \otimes P(\nu_e \rightarrow \nu_e) \otimes \frac{\varepsilon_{FD}(\nu_e)}{\varepsilon_{ND}(\nu_e)} \otimes \frac{\sigma_{FD}(\nu_e)}{\sigma_{ND}(\nu_e)}}_{\text{Electronic events from the beam}} \\
+& + \pi^0\text{NC background prediction from }N_{ND}^{data}(\nu_e)\\
+& + \nu_\tau \text{ background prediction from }N_{ND}^{data}(\nu_\mu)
+\end{split}
+\end{equation}
+The main sources of uncertainties are well known from previous experiments such as T2K and MINOS. They include:
+\begin{itemize}
+	\item \emph{Beam flux uncertainties}: related to the precision with which the ND is capable to measure the unoscillated beam flux in both shape and normalization.
+	\item \emph{$\nu_\mu$ energy-scale uncertainties}: the muonic neutrino energy spectrum measured in the ND is then used to predict the $\nu_e$ appearance channel in the FD and the energy scale uncertainty scale is thus propagated.
+	\item \emph{Absolute $\nu_e$ energy-scale uncertainty}: an accurate measurement of the shape of the $\nu_e$ appearance channel is essential to oscillation sensitivity and depends on how well the detector response is understood
+	\item \emph{Simulation uncertainties}: uncertainties related to the modelling of the neutrino interactions with the target nuclei in the near and far detectors.
+\end{itemize}
+In Table \ref{uncertainties:fig} the dominant uncertainties for $\nu_e$ appearance for the T2K and MINOS and a preliminary prediction for DUNE are summarized. The precision is expected to improve from all fronts.
+
+
+
+\subsection{Mass ordering and $\delta_{CP}$}
+As it can be seen from Eq. \ref{eq:asymmetry} both a non-zero $\delta_{CP}$ and matter effects can induce asymmetries between $P(\nu_\mu \rightarrow \nu_e)$ and $P(\bar{\nu_\mu} \rightarrow \bar{\nu_e})$and thus:
+\begin{equation}
+\mathcal{A_{CP}}= \mathcal{A}_{\delta}+ \mathcal{A}_{matter}
+\end{equation}
+In figure \ref{oscillograms:fig} the asymmetries induced by CP violation ($\mathcal{A}_{\delta}$) in case that $\delta_{CP}=\pm\pi/2$ and by matter effects ($\mathcal{A}_{matter}$) are plotted separatly in 2d oscillograms as a function of baseline and Energy. In reality though the two asymmetries always operate at the same time if $\delta_{CP}$ is not null and the matter effects are not trivial. In experiments where both are relevant then, if one wants to use  measurements of total asymmetry both to measure $\delta_{CP}$ and the mass ordering, then it's mandatory to be able to disambiguate between the two. \\
+For the MSW effects in particular the asymmetries are introduced by a CP violating term $P_{\sin\delta}$ in the oscillation probability:
+\begin{equation}
+P(\nu_\mu \rightarrow \nu_e) \simeq P(\nu_e \rightarrow \nu_\mu) \simeq P_0+P_{\sin\delta}+P_{\cos\delta}+P_3
+\end{equation}
+where
+\begin{equation}
+P_0=\sin^2\theta_{23}\frac{\sin^22\theta_{13}}{(A-1)^2}\sin^2[(A-1)\Delta]
+\end{equation}
+\begin{equation}
+P_3=\alpha^2\cos^2\theta_{13}\frac{\sin^22\theta_{12}}{A^2}\sin^2(A\Delta)
+\end{equation}
+\begin{equation}
+P_{\sin\delta}=\alpha\frac{8J_{CP}}{A(1-A)}\sin\Delta\sin(\Delta A)\sin((1-A)\Delta)
+\end{equation}
+\begin{equation}
+P_{\cos\delta}=\alpha\frac{8J_{CP}\cot \delta_{CP}}{A(1-A)}\sin\Delta\sin(\Delta A)\sin((1-A)\Delta)
+\end{equation}
+with 
+\begin{equation}
+\Delta = \Delta m_{31}^2 L/4E
+\end{equation}
+\begin{equation}
+A=\sqrt{3}G_FN_e2E/\Delta m_{31}^2
+\end{equation} 
+\begin{equation}
+\alpha = |\Delta m_{12}^2 |/|\Delta m_{31}^2 |
+\end{equation}
+\\
+Note that since the value of $\Delta m_{31}^2$ switches between normal and inverted hierarchy, the asymmetry effects induced by the passage through matter will also be different: for normal (inverted) hierarchy $P(\nu_\mu-\nu_e)$ is enhanced (suppressed) and $P(\bar{\nu_\mu}-\bar{\nu_e})$ is suppressed (enhanced); 
+the matter effects shift the phase of oscillation pattern for a fixed baseline to lower energies (by about -100 MeV) in the IH. \\
+In general the matter effects have the largest impacts when the oscillation nodes for $\theta_{13}$ are reached (the first two nodes are highlighted in black in Fig. \ref{oscillograms:fig}):
+\begin{equation}
+\frac{L(\text{km})}{E(\text{GeV})} = (2n-1)\frac{\pi}{2}\frac{1}{(1.27\times\Delta m_{31}^2(\text{eV}^2))} \simeq(2n-1)\times 510 \text{km/GeV}
+\end{equation}
+For an experiment such as DUNE, where we have a baseline of $L\sim1300$km (highlighted in black in Fig. \ref{oscillograms:fig}) and an energy range $E\sim5-10$ GeV, the matter effects are maximal, and it is then crucial that they are disentangled from the CP effects.\\
+Knowing the value of $|\Delta m_{31}^2 |$ (only the sign is still unknown), one can see, though, that for a baseline $>$1200km, the size of $\mathcal{A}_{matter}$ surpasses the highest possible value of $\mathcal{A}_{\delta}$ which makes the disambiguation between the two effects possible. In Figure the plots show the total asymmetry at the first (black) and second (red) as a function of $\delta_{CP}$ for four different values of $L$: 290km,810km,1300km (baseline of DUNE) and 2300km. The NH and IH the total asymmetries will have different values because of the matter effects and are plotted as full and dashed lines respectively. As the baseline gets bigger, given the same node, the CP-induced asymmetry will stay the same while matter induced one will get bigger since the dependencies on $L$ and E are:
+\begin{equation}
+\mathcal{A}_{\delta} \propto L/E
+\end{equation}
+\begin{equation}
+\mathcal{A}_{matter} \propto L\times E
+\end{equation}
+If one considers then the case in which the $\delta_{CP}$ asymmetries is maximal (green line in the plots) is easy to see that if $\mathcal{A}_{matter} < \mathcal{A}_\delta(max)$ the same total asymmetry is compatible with both hierarchies and multiple value of $\delta_{CP}$. This is true for baselines shorter than 1200km. For DUNE, where $L\sim1300$km these ambiguities don't exist.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{oscillograms.png}
+	\caption{\label{oscillograms:fig} $\mathcal{A}_{CP}$ total asymmetry as a function of baseline and energy. The top two oscillograms show the asymmetry for $\delta_{CP}=0$ (i.e. $\mathcal{A}_{matter}$) for Normal(left) and Inverted (right) mass ordering. The two bottom oscillograms show the asymmetry in vacuum (i.e. $\mathcal{A}_{\delta}$) for $\delta_CP=\pi/2$ (left) and $\delta_CP=-\pi/2$ (right). DUNE's baseline (1300km) and the 1st and 2nd oscillation nodes are highlighted in black.  } 
+\end{figure}
+\subsubsection{Significance for mass ordering and $\delta_{CP}$ measurements}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{asymmetrydelta.png}
+	\caption{\label{asymmetrydelta:fig} Total $\mathcal{A}_{CP}$ as a function of $\delta_{CP}/\pi$ for four different baselines (290km, 810km, 1300km and 2300km). The black (red) lines indicate the asymmetries at the first (second) node, the full ones being for NH and the dashed ones for IH. } 
+\end{figure}
+The sensitivity with which the DUNE experiment will be able to measure the mass ordering (MO) and CP-Violation (CPV), is evaluated by fitting the simulated oscillation spectra of $\nu_\mu \rightarrow \nu_{\mu,e}$ and $\bar{\nu}_\mu \rightarrow \bar{\nu}_{\mu,e}$ for different values of the oscillation parameters and confronting the results with the expected "true" theoretical values in terms of $\Delta\chi^2$:
+\begin{equation}
+\Delta\chi^2_{MO}= |\chi^2_{MH^{test}=IH}-\chi^2_{MH^{test}=NH}| 
+\end{equation}
+\begin{equation}
+\Delta\chi^2_{CPV}= \min (\Delta\chi^2_{CP}(\delta_{CP}^{test}=0),\Delta\chi^2_{CP}(\delta_{CP}^{test}=\pi))
+\end{equation}
+with $\Delta\chi^2_{CP}=\chi^2(\delta_{CP}^{test})-\chi^2(\delta_{CP}^{true})$. The significance with which DUNE will be able to assess the mass ordering grows with the exposure , defined as kt of active volume $\times$ MW beam?s power $\times$ years, and varies wildly with the value of $\delta_{CP}$ (Fig.\ref{exposure-MO:fig}). In order to ensure the DUNE objective of reaching $\sqrt{\Delta\chi^2}=5$ for every value of $\delta_{CP}$ approximately an exposure of 200-400 kt$\times$MW$\times$years will be need. The significance for $\delta_{CP}$ similarly grows with exposure (Fig.\ref{exposure-deltaCP:fig}), but only for values different from 0 and $\pi$, for which there is no CP violation and $\sqrt{\Delta\chi^2}=0$ always. The significance for both MO and CPV also depends strongly on the values of all the oscillation parameters (Fig. \ref{MOsignificance-param:fig} and  \ref{CPVsignificance-param:fig}), making precision measurements with DUNE mandatory.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{exposure-MO.png}
+	\caption{\label{exposure-MO:fig} MO significance as a function of exposure for two different beam designs (left and right) and three values of CP asymmetry (0\%,50\%,100\%).  } 
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.375\textwidth]{MOVStheta23.png}
+	\qquad
+	\includegraphics[width=0.375\textwidth]{MOVStheta13.png}
+	\qquad
+	\includegraphics[width=0.375\textwidth]{MOVSm31.png}
+	\caption{\label{MOsignificance-param:fig} MO significance as a function of $\delta_{CP}/\pi$ at a fix value of exposure 300 kt$\times$MW$\times$years for different values of the oscillation parameters: $\theta_23$ (upper-left), $\theta_13$ (upper-right), $\delta m_{31}^2$ (bottom)} 
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{exposure-CPV.png}
+	\caption{\label{exposure-deltaCP:fig} CPV significance as a function of exposure for two different beam designs (left and right) and three values of CP asymmetry (0\%,50\%,100\%).  } 
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.375\textwidth]{CPVVStheta23.png}
+	\qquad
+	\includegraphics[width=0.375\textwidth]{CPVVStheta13.png}
+	\qquad
+	\includegraphics[width=0.375\textwidth]{CPVVSm31.png}
+	\caption{\label{CPVsignificance-param:fig} CPV significance as a function of $\delta_{CP}/\pi$ at a fix value of exposure 300 kt$\times$MW$\times$years for different values of the oscillation parameters: $\theta_23$ (upper-left), $\theta_13$ (upper-right), $\delta m_{31}^2$ (bottom)} 
+\end{figure}
+\subsection{Precision Mesurements}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{precision.png}
+	\caption{\label{precision:fig} Resolution as a function of exposure for $\Delta m_{31}^2$ (upper left), $\delta_{CP}$ (upper right), $\sin^\theta_{23}$ (bottom left) and $\sin^2\theta_{13}$ (bottom right). The red area represents the range in sensitivity du to differences in beam design.  } 
+\end{figure}
+The DUNE experiment will improve sensitivity on the key parameters governing $\nu_1-\nu_2$ and $\nu_2-\nu_3$: 
+\begin{itemize}
+	\item $\sin^2\theta_{23}$ and the octant of $\theta_{23}$;
+	\item$\delta_{P}$; \item$\sin^2\theta_{13}$;
+	\item$\Delta m_{31}^2$.
+\end{itemize}
+The sensitivity to these parameters as a function of exposure is plotted in Figure \ref{precision:fig} \\
+Determining the octant of the mixing angle $\theta_{23}$, and thus if its value is exactly $45^\circ$ producing maximal mixing between mass eigenstates 2 and 3 $\sin^2\theta_{23}$ is still an open question, with the latest results from T2K leaving both a lower ($<45^\circ$) and upper ($<45^\circ$) octant scenarios open, depending on the mass hierarchy being considered. This particular question is of great theoretical interest. A value of $\theta_{23}$ being exactly $45^\circ$ would hint at new nt yet considered symmetries, while for example an excess in the upper octant of the order of the Cabibbo angle, point in the direction of quark-lepton universality models. \\
+The measurement of the octant is made possible by combining survival ($\nu_\mu \rightarrow \nu_\mu$) and oscillation($\nu_\mu \rightarrow \nu_e$) probabilities, the firt being sensitiveto $\sin^22\theta_{23}$ an the second to  $\sin^2\theta_{23}$. The $\Delta\chi^2$ for the determination of th octant is then:
+\begin{equation}
+\Delta\chi^2_{octant}=|\chi^2_{\theta_{23}>45^\circ}- \chi^2_{\theta_{23}<45^\circ}|
+\end{equation}
+The sensitivity to the octant as a function of $\theta_{23}$ is plotted in Fig.\ref{octant:fig}\\
+DUNE will also be able to perform unitarity tests of the PMNS matrix by measuring precisely the value of $\sin2\theta_{13}$, which will constrain the phase space of possible new physics. In general th high precision measurement performed by dune could reveal new physics driven for example by non-standard interactions or the existence sterile neutrinos.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{octant.png}
+	\caption{\label{octant:fig} $\Delta\chi^2_{octant}$ as a function of $\theta_{23}$. Th yellow areas indicate the $1\sigma$ and $3\sigma$ intervals for the value of $\theta_{23}$ from recent global fits. The green area represents the range in sensitivity due to differences is beam design and $\delta_{CP}$ value.} 
+\end{figure}  
+\subsection{Oscillation physics with atmospheric neutrinos}
 \begin{thebibliography}{90}             %crea l'ambiente bibliografia
 \rhead[\fancyplain{}{\bfseries \leftmark}]{\fancyplain{}{\bfseries
 \thepage}}
