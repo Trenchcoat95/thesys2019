@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.17)  2 JAN 2020 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.17)  3 JAN 2020 18:36
 entering extended mode
 **./TesiFB.tex
 (TesiFB.tex
@@ -573,22 +573,41 @@ File: octant.png Graphic file (type png)
 <use octant.png>
 Package pdftex.def Info: octant.png  used on input line 750.
 (pdftex.def)             Requested size: 234.00238pt x 243.80904pt.
- [38 <./octant.png>] [39]
-[40
+<ProtonDecay.png, id=185, 875.52094pt x 291.33844pt>
+File: ProtonDecay.png Graphic file (type png)
+<use ProtonDecay.png>
+Package pdftex.def Info: ProtonDecay.png  used on input line 756.
+(pdftex.def)             Requested size: 350.99762pt x 116.80003pt.
+ [38 <./octant.png>]
+<Supernova.png, id=190, 660.21657pt x 449.42906pt>
+File: Supernova.png Graphic file (type png)
+<use Supernova.png>
+Package pdftex.def Info: Supernova.png  used on input line 771.
+(pdftex.def)             Requested size: 272.99881pt x 185.84438pt.
+ [39 <./ProtonDecay.png>] [40 <./Supernova.png>]
+<DUNEatm.png, id=197, 598.48593pt x 247.67531pt>
+File: DUNEatm.png Graphic file (type png)
+<use DUNEatm.png>
+Package pdftex.def Info: DUNEatm.png  used on input line 787.
+(pdftex.def)             Requested size: 390.0pt x 161.39897pt.
 
-] [41] [42] [43] [44] (TesiFB.aux)
+Underfull \vbox (badness 1418) has occurred while \output is active []
+
+ [41 <./DUNEatm.png>] [42] [43
+
+] [44] [45] [46] (TesiFB.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3561 strings out of 492895
- 49984 string characters out of 3123735
- 125591 words of memory out of 3000000
- 7353 multiletter control sequences out of 15000+200000
+ 3579 strings out of 492895
+ 50281 string characters out of 3123735
+ 125627 words of memory out of 3000000
+ 7368 multiletter control sequences out of 15000+200000
  14341 words of font info for 58 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 41i,23n,43p,1053b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,23n,43p,1119b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmcsc10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/
@@ -609,9 +628,9 @@ nts/cm/cmsy8.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/39334/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on TesiFB.pdf (50 pages, 2030940 bytes).
+Output written on TesiFB.pdf (52 pages, 2169036 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
+ 272 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

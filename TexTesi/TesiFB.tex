@@ -584,7 +584,7 @@ The \emph{ancillary} programme consists of objectives that DUNE is not specifica
 	\item Measurements of other astrophysical phenomena using moderate energy neutrinos
 \end{enumerate}
 Finally the \emph{additional secondary} programme includes measurements potentially made possible by future upgrades to the facility such as monitoring of the diffuse supernova flux, solar neutrino and other low energy astrophysical neutrino measurements.\\
-The high granularity and precision required by the \emph{DUNE Near Detector (ND)} will also allow it to have a scientific programme of its own. Its main objective will be to perform all the precision measurements necessary to acieve the goals of the primary programme. It will also pursue precision studies of the weak interaction, studies of nuclear and nucleon structure and searches for new physics.
+The high granularity and precision required by the \emph{DUNE Near Detector (ND)} will also allow it to have a scientific programme of its own. Its main objective will be to perform all the precision measurements necessary to acieve the goals of the primary programme. It will also pursue precision studies of the weak interaction, studies of nuclear and nucleon structure and searches for new physics (discussed more in detail in Chapter 3). 
 
 \subsection{Sensitivities and systematics} 
 
@@ -744,13 +744,51 @@ The measurement of the octant is made possible by combining survival ($\nu_\mu \
 \Delta\chi^2_{octant}=|\chi^2_{\theta_{23}>45^\circ}- \chi^2_{\theta_{23}<45^\circ}|
 \end{equation}
 The sensitivity to the octant as a function of $\theta_{23}$ is plotted in Fig.\ref{octant:fig}\\
-DUNE will also be able to perform unitarity tests of the PMNS matrix by measuring precisely the value of $\sin2\theta_{13}$, which will constrain the phase space of possible new physics. In general th high precision measurement performed by dune could reveal new physics driven for example by non-standard interactions or the existence sterile neutrinos.
+DUNE will also be able to perform unitarity tests of the PMNS matrix by measuring precisely the value of $\sin2\theta_{13}$, which will constrain the phase space of possible new physics. In general the high precision measurement performed by dune could reveal new physics driven for example by non-standard interactions or the existence sterile neutrinos.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{octant.png}
 	\caption{\label{octant:fig} $\Delta\chi^2_{octant}$ as a function of $\theta_{23}$. Th yellow areas indicate the $1\sigma$ and $3\sigma$ intervals for the value of $\theta_{23}$ from recent global fits. The green area represents the range in sensitivity due to differences is beam design and $\delta_{CP}$ value.} 
 \end{figure}  
-\subsection{Oscillation physics with atmospheric neutrinos}
+\subsection{Proton decay measurements}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{ProtonDecay.png}
+	\caption{\label{ProtonDecay:fig} Feynman diagrams for two major proton decay modes: the main decay for SUSY GUTs $p^+\rightarrow K^+ \bar{\nu}$ (left) and the main decay for gauge-mediation GUTs $p^+\rightarrow e^+ \pi^0$ (right)} 
+\end{figure}
+Almost all Grand Unified Theories (GUTs) predict some sort of proton decay and baryon number non conservation. Detecting a proton decay would be in fact one of the only viable experimental strategies to probe these theories since the unification scale is in excess of about $10^{15}$ GeV with respects to energies accessible to accelerator experiments. Early GUT theories where in fact one of the main motivations behind the construction of underground kt-scale experiments such as Kamiokande, as already mentioned in Section \ref{sec: Oscillation experiments}. The non-detection of proton decay set proton life-time constraints and progressively rule out theories based on their predictions. The most recent limits set by Super-Kamiokande have in fact confirmed the ruling out of minimal SU(5) (previously established by IMB and Kamiokande) and has disproved minimal SUSY SU(5). The next generation of large underground experiment such as Hyper-Kamiokande and DUNE will be well equipped to continue the search and, at the very least, make the constraints more stringent.\\
+From the theoretical body of work, two main decay mode emerge, the first from supersymmetric GUTs and the second from gauge-mediated GUTs (see Fig. \ref{ProtonDecay:fig} for the Feynmann diagrams):
+\begin{equation}
+p^+ \rightarrow K^+ \bar{\nu}
+\end{equation}
+\begin{equation}
+p^+ \rightarrow e^+ \bar{\pi^0}
+\end{equation}
+The first decay mode is especially interesting for large LArTPCs (such as the FD of DUNE) since it presents a kaon in its final state: kaons have an especially high ionization rate and would be detected with great efficiency using liquid Argon technologies. The second one is perhaps better known and has its most clear signature in Cherenkov detectors, since it consists of an electromagnetic shower ignited by the the $e^+$ and two $\gamma$ from the $\pi^0$ decay.
+\subsection{Supernova neutrino measurements}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{Supernova.png}
+	\caption{\label{Supernova:fig} Number neutrino interactions from supernova explosions, as a function of distance, for different volume LArTPCs.} 
+\end{figure}
+Given an experimental life of 20 years, DUNE would have about a 40\% chance of observing neutrinos from a core collapse Supernova in the Milky Way. This would be of great importance for our understanding of this astrophysical phenomenon, which as of now only been confirmed in its basic characteristics by the observation of neutrino events from SN1987, a supernova in the Large Magellanic Cloud, 50 kpc away. \\
+Supernovas also promise an extremely varied environment to study neutrino oscillation, with their initial flavour composition being strictly linked to the expanding shock and turbulence. For example the oscillation patterns would be very different for NH and IH ;the oscillations of neutrinos and anti-neutrinos would also manifest rather differently, making the observation of both with high statistics of particular interest.\\
+While water Cherenkov detectors are more sensitive to $\bar{\nu}_e$, LArTPCs are primarily sensitive to $\nu_e$, making them complementary in Supernova detection. The unique sensitivity to electron neutrinos of Argon detectors is due to the absorption channel on Argon:
+\begin{equation}
+\nu_e+ ^{40}\text{Ar} \rightarrow e^- + ^{40}\text{K}^*
+\end{equation}
+This interaction can be in principle detected exploiting the coincidence of the gamma cascade produced by the de-excitation of $^40$K$^*$ and the electron. The plot in Figure \ref{Supernova:fig} shows the number neutrino interactions from supernova explosions, as a function of distance, for LArTPCs of different volumes. For a detector of 10 kt, about the size of the FD of DUNE, a Supernova explosion at the likely distance of about 10 kpc would produce about 900 events. Only 19 events from two Cherenkov detectors and a few more from scintillation detectors were registered for SN1987A.
+\subsection {Oscillation physics with atmospheric neutrinos}
+DUNE's Far Detector, given its 10kt volume and being $\sim1500$ m underground (sufficient for cosmic ray shielding), will be well equipped to do oscillation measurements using atmospheric neutrinos. Given that the atmospheric sample contains $\nu$'s of all flavours over a vast range of energy and path length including some for which matter effects are relevant, all oscillation parameters could be measured, offering a very useful complementary program to the main accelerator one. \\
+Measuring atmospheric oscillations would also be very useful in the field of mass ordering determination. The MO sensitivity , using the atmospheric neutrino sample, goes as the square root of the exposure and is thus not limited by systematics. Additionally it is dependent on the value of $\sin^2\theta_{23}$ offering an alternative method of measuring $\theta_{23}$ and its octant.\\
+Finally, new physics searches are also possible in the atmospheric sector, with previous experiments having set limits on CPT violation, non-standard interactions, Lorentz-invariance violation and neutrino mass variance.
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{DUNEatm.png}
+	\caption{\label{DUNEatm:fig}(\emph{Left}) MO sensitivity for the atmospheric neutrino sample as a function of exposure for both NH (blue) and IH (red); (\emph{Right}) MO sensitivity for the atmospheric neutrino sample as a function of the true value of $\theta_{23}$ in NH, with values for Hyper-K given for comparison.} 
+\end{figure} 
+\section{DUNE's facilities and design}
+Finally, new physics searches are also possible in the atmospheric sector, with previous experiments having set limits on CPT violation, non-standard interactions, Lorentz-invariance violation and neutrino mass variance.
 \begin{thebibliography}{90}             %crea l'ambiente bibliografia
 \rhead[\fancyplain{}{\bfseries \leftmark}]{\fancyplain{}{\bfseries
 \thepage}}

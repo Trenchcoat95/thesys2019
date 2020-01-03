@@ -25,5 +25,8 @@
 \contentsline {subsection}{\numberline {2.1.2}Mass ordering and $\delta _{CP}$}{31}% 
 \contentsline {subsubsection}{Significance for mass ordering and $\delta _{CP}$ measurements}{34}% 
 \contentsline {subsection}{\numberline {2.1.3}Precision Mesurements}{37}% 
-\contentsline {subsection}{\numberline {2.1.4}Oscillation physics with atmospheric neutrinos}{39}% 
-\contentsline {chapter}{Bibliografia}{41}% 
+\contentsline {subsection}{\numberline {2.1.4}Proton decay measurements}{39}% 
+\contentsline {subsection}{\numberline {2.1.5}Supernova neutrino measurements}{40}% 
+\contentsline {subsection}{\numberline {2.1.6}Oscillation physics with atmospheric neutrinos}{41}% 
+\contentsline {section}{\numberline {2.2}DUNE's facilities and design}{42}% 
+\contentsline {chapter}{Bibliografia}{43}% 
