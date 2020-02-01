@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.17)  3 JAN 2020 18:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.17)  1 FEB 2020 16:55
 entering extended mode
 **./TesiFB.tex
 (TesiFB.tex
@@ -106,6 +106,32 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
+("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption
+.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+
+("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
+y"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
+ty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen106
+\captionmargin@=\dimen107
+\captionwidth=\dimen108
+\caption@tempdima=\dimen109
+\caption@indent=\dimen110
+\caption@parindent=\dimen111
+\caption@hangindent=\dimen112
+)
+\c@caption@flags=\count91
+\c@ContinuedFloat=\count92
+)
+\c@subfigure=\count93
+\c@subtable=\count94
+)
 ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\newlfont.sty"
 Package: newlfont 1998/08/17 v2.2m Standard LaTeX package
 LaTeX Info: Redefining \em on input line 57.
@@ -143,48 +169,48 @@ Package: amstext 2000/06/29 v2.01 AMS text
 "
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen106
+\ex@=\dimen113
 ))
 ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
 "
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen107
+\pmbraise@=\dimen114
 )
 ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
 "
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count91
+\inf@bad=\count95
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count92
-\leftroot@=\count93
+\uproot@=\count96
+\leftroot@=\count97
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count94
-\DOTSCASE@=\count95
+\classnum@=\count98
+\DOTSCASE@=\count99
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen108
+\big@size=\dimen115
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count96
-\c@MaxMatrixCols=\count97
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
-\c@parentequation=\count98
-\dspbrk@lvl=\count99
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
 \tag@help=\toks19
-\row@=\count100
-\column@=\count101
-\maxfields@=\count102
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
 \andhelp@=\toks20
-\eqnshift@=\dimen109
-\alignsep@=\dimen110
-\tagshift@=\dimen111
-\tagwidth@=\dimen112
-\totwidth@=\dimen113
-\lineht@=\dimen114
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
 \@envbody=\toks21
 \multlinegap=\skip53
 \multlinetaggap=\skip54
@@ -207,29 +233,29 @@ Package: amsthm 2017/10/31 v2.20.4
 ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
 sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen115
-\lightrulewidth=\dimen116
-\cmidrulewidth=\dimen117
-\belowrulesep=\dimen118
-\belowbottomsep=\dimen119
-\aboverulesep=\dimen120
-\abovetopsep=\dimen121
-\cmidrulesep=\dimen122
-\cmidrulekern=\dimen123
-\defaultaddspace=\dimen124
-\@cmidla=\count103
-\@cmidlb=\count104
-\@aboverulesep=\dimen125
-\@belowrulesep=\dimen126
-\@thisruleclass=\count105
-\@lastruleclass=\count106
-\@thisrulewidth=\dimen127
+\heavyrulewidth=\dimen122
+\lightrulewidth=\dimen123
+\cmidrulewidth=\dimen124
+\belowrulesep=\dimen125
+\belowbottomsep=\dimen126
+\aboverulesep=\dimen127
+\abovetopsep=\dimen128
+\cmidrulesep=\dimen129
+\cmidrulekern=\dimen130
+\defaultaddspace=\dimen131
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen132
+\@belowrulesep=\dimen133
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen134
 )
 ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen128
+\col@sep=\dimen135
 \ar@mcellbox=\box29
-\extrarowheight=\dimen129
+\extrarowheight=\dimen136
 \NC@list=\toks29
 \extratabsurround=\skip58
 \backup@length=\skip59
@@ -239,32 +265,32 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 ) (TesiFB.aux)
 \openout1 = `TesiFB.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen130
+\scratchcounter=\count111
+\scratchdimen=\dimen137
 \scratchbox=\box31
-\nofMPsegments=\count108
-\nofMParguments=\count109
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen131
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen138
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks31
 )
 ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
@@ -324,7 +350,10 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) [1
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ [1
 
 {C:/Users/39334/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2
@@ -344,16 +373,22 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1
+
+])
 \tf@toc=\write3
 \openout3 = `TesiFB.toc'.
 
- [1
-
-] [2
 
 
-] [3
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2] [3
+
+
 
 ] [4
 
@@ -366,271 +401,475 @@ Chapter 1.
 <LEP-NuFlavours.png, id=33, 1010.77625pt x 1027.84pt>
 File: LEP-NuFlavours.png Graphic file (type png)
 <use LEP-NuFlavours.png>
-Package pdftex.def Info: LEP-NuFlavours.png  used on input line 79.
+Package pdftex.def Info: LEP-NuFlavours.png  used on input line 80.
 (pdftex.def)             Requested size: 195.0pt x 198.28719pt.
 
-Overfull \hbox (6.9578pt too wide) in paragraph at lines 84--84
+Overfull \hbox (6.9578pt too wide) in paragraph at lines 85--85
 []\OT1/cmr/bx/n/17.28 Neutrinos in the Stan-dard Model and neu-
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[2 <./LEP-NuFlavours.png>] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+[2 <./LEP-NuFlavours.png>] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-
+[5]
+Overfull \hbox (13.26814pt too wide) in paragraph at lines 173--175
+\OT1/cmr/m/n/12 The ma-trix, in the case of 3 neu-trino flavours is the so call
+ed PMNS (Pontecorvo-
  []
-
-
-LaTeX Warning: Command \i invalid in math mode on input line 208.
 
 [6]
-
-LaTeX Warning: Reference `)' on page 7 undefined on input line 240.
-
 <mass-hierarchy.png, id=55, 722.7pt x 407.121pt>
 File: mass-hierarchy.png Graphic file (type png)
 <use mass-hierarchy.png>
 Package pdftex.def Info: mass-hierarchy.png  used on input line 246.
 (pdftex.def)             Requested size: 312.00119pt x 175.76059pt.
-[7] [8 <./mass-hierarchy.png>] [9]
-<2flavor_oscillation.png, id=67, 625.1355pt x 322.806pt>
+ [7] [8 <./mass-hierarchy.png>]
+<2flavor_oscillation.png, id=64, 625.1355pt x 322.806pt>
 File: 2flavor_oscillation.png Graphic file (type png)
 <use 2flavor_oscillation.png>
-Package pdftex.def Info: 2flavor_oscillation.png  used on input line 309.
-(pdftex.def)             Requested size: 272.99881pt x 140.97115pt.
- [10 <./2flavor_oscillation.png>]
-<WZ.png, id=72, 467.346pt x 173.448pt>
+Package pdftex.def Info: 2flavor_oscillation.png  used on input line 316.
+(pdftex.def)             Requested size: 214.50119pt x 110.76233pt.
+ [9]
+<WZ.png, id=68, 467.346pt x 173.448pt>
 File: WZ.png Graphic file (type png)
 <use WZ.png>
-Package pdftex.def Info: WZ.png  used on input line 322.
-(pdftex.def)             Requested size: 272.99881pt x 101.31712pt.
- [11 <./WZ.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 378.
+Package pdftex.def Info: WZ.png  used on input line 329.
+(pdftex.def)             Requested size: 312.00119pt x 115.79404pt.
+ [10 <./2flavor_oscillation.png> <./WZ.png>] [11]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 386.
 
- ("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+
+("C:\Users\39334\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 378.
- [12] [13]
-<SSM.png, id=84, 454.69875pt x 321.6015pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 386.
+
+[12
+
+]
+<SSM.png, id=79, 454.69875pt x 321.6015pt>
 File: SSM.png Graphic file (type png)
 <use SSM.png>
-Package pdftex.def Info: SSM.png  used on input line 437.
-(pdftex.def)             Requested size: 234.00238pt x 165.5064pt.
- [14]
-<SNO.png, id=89, 457.10776pt x 336.65775pt>
+Package pdftex.def Info: SSM.png  used on input line 436.
+(pdftex.def)             Requested size: 272.99881pt x 193.08997pt.
+ [13]
+<SNO.png, id=85, 457.10776pt x 336.65775pt>
 File: SNO.png Graphic file (type png)
 <use SNO.png>
-Package pdftex.def Info: SNO.png  used on input line 452.
+Package pdftex.def Info: SNO.png  used on input line 451.
 (pdftex.def)             Requested size: 272.99881pt x 201.06639pt.
- [15 <./SSM.png>] [16 <./SNO.png>]
-<kamland.png, id=96, 450.483pt x 381.8265pt>
+ [14 <./SSM.png>] [15 <./SNO.png>]
+<kamland.png, id=92, 450.483pt x 381.8265pt>
 File: kamland.png Graphic file (type png)
 <use kamland.png>
-Package pdftex.def Info: kamland.png  used on input line 474.
+Package pdftex.def Info: kamland.png  used on input line 473.
 (pdftex.def)             Requested size: 272.99881pt x 231.39319pt.
- [17 <./kamland.png>]
-<theta13.png, id=100, 1159.33125pt x 579.66562pt>
+ [16 <./kamland.png>]
+<theta13.png, id=96, 1159.33125pt x 579.66562pt>
 File: theta13.png Graphic file (type png)
 <use theta13.png>
-Package pdftex.def Info: theta13.png  used on input line 488.
+Package pdftex.def Info: theta13.png  used on input line 487.
 (pdftex.def)             Requested size: 312.00119pt x 155.9988pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./theta13.png>]
-<superk.png, id=104, 569.12625pt x 271.0125pt>
+ [17 <./theta13.png>]
+<superk.png, id=100, 569.12625pt x 271.0125pt>
 File: superk.png Graphic file (type png)
 <use superk.png>
-Package pdftex.def Info: superk.png  used on input line 498.
+Package pdftex.def Info: superk.png  used on input line 497.
 (pdftex.def)             Requested size: 350.99762pt x 167.1493pt.
-<atmnu.png, id=105, 1106.63437pt x 537.50812pt>
+<atmnu.png, id=101, 1106.63437pt x 537.50812pt>
 File: atmnu.png Graphic file (type png)
 <use atmnu.png>
-Package pdftex.def Info: atmnu.png  used on input line 503.
+Package pdftex.def Info: atmnu.png  used on input line 502.
 (pdftex.def)             Requested size: 350.99762pt x 170.48059pt.
- [19 <./superk.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <./atmnu.png>] [21]
-<cpt2k.png, id=116, 477.28313pt x 413.29407pt>
+ [18 <./superk.png>]
+<cpt2k.png, id=105, 477.28313pt x 413.29407pt>
 File: cpt2k.png Graphic file (type png)
 <use cpt2k.png>
-Package pdftex.def Info: cpt2k.png  used on input line 523.
+Package pdftex.def Info: cpt2k.png  used on input line 516.
 (pdftex.def)             Requested size: 187.19833pt x 162.09845pt.
-<cpnova.png, id=117, 487.8225pt x 413.29407pt>
+<cpnova.png, id=106, 487.8225pt x 413.29407pt>
 File: cpnova.png Graphic file (type png)
 <use cpnova.png>
-Package pdftex.def Info: cpnova.png  used on input line 525.
+Package pdftex.def Info: cpnova.png  used on input line 518.
 (pdftex.def)             Requested size: 187.19833pt x 158.59842pt.
-<massexp.png, id=118, 477.28313pt x 441.14813pt>
-File: massexp.png Graphic file (type png)
-<use massexp.png>
-Package pdftex.def Info: massexp.png  used on input line 542.
-(pdftex.def)             Requested size: 339.2981pt x 313.60777pt.
- [22 <./cpt2k.png> <./cpnova.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23 <./massexp.png>]
-<stateoftheart.png, id=126, 1288.815pt x 520.94624pt>
+ [19 <./atmnu.png>] [20 <./cpt2k.png> <./cpnova.png>]
+<massexp.png, id=114, 477.28313pt x 441.14813pt>
+File: massexp.png Graphic file (type png)
+<use massexp.png>
+Package pdftex.def Info: massexp.png  used on input line 529.
+(pdftex.def)             Requested size: 272.99881pt x 252.3254pt.
+ [21 <./massexp.png>]
+<stateoftheart.png, id=119, 1288.815pt x 520.94624pt>
 File: stateoftheart.png Graphic file (type png)
 <use stateoftheart.png>
-Package pdftex.def Info: stateoftheart.png  used on input line 550.
+Package pdftex.def Info: stateoftheart.png  used on input line 537.
 (pdftex.def)             Requested size: 390.0pt x 157.6364pt.
- [24 <./stateoftheart.png>] [25] [26
+ [22 <./stateoftheart.png>] [23] [24
 
 ]
 Chapter 2.
-[27]
-Overfull \hbox (8.35143pt too wide) in paragraph at lines 582--583
+[25]
+Overfull \hbox (8.35143pt too wide) in paragraph at lines 572--573
 []\OT1/cmr/m/n/12 Further ac-cel-er-a-tor os-cil-la-tion mea-sure-ments and sea
 rch for non-standard
  []
 
-[28]
-Overfull \hbox (4.44365pt too wide) in paragraph at lines 599--600
+[26]
+Overfull \hbox (4.44365pt too wide) in paragraph at lines 589--590
 []\OT1/cmr/m/it/12 Differences in de-tec-tor ef-fi-cien-cies $\OML/cmm/m/it/12 
 "[]="[]$\OT1/cmr/m/it/12 . \OT1/cmr/m/n/12 These un-cer-tain-ties mostly
  []
 
-<uncertainties.png, id=143, 627.09282pt x 475.7775pt>
+<uncertainties.png, id=136, 627.09282pt x 475.7775pt>
 File: uncertainties.png Graphic file (type png)
 <use uncertainties.png>
-Package pdftex.def Info: uncertainties.png  used on input line 604.
+Package pdftex.def Info: uncertainties.png  used on input line 595.
 (pdftex.def)             Requested size: 315.89905pt x 239.68132pt.
-[29] [30 <./uncertainties.png>] [31] [32]
-<oscillograms.png, id=157, 636.87938pt x 587.19376pt>
+[27] [28 <./uncertainties.png>] [29]
+<oscillograms.png, id=146, 636.87938pt x 587.19376pt>
 File: oscillograms.png Graphic file (type png)
 <use oscillograms.png>
-Package pdftex.def Info: oscillograms.png  used on input line 682.
+Package pdftex.def Info: oscillograms.png  used on input line 673.
 (pdftex.def)             Requested size: 331.50238pt x 305.63818pt.
-<asymmetrydelta.png, id=158, 626.34pt x 432.11438pt>
+ [30]
+<asymmetrydelta.png, id=150, 626.34pt x 432.11438pt>
 File: asymmetrydelta.png Graphic file (type png)
 <use asymmetrydelta.png>
-Package pdftex.def Info: asymmetrydelta.png  used on input line 688.
+Package pdftex.def Info: asymmetrydelta.png  used on input line 679.
 (pdftex.def)             Requested size: 312.00119pt x 215.25883pt.
- [33 <./oscillograms.png>]
-<exposure-MO.png, id=162, 414.79968pt x 252.19218pt>
+ [31 <./oscillograms.png>]
+<exposure-MO.png, id=155, 414.79968pt x 252.19218pt>
 File: exposure-MO.png Graphic file (type png)
 <use exposure-MO.png>
-Package pdftex.def Info: exposure-MO.png  used on input line 701.
-(pdftex.def)             Requested size: 272.99881pt x 165.98557pt.
-<MOVStheta23.png, id=163, 279.29344pt x 288.3272pt>
+Package pdftex.def Info: exposure-MO.png  used on input line 692.
+(pdftex.def)             Requested size: 234.00238pt x 142.2695pt.
+<MOVStheta23.png, id=156, 279.29344pt x 288.3272pt>
 File: MOVStheta23.png Graphic file (type png)
 <use MOVStheta23.png>
-Package pdftex.def Info: MOVStheta23.png  used on input line 706.
+Package pdftex.def Info: MOVStheta23.png  used on input line 697.
 (pdftex.def)             Requested size: 146.25pt x 150.98248pt.
-<MOVStheta13.png, id=164, 274.02374pt x 292.84406pt>
+<MOVStheta13.png, id=157, 274.02374pt x 292.84406pt>
 File: MOVStheta13.png Graphic file (type png)
 <use MOVStheta13.png>
-Package pdftex.def Info: MOVStheta13.png  used on input line 708.
+Package pdftex.def Info: MOVStheta13.png  used on input line 699.
 (pdftex.def)             Requested size: 146.25pt x 156.2969pt.
-<MOVSm31.png, id=165, 271.0125pt x 287.57437pt>
+<MOVSm31.png, id=158, 271.0125pt x 287.57437pt>
 File: MOVSm31.png Graphic file (type png)
 <use MOVSm31.png>
-Package pdftex.def Info: MOVSm31.png  used on input line 710.
+Package pdftex.def Info: MOVSm31.png  used on input line 701.
 (pdftex.def)             Requested size: 146.25pt x 155.1913pt.
-<exposure-CPV.png, id=166, 404.26031pt x 250.68657pt>
+<exposure-CPV.png, id=159, 404.26031pt x 250.68657pt>
 File: exposure-CPV.png Graphic file (type png)
 <use exposure-CPV.png>
-Package pdftex.def Info: exposure-CPV.png  used on input line 716.
-(pdftex.def)             Requested size: 272.99881pt x 169.29027pt.
-<CPVVStheta23.png, id=167, 275.52937pt x 287.57437pt>
+Package pdftex.def Info: exposure-CPV.png  used on input line 707.
+(pdftex.def)             Requested size: 234.00238pt x 145.10759pt.
+<CPVVStheta23.png, id=160, 275.52937pt x 287.57437pt>
 File: CPVVStheta23.png Graphic file (type png)
 <use CPVVStheta23.png>
-Package pdftex.def Info: CPVVStheta23.png  used on input line 721.
+Package pdftex.def Info: CPVVStheta23.png  used on input line 712.
 (pdftex.def)             Requested size: 146.25pt x 152.65063pt.
-<CPVVStheta13.png, id=168, 267.24844pt x 289.83281pt>
+<CPVVStheta13.png, id=161, 267.24844pt x 289.83281pt>
 File: CPVVStheta13.png Graphic file (type png)
 <use CPVVStheta13.png>
-Package pdftex.def Info: CPVVStheta13.png  used on input line 723.
+Package pdftex.def Info: CPVVStheta13.png  used on input line 714.
 (pdftex.def)             Requested size: 146.25pt x 158.6169pt.
-<CPVVSm31.png, id=169, 278.54062pt x 294.34969pt>
+<CPVVSm31.png, id=162, 278.54062pt x 294.34969pt>
 File: CPVVSm31.png Graphic file (type png)
 <use CPVVSm31.png>
-Package pdftex.def Info: CPVVSm31.png  used on input line 725.
+Package pdftex.def Info: CPVVSm31.png  used on input line 716.
 (pdftex.def)             Requested size: 146.25pt x 154.55385pt.
-<precision.png, id=170, 392.96812pt x 405.76593pt>
+<precision.png, id=163, 392.96812pt x 405.76593pt>
 File: precision.png Graphic file (type png)
 <use precision.png>
-Package pdftex.def Info: precision.png  used on input line 731.
-(pdftex.def)             Requested size: 292.5pt x 302.04523pt.
- [34 <./asymmetrydelta.png>] [35 <./exposure-MO.png> <./MOVStheta23.png> <./MOV
-Stheta13.png> <./MOVSm31.png>] [36 <./exposure-CPV.png> <./CPVVStheta23.png> <.
-/CPVVStheta13.png> <./CPVVSm31.png>] [37 <./precision.png>]
-<octant.png, id=184, 269.50688pt x 280.79906pt>
+Package pdftex.def Info: precision.png  used on input line 722.
+(pdftex.def)             Requested size: 234.00238pt x 241.62875pt.
+
+Underfull \vbox (badness 2644) has occurred while \output is active []
+
+ [32 <./asymmetrydelta.png>] [33 <./exposure-MO.png> <./MOVStheta23.png> <./MOV
+Stheta13.png> <./MOVSm31.png>] [34 <./exposure-CPV.png> <./CPVVStheta23.png> <.
+/CPVVStheta13.png> <./CPVVSm31.png>] [35 <./precision.png>]
+<octant.png, id=176, 269.50688pt x 280.79906pt>
 File: octant.png Graphic file (type png)
 <use octant.png>
-Package pdftex.def Info: octant.png  used on input line 750.
+Package pdftex.def Info: octant.png  used on input line 741.
 (pdftex.def)             Requested size: 234.00238pt x 243.80904pt.
-<ProtonDecay.png, id=185, 875.52094pt x 291.33844pt>
+<ProtonDecay.png, id=177, 875.52094pt x 291.33844pt>
 File: ProtonDecay.png Graphic file (type png)
 <use ProtonDecay.png>
-Package pdftex.def Info: ProtonDecay.png  used on input line 756.
-(pdftex.def)             Requested size: 350.99762pt x 116.80003pt.
- [38 <./octant.png>]
-<Supernova.png, id=190, 660.21657pt x 449.42906pt>
+Package pdftex.def Info: ProtonDecay.png  used on input line 747.
+(pdftex.def)             Requested size: 390.0pt x 129.77634pt.
+ [36 <./octant.png>]
+<Supernova.png, id=182, 660.21657pt x 449.42906pt>
 File: Supernova.png Graphic file (type png)
 <use Supernova.png>
-Package pdftex.def Info: Supernova.png  used on input line 771.
+Package pdftex.def Info: Supernova.png  used on input line 762.
 (pdftex.def)             Requested size: 272.99881pt x 185.84438pt.
- [39 <./ProtonDecay.png>] [40 <./Supernova.png>]
-<DUNEatm.png, id=197, 598.48593pt x 247.67531pt>
+ [37 <./ProtonDecay.png>] [38 <./Supernova.png>]
+<DUNEatm.png, id=190, 598.48593pt x 247.67531pt>
 File: DUNEatm.png Graphic file (type png)
 <use DUNEatm.png>
-Package pdftex.def Info: DUNEatm.png  used on input line 787.
+Package pdftex.def Info: DUNEatm.png  used on input line 778.
 (pdftex.def)             Requested size: 390.0pt x 161.39897pt.
 
-Underfull \vbox (badness 1418) has occurred while \output is active []
+Underfull \vbox (badness 1859) has occurred while \output is active []
 
- [41 <./DUNEatm.png>] [42] [43
+ [39 <./DUNEatm.png>]
+<10kt.png, id=194, 565.36218pt x 413.29407pt>
+File: 10kt.png Graphic file (type png)
+<use 10kt.png>
+Package pdftex.def Info: 10kt.png  used on input line 792.
+(pdftex.def)             Requested size: 312.00119pt x 228.0818pt.
+<FD-SinglePhaseIn.png, id=195, 995.21812pt x 711.4078pt>
+File: FD-SinglePhaseIn.png Graphic file (type png)
+<use FD-SinglePhaseIn.png>
+Package pdftex.def Info: FD-SinglePhaseIn.png  used on input line 797.
+(pdftex.def)             Requested size: 312.00119pt x 223.03084pt.
 
-] [44] [45] [46] (TesiFB.aux)
+Overfull \hbox (5.37924pt too wide) in paragraph at lines 802--805
+\OT1/cmr/m/n/12 tec-tor Sys-tem), with the elec-tron-ics di-vided in Cold Elec-
+tron-ics (CE), mounted
+ []
 
-LaTeX Warning: There were undefined references.
+[40] [41 <./10kt.png> <./FD-SinglePhaseIn.png>]
+<APA.png, id=202, 158.09062pt x 405.01312pt>
+File: APA.png Graphic file (type png)
+<use APA.png>
+Package pdftex.def Info: APA.png  used on input line 810.
+(pdftex.def)             Requested size: 89.69833pt x 229.80309pt.
+<TPC-Slice.png, id=203, 423.83344pt x 332.74312pt>
+File: TPC-Slice.png Graphic file (type png)
+<use TPC-Slice.png>
+Package pdftex.def Info: TPC-Slice.png  used on input line 815.
+(pdftex.def)             Requested size: 272.99881pt x 214.33586pt.
+<APA-Table.png, id=204, 868.74562pt x 224.33812pt>
+File: APA-Table.png Graphic file (type png)
+<use APA-Table.png>
+Package pdftex.def Info: APA-Table.png  used on input line 823.
+(pdftex.def)             Requested size: 390.0pt x 100.7116pt.
+ [42 <./APA.png> <./TPC-Slice.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- ) 
+ [43 <./APA-Table.png>]
+<lightModule.png, id=212, 304.88907pt x 475.02469pt>
+File: lightModule.png Graphic file (type png)
+<use lightModule.png>
+Package pdftex.def Info: lightModule.png  used on input line 837.
+(pdftex.def)             Requested size: 117.00119pt x 182.28708pt.
+<lightPosition.png, id=213, 385.44pt x 314.67563pt>
+File: lightPosition.png Graphic file (type png)
+<use lightPosition.png>
+Package pdftex.def Info: lightPosition.png  used on input line 842.
+(pdftex.def)             Requested size: 195.0pt x 159.19562pt.
+<TPC-Alt.png, id=214, 716.6775pt x 396.7322pt>
+File: TPC-Alt.png Graphic file (type png)
+<use TPC-Alt.png>
+Package pdftex.def Info: TPC-Alt.png  used on input line 851.
+(pdftex.def)             Requested size: 390.0pt x 215.89694pt.
+<CRP.png, id=215, 712.91344pt x 230.36063pt>
+File: CRP.png Graphic file (type png)
+<use CRP.png>
+Package pdftex.def Info: CRP.png  used on input line 861.
+(pdftex.def)             Requested size: 390.0pt x 126.01682pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./lightModule.png> <./lightPosition.png>] [45 <./TPC-Alt.png>]
+<NeutrinoBeam.png, id=222, 904.88063pt x 357.58594pt>
+File: NeutrinoBeam.png Graphic file (type png)
+<use NeutrinoBeam.png>
+Package pdftex.def Info: NeutrinoBeam.png  used on input line 867.
+(pdftex.def)             Requested size: 390.0pt x 154.1136pt.
+<PosNu.png, id=223, 552.56438pt x 529.22719pt>
+File: PosNu.png Graphic file (type png)
+<use PosNu.png>
+Package pdftex.def Info: PosNu.png  used on input line 900.
+(pdftex.def)             Requested size: 185.25238pt x 177.42343pt.
+<NegNu.png, id=224, 530.73282pt x 517.18219pt>
+File: NegNu.png Graphic file (type png)
+<use NegNu.png>
+Package pdftex.def Info: NegNu.png  used on input line 905.
+(pdftex.def)             Requested size: 185.25238pt x 180.5193pt.
+ [46 <./CRP.png>]
+[47 <./NeutrinoBeam.png>]
+<ArgonCube.png, id=231, 1082.0425pt x 938.50626pt>
+File: ArgonCube.png Graphic file (type png)
+<use ArgonCube.png>
+Package pdftex.def Info: ArgonCube.png  used on input line 914.
+(pdftex.def)             Requested size: 185.25238pt x 160.67526pt.
+<ArgonCubeModule.png, id=232, 1608.0075pt x 1604.99625pt>
+File: ArgonCubeModule.png Graphic file (type png)
+<use ArgonCubeModule.png>
+Package pdftex.def Info: ArgonCubeModule.png  used on input line 919.
+(pdftex.def)             Requested size: 185.25238pt x 184.9013pt.
+ [48 <./PosNu.png> <./NegNu.png>] [49 <./ArgonCube.png> <./ArgonCubeModule.png>
+] [50
+
+]
+Chapter 3.
+[51]
+<KLOEsection.png, id=248, 523.9575pt x 414.04688pt>
+File: KLOEsection.png Graphic file (type png)
+<use KLOEsection.png>
+Package pdftex.def Info: KLOEsection.png  used on input line 954.
+(pdftex.def)             Requested size: 312.00119pt x 246.55995pt.
+
+Overfull \hbox (3.63353pt too wide) in paragraph at lines 949--957
+[]\OT1/cmr/m/n/12 SAND will reuse the ex-ist-ing su-per-con-duct-ing mag-net em
+-ployed by KLOE.
+ []
+
+[52]
+<KLOEECAL.png, id=252, 451.6875pt x 537.50812pt>
+File: KLOEECAL.png Graphic file (type png)
+<use KLOEECAL.png>
+Package pdftex.def Info: KLOEECAL.png  used on input line 961.
+(pdftex.def)             Requested size: 312.00119pt x 371.29929pt.
+ [53 <./KLOEsection.png>] [54 <./KLOEECAL.png>] [55]
+<STTmodule.png, id=263, 527.72156pt x 370.38374pt>
+File: STTmodule.png Graphic file (type png)
+<use STTmodule.png>
+Package pdftex.def Info: STTmodule.png  used on input line 992.
+(pdftex.def)             Requested size: 312.00119pt x 218.97664pt.
+ [56 <./STTmodule.png>]
+Underfull \vbox (badness 6775) has occurred while \output is active []
+
+ [57]
+[58] [59] [60] [61] [62
+
+]
+Chapter 4.
+[63] [64] [65]
+<NuFlux.png, id=295, 901.3675pt x 776.9025pt>
+File: NuFlux.png Graphic file (type png)
+<use NuFlux.png>
+Package pdftex.def Info: NuFlux.png  used on input line 1067.
+(pdftex.def)             Requested size: 185.25238pt x 159.6691pt.
+<NuEventRates.png, id=296, 901.3675pt x 776.9025pt>
+File: NuEventRates.png Graphic file (type png)
+<use NuEventRates.png>
+Package pdftex.def Info: NuEventRates.png  used on input line 1072.
+(pdftex.def)             Requested size: 185.25238pt x 159.6691pt.
+<NuBarFlux.png, id=297, 901.3675pt x 776.9025pt>
+File: NuBarFlux.png Graphic file (type png)
+<use NuBarFlux.png>
+Package pdftex.def Info: NuBarFlux.png  used on input line 1080.
+(pdftex.def)             Requested size: 185.25238pt x 159.6691pt.
+<NuBarEventRates.png, id=298, 901.3675pt x 776.9025pt>
+File: NuBarEventRates.png Graphic file (type png)
+<use NuBarEventRates.png>
+Package pdftex.def Info: NuBarEventRates.png  used on input line 1085.
+(pdftex.def)             Requested size: 185.25238pt x 159.6691pt.
+ [66 <./NuFlux.png> <./NuEventRates.png> <./NuBarFlux.png> <./NuBarEventRates.p
+ng>]
+<hall.png, id=302, 915.42pt x 520.94624pt>
+File: hall.png Graphic file (type png)
+<use hall.png>
+Package pdftex.def Info: hall.png  used on input line 1095.
+(pdftex.def)             Requested size: 350.99762pt x 199.7422pt.
+<kloelat.png, id=303, 789.70032pt x 755.07094pt>
+File: kloelat.png Graphic file (type png)
+<use kloelat.png>
+Package pdftex.def Info: kloelat.png  used on input line 1104.
+(pdftex.def)             Requested size: 312.00119pt x 298.31311pt.
+<kloefront.png, id=304, 912.40875pt x 755.07094pt>
+File: kloefront.png Graphic file (type png)
+<use kloefront.png>
+Package pdftex.def Info: kloefront.png  used on input line 1109.
+(pdftex.def)             Requested size: 312.00119pt x 258.19547pt.
+
+
+LaTeX Warning: Float too large for page by 72.70854pt on input line 1113.
+
+<ecal.png, id=305, 932.73468pt x 679.78969pt>
+File: ecal.png Graphic file (type png)
+<use ecal.png>
+Package pdftex.def Info: ecal.png  used on input line 1117.
+(pdftex.def)             Requested size: 253.49762pt x 184.7489pt.
+<ECALmodule.png, id=306, 974.89218pt x 364.36125pt>
+File: ECALmodule.png Graphic file (type png)
+<use ECALmodule.png>
+Package pdftex.def Info: ECALmodule.png  used on input line 1127.
+(pdftex.def)             Requested size: 350.99762pt x 131.18106pt.
+<endcapECAL.png, id=307, 609.9588pt x 542.025pt>
+File: endcapECAL.png Graphic file (type png)
+<use endcapECAL.png>
+Package pdftex.def Info: endcapECAL.png  used on input line 1132.
+(pdftex.def)             Requested size: 312.00119pt x 277.25615pt.
+[67
+
+
+ <./hall.png>] [68 <./kloelat.png> <./kloefront.png>]
+<viewer.png, id=318, 791.95876pt x 527.72156pt>
+File: viewer.png Graphic file (type png)
+<use viewer.png>
+Package pdftex.def Info: viewer.png  used on input line 1142.
+(pdftex.def)             Requested size: 312.00119pt x 207.90419pt.
+ [69 <./ecal.png>]
+[70 <./ECALmodule.png> <./endcapECAL.png>]
+Underfull \vbox (badness 2142) has occurred while \output is active []
+
+ [71 <./viewer.png>]
+<cellbarrel.png, id=331, 645.612pt x 234.6366pt>
+File: cellbarrel.png Graphic file (type png)
+<use cellbarrel.png>
+Package pdftex.def Info: cellbarrel.png  used on input line 1154.
+(pdftex.def)             Requested size: 312.00119pt x 113.39403pt.
+<showevent.png, id=332, 1202.4925pt x 576.1525pt>
+File: showevent.png Graphic file (type png)
+<use showevent.png>
+Package pdftex.def Info: showevent.png  used on input line 1162.
+(pdftex.def)             Requested size: 390.0pt x 186.86052pt.
+
+Overfull \hbox (8.76819pt too wide) in paragraph at lines 1157--1166
+\OT1/cmr/m/n/12 the ECAL fi-bres by pass-ing charged par-ti-cles, are col-lecte
+d by photo-multipliers
+ []
+
+[72 <./cellbarrel.png>] [73 <./showevent.png>] [74] [75] [76
+
+]
+Chapter 5.
+[77] [78
+
+] [79] [80] [81] [82] [83] (TesiFB.aux) ) 
 Here is how much of TeX's memory you used:
- 3579 strings out of 492895
- 50281 string characters out of 3123735
- 125627 words of memory out of 3000000
- 7368 multiletter control sequences out of 15000+200000
- 14341 words of font info for 58 fonts, out of 3000000 for 9000
+ 4926 strings out of 492895
+ 74227 string characters out of 3123735
+ 148939 words of memory out of 3000000
+ 8676 multiletter control sequences out of 15000+200000
+ 14641 words of font info for 59 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 41i,23n,43p,1119b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmcsc10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/39334/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/39334/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/3
-9334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/39334/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/39334/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/39334/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
-rs/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6
-.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmsy8.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/39334/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on TesiFB.pdf (52 pages, 2169036 bytes).
+ 42i,23n,43p,1229b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/39334/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/39334/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/3
+9334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/39334/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/39334/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/39334
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/39334/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/39334/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/
+39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msa
+m10.pfb>
+Output written on TesiFB.pdf (89 pages, 12256343 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
+ 425 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,32 +1,64 @@
 \babel@toc {english}{}
 \contentsline {chapter}{Introduction}{iii}% 
-\contentsline {chapter}{\numberline {1}Neutrino Physics Overview}{1}% 
+\contentsline {chapter}{\numberline {1}Neutrino physics overview}{1}% 
 \contentsline {section}{\numberline {1.1}Brief history of neutrinos}{1}% 
 \contentsline {section}{\numberline {1.2}Neutrinos in the Standard Model and neutrino masses}{2}% 
-\contentsline {subsection}{\numberline {1.2.1}Limits on neutrino masses}{5}% 
-\contentsline {section}{\numberline {1.3}Theory of Neutrino Oscillations }{6}% 
-\contentsline {subsection}{\numberline {1.3.1}Three flavours oscillations in vacuo}{6}% 
-\contentsline {subsection}{\numberline {1.3.2}CP violation}{8}% 
+\contentsline {subsection}{\numberline {1.2.1}Limits on neutrino masses}{4}% 
+\contentsline {section}{\numberline {1.3}Theory of neutrino oscillations }{5}% 
+\contentsline {subsection}{\numberline {1.3.1}Three flavours oscillations in vacuum}{6}% 
+\contentsline {subsection}{\numberline {1.3.2}Charge-parity symmetry violation}{7}% 
 \contentsline {subsection}{\numberline {1.3.3}Two flavor scenario}{9}% 
-\contentsline {subsection}{\numberline {1.3.4}MSW Matter Effects}{10}% 
+\contentsline {subsection}{\numberline {1.3.4}MSW matter effects}{9}% 
 \contentsline {section}{\numberline {1.4}Neutrino oscillation experiments}{12}% 
-\contentsline {subsection}{\numberline {1.4.1}Solar experiments: $\theta _{12}$ and $\Delta m_{12}^2$}{14}% 
-\contentsline {subsection}{\numberline {1.4.2}Reactor experiments}{17}% 
-\contentsline {subsubsection}{VLB: confermation of solar experiment results}{17}% 
-\contentsline {subsubsection}{Measurement of $\theta _{13}$ }{19}% 
-\contentsline {subsection}{\numberline {1.4.3}Atmospheric experiments: $\Delta m_{31}^2 $ and $ \theta _{23}$}{19}% 
-\contentsline {subsection}{\numberline {1.4.4}Accelerator experiments}{21}% 
-\contentsline {subsection}{\numberline {1.4.5}$\delta _{CP}$ experimental results}{22}% 
-\contentsline {subsection}{\numberline {1.4.6}Mass hierarchy experimental results}{24}% 
-\contentsline {section}{\numberline {1.5}State of the art and future prospects}{24}% 
-\contentsline {chapter}{\numberline {2}DUNE}{27}% 
-\contentsline {section}{\numberline {2.1}DUNE' s scientific program}{27}% 
-\contentsline {subsection}{\numberline {2.1.1}Sensitivities and systematics}{29}% 
-\contentsline {subsection}{\numberline {2.1.2}Mass ordering and $\delta _{CP}$}{31}% 
-\contentsline {subsubsection}{Significance for mass ordering and $\delta _{CP}$ measurements}{34}% 
-\contentsline {subsection}{\numberline {2.1.3}Precision Mesurements}{37}% 
-\contentsline {subsection}{\numberline {2.1.4}Proton decay measurements}{39}% 
-\contentsline {subsection}{\numberline {2.1.5}Supernova neutrino measurements}{40}% 
-\contentsline {subsection}{\numberline {2.1.6}Oscillation physics with atmospheric neutrinos}{41}% 
-\contentsline {section}{\numberline {2.2}DUNE's facilities and design}{42}% 
-\contentsline {chapter}{Bibliografia}{43}% 
+\contentsline {subsection}{\numberline {1.4.1}Solar experiments: $\theta _{12}$ and $\Delta m_{12}^2$}{13}% 
+\contentsline {subsection}{\numberline {1.4.2}Reactor experiments}{16}% 
+\contentsline {subsubsection}{VLB: confermation of solar experiment results}{16}% 
+\contentsline {subsubsection}{Measurement of $\theta _{13}$ }{17}% 
+\contentsline {subsection}{\numberline {1.4.3}Atmospheric experiments: $\Delta m_{31}^2 $ and $ \theta _{23}$}{18}% 
+\contentsline {subsection}{\numberline {1.4.4}Accelerator experiments}{20}% 
+\contentsline {subsection}{\numberline {1.4.5}$\delta _{CP}$ experimental results}{21}% 
+\contentsline {subsection}{\numberline {1.4.6}Mass hierarchy experimental results}{22}% 
+\contentsline {section}{\numberline {1.5}State of the art and future prospects}{22}% 
+\contentsline {chapter}{\numberline {2}DUNE}{25}% 
+\contentsline {section}{\numberline {2.1}DUNE' s scientific program}{25}% 
+\contentsline {subsection}{\numberline {2.1.1}Sensitivities and systematics}{27}% 
+\contentsline {subsection}{\numberline {2.1.2}Mass ordering and $\delta _{CP}$}{29}% 
+\contentsline {subsubsection}{Significance for mass ordering and $\delta _{CP}$ measurements}{31}% 
+\contentsline {subsection}{\numberline {2.1.3}Precision measurements}{35}% 
+\contentsline {subsection}{\numberline {2.1.4}Proton decay measurements}{36}% 
+\contentsline {subsection}{\numberline {2.1.5}Supernova neutrino measurements}{38}% 
+\contentsline {subsection}{\numberline {2.1.6}Oscillation physics with atmospheric neutrinos}{39}% 
+\contentsline {subsection}{\numberline {2.1.7}Near detector physics}{40}% 
+\contentsline {section}{\numberline {2.2}LBNF/DUNE's facilities and design}{40}% 
+\contentsline {subsection}{\numberline {2.2.1}FD reference design: single phase LArTPC }{40}% 
+\contentsline {subsubsection}{The time projection chamber (TPC)}{42}% 
+\contentsline {subsubsection}{Photon detection system}{44}% 
+\contentsline {subsection}{\numberline {2.2.2}FD alternative design: double phase LArTPC }{45}% 
+\contentsline {subsection}{\numberline {2.2.3}LBNF beamline}{46}% 
+\contentsline {subsection}{\numberline {2.2.4}The near detector}{48}% 
+\contentsline {chapter}{\numberline {3}SAND}{51}% 
+\contentsline {section}{\numberline {3.1}Requirements}{51}% 
+\contentsline {section}{\numberline {3.2}Detector components}{52}% 
+\contentsline {subsection}{\numberline {3.2.1}KLOE's magnet}{52}% 
+\contentsline {subsection}{\numberline {3.2.2}KLOE's electro-magnetic calorimeter}{53}% 
+\contentsline {subsection}{\numberline {3.2.3}The inner tracker}{55}% 
+\contentsline {subsubsection}{The straw tube tracker}{56}% 
+\contentsline {subsubsection}{The liquid Argon meniscus}{57}% 
+\contentsline {section}{\numberline {3.3}Physics Program}{58}% 
+\contentsline {subsection}{\numberline {3.3.1}Reducing the systematics}{58}% 
+\contentsline {subsection}{\numberline {3.3.2}Precision measurements and new physics}{59}% 
+\contentsline {subsubsection}{Precision measurements in the electro-weak sector}{59}% 
+\contentsline {subsubsection}{Isospin physics tests}{60}% 
+\contentsline {subsubsection}{Strangeness measurements of the nucleus}{60}% 
+\contentsline {subsubsection}{Nucleon structure and QCD studies}{61}% 
+\contentsline {subsubsection}{Neutrino-nucleus interaction studies}{61}% 
+\contentsline {subsubsection}{New physics searches}{61}% 
+\contentsline {chapter}{\numberline {4}The simulation}{63}% 
+\contentsline {section}{\numberline {4.1}GENIE: MC neutrino generator}{63}% 
+\contentsline {subsection}{\numberline {4.1.1}GENIE usage for the ND collaboration}{64}% 
+\contentsline {section}{\numberline {4.2}GGD: geometry generation tool }{67}% 
+\contentsline {subsection}{\numberline {4.2.1}SAND's geometry and the ECAL}{67}% 
+\contentsline {section}{\numberline {4.3}Edep-sim: charged particle propagation}{71}% 
+\contentsline {section}{\numberline {4.4}ECAL signal digitization}{72}% 
+\contentsline {chapter}{\numberline {5}Analysis and results}{77}% 
+\contentsline {chapter}{Bibliografia}{79}% 
