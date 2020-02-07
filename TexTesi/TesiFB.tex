@@ -919,12 +919,12 @@ The neutrino and antineutrino expected fluxes obtained focusing  positive and ne
 		\includegraphics[width=\textwidth]{ArgonCubeModule.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{ArgonCube:fig} Schematic design of ArgonCube (a) and one of its modules (b)} 
+	\caption{\label{ArgonCube:fig} Schematic design of ArgonCube (a) and one of its modules (b) \cite{ArgonCube images}} 
 \end{figure}
 The near detector will be located in the Fermilab facilities a few hundred meters away from the Numi beam source. It will constitute of two movable systems, capable of being positioned both on and off-axis, and a fixed one that will always be on axis. The two movable detectors will both be based on Argon as a target, an essential characteristic for evaluating the systematics on the Far detector's physics response. One of them will contain liquid Argon, while the other will be based on a high pressure Argon TPC design. \\
-The liquid argon TPC will be called Argon Cube and will feature a modular design and a fully pixelated charge readout. The advantages of segmenting a large LArTPC are a reduction in drift voltage requirements and a lessened focus on Argon purity. This in turn reduce risks related to electric breakdown and purity losses. The pixelated charge readout provides an unambigous event topology reconstruction, which is vital in cases of events with high multiplicity and possibility of pile-up. In Figure a geometric representation of ArgonCube with a cross section of one of its modules is presented.\\
-The second movable detector, known HPgTPC (High Pressure gas TPC) is a magnetized spectrometer based on high pressure Argon TPC technology, and surrounded by an electro-magnetic calorimeter. Its main purpose will be to tag muons and the sign of charged particles exiting ArgonCube, thanks to its optimal tracking efficiency, particle identification, momentum and angular resolution. HPgTPC will also be extremely useful in detecting charged particles of very low energy from $\nu$ interactions in gas.  \\
-The fixed detector will reuse parts of a previous detector named KLOE, today situated at the Laboratori Nazionali di Frascati (LNF). It will take the name SAND and its current design and purpose will be the topic of the next chapter.
+The liquid argon TPC will be called ArgonCube and will feature a modular design and a fully pixelated charge readout\cite{ArgonCube}. The advantages of segmenting a large LArTPC are a reduction in drift voltage requirements and a lessened focus on Argon purity. This in turn reduce risks related to electric breakdown and purity losses. The pixelated charge readout provides an unambigous event topology reconstruction, which is vital in cases of events with high multiplicity and possibility of pile-up. In Figure \ref{ArgonCube:fig} a geometric representation of ArgonCube with a cross section of one of its modules is presented.\\
+The second movable detector, known HPgTPC (High Pressure gas TPC) is a magnetized spectrometer based on high pressure Argon TPC technology, surrounded by an electro-magnetic calorimeter \cite{HPgTPC}. Its main purpose will be to tag muons and the sign of charged particles exiting ArgonCube, thanks to its optimal tracking efficiency, particle identification, momentum and angular resolution. HPgTPC will also be extremely useful in detecting charged particles of very low energy from $\nu$ interactions in gas.  \\
+The fixed detector will reuse parts of a previous detector named KLOE, today situated at the Laboratori Nazionali di Frascati (LNF) and will take the name SAND \cite{KLOE}. The specific purpose of this detector in its Straw Tube Tracker (STT) configuration, one of the two currently being considered, will be discussed in the next Chapter \cite{SAND}.
 
 
 
@@ -933,36 +933,36 @@ The fixed detector will reuse parts of a previous detector named KLOE, today sit
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Chapter 3: SAND}}
            \label{chapter 3}
 \section{Requirements}
-The general formula for the number of events for a process X, both in the Near and Far detector is:
+The general formula for the number of events for a process X, both in the Near and Far detectors is:
 \begin{equation}
 \label{eq:NX}
 N_X(E_{rec})= \int_{E_{\nu}}dE_\nu \Phi(E_\nu)P_{osc}(E_\nu) \sigma_X(E_\nu) R_{phys}(E_\nu,E_{vis})R_{det}(E_{vis},E_{rec})
 \end{equation} 
 $\Phi$ is the incoming neutrino flux, $\sigma_X$ is the cross section of the process on a given nucleus, $R_{phys}$ is the physics response introduced by nuclear smearing and $R_{det}$ is the detector acceptance for the final state particles. $E_\nu$, $E_{vis}$ and $E_{rec}$ are the neutrino true energy, the total energies of the visible final state particles and the final reconstructed energy. The main terms in the expression need to be unfolded. This is not possible by using only one detector and one nuclear target. \\
-The main goal of the ND will be to provide constraints on all the systematic uncertainties  relevant for the oscillation analysis. The basic requirement is that the combined systematics must be smaller than the correspondent statistical uncertainties. To this end a detailed knowledge of the neutrino interactions in Argon is needed, since the far detectors will be LArTPC. Since DUNE will operate over a wide energy range ($0.5<E_\nu<10$ GeV), this includes contributions from all the main neutrino processes: $\sim 25 \%$ quasi-elastic (QE), 42$\%$ resonances (RES) and 33\% deep inelastic scattering (QES), the most critical regions being the one related to resonances and the transition region to DIS. The present knowledge of these processes is insufficient for the precision required by DUNE. The ND complex as it's currently planned can provide sufficiently precise measurements for neutrino and anti-neutrino interactions in Ar. This will be possible thanks to the combination of a high mass LArTPC ($\sim 25$tons), which will offer a large statistics of events detected using a technology similar to the FD, and a High Pressure Ar gas TPC (HPgTPC), which will be able to detect low threshold particles.\\
+The main goal of the ND will be to provide constraints on all the systematic uncertainties  relevant for the oscillation analysis. The basic requirement is that the combined systematics must be smaller than the correspondent statistical uncertainties. To this end a detailed knowledge of the neutrino interactions in Argon is needed, since the far detectors will be a LArTPC. Since DUNE will operate over a wide energy range ($0.5<E_\nu<10$ GeV), this includes contributions from all the main neutrino processes: $\sim 25 \%$ quasi-elastic (QE), 42$\%$ resonances (RES) and 33\% deep inelastic scattering (QES), the most critical regions being the one related to resonances and the transition region to DIS. The ND complex as it's currently planned can provide sufficiently precise measurements for neutrino and anti-neutrino interactions in Ar. This will be possible thanks to the combination of the high mass LArTPC ArgonCube ($\sim 25$tons), which will offer a large statistics of events detected using a technology similar to the FD, and a High Pressure Ar gas TPC (HPgTPC), which will be able to detect low threshold particles.\\
 Utilizing Ar as the sole nuclear target in the ND complex though would cause severe limitations. The Argon nucleus is not a good target for flux measurements $\Phi(E_\nu)$, since the nuclear effects on the final state are significant. The nuclear smearing factor $R_{phys}$ is also rather large, introducing significant modifications in the spectrum reconstruction. A characterisation of these effects using only Ar as a target is impossible, since the factors in eq. \ref{eq:NX} cannot be decoupled. This fact introduces irreducible systematics and forces a large reliance on Montecarlo and model corrections. This is particularly problematic when searching for new physics, since new unexpected signals could be eliminated by ad-hoc tunings of the models.\\
 SAND has been designed to offer a solution to these problems. It will not only offer a variety of nuclear targets, but thanks to its Straw Tube Tracker (STT) it will be able to reach the levels of precisions needed to constrain the systematic uncertainties for the oscillation measurements, while also having an independent physics program.  
 \section{Detector components}
 SAND aims to be a compact detector capable of calorimetry and precision tracking on events produced on different materials such as Argon and Hydrogen. The original KLOE electromagnetic calorimeter (ECAL) and magnet will be reused, while the inner tracking region will be replaced. The tracker design considered in the scope of this thesis is based on straw tube technology with the addition of a small liquid Argon region used for inter-calibration: the LAr meniscus.
 
 \subsection{KLOE's magnet}
-SAND will reuse the existing superconducting magnet employed by KLOE. Together with its iron yoke it produces a magnetic field of 0.6 T over a cylinder of 4.8 m of diameter and 4.3 m of length. This is achieved by applying 2902 A of current to a coil, located inside a cryostat (a hollow cylinder with 90 cm thick walls, 5.76m in total diameter and 4.40m long), positioned inside an iron yoke. Specifically the coil is a single conducting layer, consisting of Rutherford (Rb-Ti) cables co-extruded with high purity aluminium, held in an aluminium supporting cylinder with cooling channels welded on the outside.\\
+SAND will reuse the existing superconducting magnet employed by KLOE \cite{KLOE magnet}. Together with its iron yoke it produces a magnetic field of 0.6 T over a cylinder of 4.8 m of diameter and 4.3 m of length. This is achieved by applying 2902 A of current to a coil, located inside a cryostat (a hollow cylinder with 90 cm thick walls, 5.76m in total diameter and 4.40m long), positioned inside an iron yoke. Specifically the coil is a single conducting layer, consisting of Rutherford (Rb-Ti) cables co-extruded with high purity aluminium, held in an aluminium supporting cylinder with cooling channels welded on the outside.\\
 The cooling of the coil is performed employing thermo-syphoning cycles, while the current leads are cooled with liquid helium and the radiation shields using gas-He at 70K for a total cold mass of $\sim$8.5 tons. New cryogeny solutions are being evaluated at the moment.\\
 A section of KLOE's structure is shown in Figure \ref{KLOESection:fig}.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{KLOEsection.png}
-	\caption{\label{KLOESection:fig} Cross section of the KLOE detector. The lengths are shown in mm.} 
+	\caption{\label{KLOESection:fig} Cross section of the KLOE detector. The lengths are shown in mm. \cite{SAND}} 
 \end{figure}
 \subsection{KLOE's electro-magnetic calorimeter}
 \label{sec:ECAL}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{KLOEECAL.png}
-	\caption{\label{KLOEECAL:fig} Schematic cross section of KLOE showing the calorimeters from the front (top figure) and side (bottom figure). The segmentation at the ends of the calorimeters is made to portray the light-guides. The lengths are shown in mm.} 
+	\caption{\label{KLOEECAL:fig} Schematic cross section of KLOE showing the calorimeters from the front (top figure) and side (bottom figure). The segmentation at the ends of the calorimeters is made to portray the light-guides. The lengths are shown in mm. \cite{SAND}} 
 \end{figure}
-The KLOE electro-magnetic calorimeter (ECAL) is a sampling calorimeter made of lead and scintillating fiber which offer timing resolution under the ns range, good light transmission and great hermeticity. The barrel calorimeter is a cylinder segmented into twenty four trapezoidal modules 4.3 m long, 23 cm thick and bases of 52 and 59 cm. The ECAL is completed by two end-caps, divided into vertical modules of variable width and height between 0.7 m and 3.9 m and 23 cm thick. The end-cap modules are bent horizontally to place the photo-tubes in parallel with the magnetic field and ensure the absence of inactive gaps.\\
-The modules are read by photo-tubes connecting to photo-guides at both ends of the modules. The read-outs are divided into five planes, the first four being 4.4 cm deep and the last being 5.2 cm deep, each being subdivided into 4.4 cm elements, one for each light-guide.\\
+The KLOE electro-magnetic calorimeter (ECAL) is a sampling calorimeter made of lead and scintillating fiber which offer timing resolution under the ns range, good light transmission and great hermeticity \cite{KLOE magnet}. It will also be reused as SAND's calorimeter. The barrel calorimeter is a cylinder segmented into twenty four trapezoidal modules 4.3 m long, 23 cm thick and bases of 52 and 59 cm. The ECAL is completed by two end-caps, divided into vertical modules of variable width and height between 0.7 m and 3.9 m and 23 cm thick. The end-cap modules are bent horizontally to place the photo-tubes in parallel with the magnetic field and ensure the absence of inactive gaps.\\
+The modules are read by photo-tubes connecting to photo-guides at both ends of the modules. The read-outs are divided into five planes, the first four being 4.4 cm deep and the last being 5.4 cm deep, each being subdivided into 4.4 cm elements, one for each light-guide.\\
 The spacial, energetic and timing resolution evaluations performed during KLOE's commissioning and running phase amount to:
 \begin{itemize}
 	\item $r-\phi$ or $x-z$ spacial resolution determined by the read-out segmentation: 1.3 cm ($44/\sqrt{12}$ cm)
@@ -971,7 +971,7 @@ The spacial, energetic and timing resolution evaluations performed during KLOE's
 \end{itemize}  
 Figure \ref{KLOEECAL:fig} shows the layout of the ECAL with the light read-out segmentation.
 \subsection{The inner tracker}
-The inner tracker's design specification are directly dictated by the necessities of the physics goals of the Near Detector:
+The inner tracker's design specifications are directly dictated by the necessities of the physics goals of the Near Detector:
 \begin{enumerate}
 	\item High granularity to guaranty high resolution in momentum, angle and space, maintaining a low density and an overall thickness of about one radiation length $X_0$ to minimize secondary interactions;
 	\item Providing a large target for neutrino interactions, with a fiducial mass of the order of $\sim 5 $ tons;
@@ -979,13 +979,13 @@ The inner tracker's design specification are directly dictated by the necessitie
 	\item Particle identification for $e,\pi,K,p,\mu$;
 \end{enumerate} 
 The first two goals in particular seem to be in contrast with one another requiring at the same time a large target mass and a high precision and low density tracking system.\\
-A possible solution to the problem would be to separate the neutrino targets from the tracking system, which would then be negligibly light weigh with respect to the former. To preserve a low density and achieve the goal of maintaining the detector transparent to secondary particles, the target can be spread over the detector in smaller modules. This would make also the goal of having different target materials at the same time more easily achievable.
+The solution opted by the SAND STT design is to separate the neutrino targets from the tracking system, which are then negligibly light weight with respect to the former. To preserve a low density and achieve the goal of maintaining the detector transparent to secondary particles, the target is spread over the detector in smaller modules. This also makes the goal of having different target materials more easily achievable.
 \subsubsection{The straw tube tracker}
 One of the two main proposed design now in discussion to achieve the previously detailed goals is a tracker based on low-mass straw tube technology, to be positioned inside KLOE's magnet. The Straw Tube Tracker (STT) would be built in a compact modular fashion, each module being 43.8 mm thick and containing:
 \begin{itemize}
 	\item Four straw layers disposed in a XXYY configuration. Each straw would be 5 mm in diameter and made of 1000 Angstrom Al coated mylar, containing a tungsten wire 20 $\mu m$ in diameter. These would constitute the tracking component of the detector and would contribute to only 5\% of the of the total mass, having an average density of $\rho \sim0.17$ g/cm$^3$ and a radiation length of $X_0\sim 2.5$ m;
 	\item A polypropylene CH$_2$ solid target slab of 5 mm, whose thickness can be adjusted according to the desired detector mass;
-	\item A transition radiation (TR) radiator composed of 150 polypropylene 15 $\mu m$ thick foils, separated by 120 $\mu m$ gaps, occupied by a standard Xe/CO$_2$ 70/30 gas mixture. This specifics optimize the $e/\pi$ separation;
+	\item A transition radiation (TR) radiator composed of 150 polypropylene 15 $\mu m$ thick foils, separated by 120 $\mu m$ gaps, occupied by a standard Xe/CO$_2$ 70/30 gas mixture. This specifically optimizes the $e/\pi$ separation;
 \end{itemize}  
 \begin{figure}
 	\centering
@@ -995,9 +995,9 @@ One of the two main proposed design now in discussion to achieve the previously 
 A graphical representation of a section of a STT module is shown in Figure \ref{STTmodule:fig}. Both the polypropylene target and the TR radiator are removable components and can be substituted with a variety of targets. The most important alternative target would be graphite, which is crucial for the measurement of the C background in hydrogen interactions. A 4 mm graphite slab, placed in the same position as the CH$_2$ target slab, would be enough to maintain the same combined $X_0$ of both the polypropylene slab and the radiator. Of the 82 total modules of the STT, the standard CH$_2$ modules would be interleaved with 9 graphite ones, in its standard configuration. This would amount to a total of 677 kg of hydrogen targets and 528 kg of carbon targets.\\
 Another important target material is Ca. This could be implemented in the upstream modules much in the same vein as for the graphite. Calcium is important because is isoscalar to Ar allowing a complete characterization of A=40 nuclei, while also enabling various isospin measurements. Many other materials such as Pb and Fe could be implemented, according to the needs of the collaboration. \\
 The STT modules support frames need to provide an adequate mechanical support, while also adding a minimal amount of mass. A good compromise can be achieved with a design based on U-shaped beams made of C-composites, so that the $X_0$ traversed by the secondary particles is minimal.\\
-The STT design is overall very well equipped to provide for the physics goals set for SAND. It provides a very good spatial (< 200 $\mu m$), angular ($\sim$ 2 mrad), momentum ($\sim 3 \%$) and timing (important for resolving the beam structure) resolutions, while also offering good particle identification by exploiting both the ionization $dE/dx$ and TR for the $e/\pi$ separation. The polypropylene, in addition, targets offer a clean hydrogen target for the neutrino interactions, while also being easily interchanged with other materials at need. An additional small liquid Argon target is also added to the design.
+The STT design is overall very well equipped to provide for the physics goals set for SAND. It provides a very good spatial ($< 200 \mu m$), angular ($\sim$ 2 mrad), momentum ($\sim 3 \%$) and timing (important for resolving the beam structure) resolutions, while also offering good particle identification by exploiting both the ionization $dE/dx$ and TR for the $e/\pi$ separation. The polypropylene targets, in addition, offer a clean hydrogen target for the neutrino interactions, while also being easily interchanged with other materials at need. An additional small liquid Argon target is also added to the design.
 \subsubsection{The liquid Argon meniscus} 
-The presence of a small component of liquid Argon in SAND, is essential to understand the nuclear effects of the material that will constitute most of the Far Detector. This meniscus of LAr should be small enough to keep energy loss, showering and multiple Coulomb scattering to a minimum. While the exact position and dimension of this component are still in a phase of optimization phase, recent designs suggest a volume positioned almost in direct contact with the ECAL. It will require an additional cryostat system and will be equipped bwith scintillation light readout systems.
+The presence of a small component of liquid Argon in SAND, is essential to understand the nuclear effects of the material that will constitute most of the Far Detector. This meniscus of LAr should be small enough to keep energy loss, showering and multiple Coulomb scattering to a minimum. While the exact position and dimension of this component are still in a phase of optimization, recent designs suggest a volume positioned upstream, almost in direct contact with the ECAL. It will require an additional cryostat system and will be equipped with scintillation light readout systems.
 \section{Physics Program}
 \subsection{Reducing the systematics}
 In order to constrain the systematic uncertainties for the oscillation measurements that DUNE will have to perform, all the variables that enter in eq. \ref{eq:NX} need to be decoupled and measured independently:
@@ -1011,24 +1011,24 @@ In order to constrain the systematic uncertainties for the oscillation measureme
 A detailed characterization of the neutrino fluxes is a necessary condition for all measurements involving the near and far detector, and for the unfolding of the terms in eq. \ref{eq:NX}. SAND will determine both absolute $\nu_\mu$, $\bar{\nu}_\mu $ and relative $\nu_\mu$, $\bar{\nu}_\mu $, $\nu_e$, $\bar{\nu}_e $ fluxes through a series of measurements of different processes, the most important of which are the ones with hydrogen atoms and electrons. The STT provides a large quantity of hydrogen targets.\\
 Once the fluxes $\Phi(E_\nu)$ are measured, the other three parameters $\sigma_X R_{phys} R_{det}$ need to be unfolded. The unfolding of $\sigma_XR_{phys}$ requires that both Ar and lighter targets are present in the same detector, so that $R_{det}$ is the same between measurements. In particular for hydrogen targets we have $R_{phys}=1$, which means that the cross-section on H can be accuratly measured and the unfolding of the neutrino energy depends only on $R_{det}$ which is defined by $\delta p/p$. Comparing that with interactions on Argon in STT allows for the determination of $\sigma_XR_{phys}$.\\
 To constrain $R_{phys}$ separately one can define a set of kinematic variables sensitive to nuclear smearing, and compare the distributions of these observables in CC interaction samples on Ar and H. This strategy allows for a full determination of nuclear smearing effects with the neutrino spectrum seen by the ND, which is different from the one in the FD. For this reason it is essential to measure a complete set of kinematic variables, in order to resolve potential degeneracies.\\
-The measurement of $\sigma_X R_{phys}$ and the constraints on $R_{phys}$ offered by SAND can then be compared with the measurements made in the LAr ND to unfold $R_{det}$ in liquid Argon and to validate the predictions for the FD.
+The measurement of $\sigma_X R_{phys}$ and the constraints on $R_{phys}$ offered by SAND can then be compared with the measurements made in the LAr ND ArgonCube to unfold $R_{det}$ in liquid Argon and to validate the predictions for the FD.
 
 \subsection{Precision measurements and new physics}     
 The high precision of the SAND detector and the uniqueness of neutrinos as probes of fundamental interactions allow for an independent physics program of precision measurements and searches for new physics. In this section some of the opportunities presented by this broad physics program are outlined.
 \subsubsection{Precision measurements in the electro-weak sector}
-The characteristics of SAND allow for an improvement on the previous best measurements of the weak mixing angle ($\sin^2\theta_{W}$), performed by the NuTeV experiment in neutrino DIS interactions. The measurement of this parameter in SAND would provide a direct determination of the coupling of the neutrinos with $Z^0$ while at the same time probing a different momentum transfer scale than LEP.\\
+The characteristics of SAND allow for an improvement on the previous best measurements of the weak mixing angle ($\sin^2\theta_{W}$), performed by the NuTeV experiment in neutrino DIS interactions \cite{NuTeV}. The measurement of this parameter in SAND would provide a direct determination of the coupling of the neutrinos with $Z^0$ while at the same time probing a different momentum transfer scale than LEP.\\
 The DUNE ND complex could measure $sin^2\theta_W$ from the ratio of NC and CC neutrino DIS interactions $\mathcal{R}=\sigma_\nu^{NC}/\sigma_\nu^{CC}$. The high resolution of the STT and the efficiency of the determination of electron neutrino CC interactions and of the separation of NC and CC events via kinematic analysis, would allow for a substantial improvement on previous experiments' systematics and overall precision. The uncertainties in the determination of $\mathcal{R}$ would be dominated by the ones introduced by the theoretical models used for the the structure of the nuclear targets.\\
-A separate channel for the determination of the weak mixing angle is the $\nu_\mu e$ NC elastic scattering, which would be uneffected by nuclear model uncertainties, but would be limited in statistics by the small cross section of the process. In particular the observable used would be the ratio between neutrino and antineutrino NC interactions $\mathcal{R}_{\nu e}=\sigma(\bar{\nu}_{\mu}e\rightarrow\bar{\nu}_{\mu}e)/\sigma(\nu_{\mu}e\rightarrow\nu_{\mu}e)$. This measurement is characterized by a totally different momentum transfer scale from the one performed measuring the neutrino DIS interactions. This would allow for a test on the running of $\sin^2\theta_W$ in the same experiment.
+A separate channel for the determination of the weak mixing angle is the $\nu_\mu e$ NC elastic scattering, which would be uneffected by nuclear model uncertainties, but would be limited in statistics by the small cross section of the process. In particular the observable used would be the ratio between neutrino and antineutrino NC interactions $\mathcal{R}_{\nu e}=\sigma(\bar{\nu}_{\mu}e\rightarrow\bar{\nu}_{\mu}e)/\sigma(\nu_{\mu}e\rightarrow\nu_{\mu}e)$. This measurement is characterized by a totally different momentum transfer scale from the one performed measuring the neutrino DIS interactions. This would allow for a test on the running of $\sin^2\theta_W$.
 \subsubsection{Isospin physics tests}
-The availability of large statistics of neutrino-hydrogen interactions in SAND allows for the testing of isospin sum rules, which at the moment suffer from low statistics. These include the Adler sum rule $S_{A}= 0.5 \int_{0}^{1}dx/x(F_2^{\bar{\nu}p}-F_2^{\nu p})=I_P$, which gives the isospin of the target and the Gross-Llewyn-Smith(GLS) sum rule $S_{GLS}= 0.5 \int_{0}^{1}dx/x(xF_3^{\bar{\nu}p}-xF_3^{\nu p})$. Both could be measured as a function of the momentum transfer $Q^2$ in neutrino and anti-neutrino interactions on hydrogen from the respective structure functions, which in turn could be determined from the corresponding differential cross-sections. The measurement of $S_A$ in particular would be sensitive to violation of isospin symmetry, charm production and strange sea ($s-\bar{s}$) asymmetries.\\
-Thanks to the combination of nuclear and proton (H) targets SAND is also capable of testing isospin charge symmetry ( which implies that $F_{2,3}^{\bar{\nu}p}=F_{2,3}^{\nu n}$ and for isoscalar targets $F_{2,3}^{\bar{\nu}}=F_{2,3}^{\nu }$ ).
+The availability of large statistics of neutrino-hydrogen interactions in SAND allows for the testing of isospin sum rules, which at the moment suffer from low statistics. These include the Adler sum rule $S_{A}= 0.5 \int_{0}^{1}dx/x(F_2^{\bar{\nu}p}-F_2^{\nu p})=I_P$ \cite{Adler}, which gives the isospin of the target and the Gross-Llewyn-Smith(GLS) sum rule $S_{GLS}= 0.5 \int_{0}^{1}dx/x(xF_3^{\bar{\nu}p}-xF_3^{\nu p})$ \cite{GLS}. Both could be measured as a function of the momentum transfer $Q^2$ in neutrino and anti-neutrino interactions on hydrogen from the respective structure functions, which in turn could be determined from the corresponding differential cross-sections. The measurement of $S_A$ in particular would be sensitive to violation of isospin symmetry, charm production and strange sea ($s-\bar{s}$) asymmetries.\\
+Thanks to the combination of nuclear and proton (H) targets SAND is also capable of testing isospin charge symmetry (which implies that $F_{2,3}^{\bar{\nu}p}=F_{2,3}^{\nu n}$ and for isoscalar targets $F_{2,3}^{\bar{\nu}}=F_{2,3}^{\nu }$ ).
 \subsubsection{Strangeness measurements of the nucleus}
 While the strange quark vector elastic form factors have been precisely measured in parity-violating electron scattering experiments, the strange component of the axial-vector form factors $G_{A}^s$ are not yet well determined. SAND will have access to this parameter from measurements of NC elastic scattering off protons $\nu_\mu(\bar{\nu}_\mu)+p\rightarrow\nu_\mu(\bar{\nu}_\mu)+p$. The differential cross section for this process is proportional to the axial vector form factor in the limit that $Q^2\rightarrow0$: 
 \begin{equation}
 \frac{d\sigma}{dQ^2}\propto G_1^2 = \bigg(-\frac{G_A}{2}+\frac{G_A^s}{2}\bigg)^2
 \end{equation}
 $G_A$, which is the known axial form factor, can be determined by SAND by measuring the ratio of the NC elastic and quasi-elasti processes over a large $Q^2$ range: $\mathcal{R}_{\nu (\bar{\nu})p}=\sigma(\nu_\mu (\bar{\nu}_\mu)p \rightarrow\nu_\mu (\bar{\nu}_\mu)p)/\sigma(\nu_\mu (\bar{\nu}_\mu)n(p) \rightarrow\mu^-(\mu^+)p(n))$. Note that the determination of $G_A^s$ also represents the most direct method of measuring the value of the nucleon spin $\Delta s$, since for $Q^2=0$ we have that $G_A^s\rightarrow \Delta s$.\\
-The resolution of the STT also renders SAND capable to do precise measurements of charmed mesons decay modes, such as the $\mu\mu$ and $\mu e$ semi-leptonic charmed decay channels. The study of charm production resulting from $\nu$ and $\bar{\nu}$ interactions with the nuclei, offers a direct probe into the strangeness content of the nucleons.
+The resolution of the STT also renders SAND capable to do precise measurements of charmed mesons decay modes, such as the $\mu\mu$ and $\mu e$ semi-leptonic charmed decay channels. The study of charm production resulting from $\nu$ and $\bar{\nu}$ interactions with the nuclei, offers a direct probe into the strangeness content of the nucleons \cite{strangeness}.
 \subsubsection{Nucleon structure and QCD studies} 
 SAND will offer a precise calibration of energy scale uncertainties and high precision measurements of neutrino and antineutrino fluxes. This allows for a determination of nucleon structure functions $F_2,xF_3,F_L,F_T$ using neutrino neutrino and antineutrino DIS interactions. Parton Distribution Functions (PDFs) as well as perturbative and non-perturbative corrections could also be studied performing global QCD analyses over a broad range of $Q^2$ and Bjorken x. The presence of both Hydrogen and nuclear targets in SAND are essential to separate valence and sea quarks distributions, $d$ and $u$ distributions as well as $s$ and $\bar s$ distributions.  
 \subsubsection{Neutrino-nucleus interaction studies} 
@@ -1044,21 +1044,21 @@ SAND would also enhance the sensitivity of the ND to dark sector physics. This i
 \rhead[\fancyplain{}{\bfseries Chapter 4: The simulation}]{\fancyplain{}{\bfseries\thepage}}
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Chapter 4: The simulation}}
           \label{chapter 4}
-The simulation performed for this thesis required the utilisation of a few different software all selected following the ND collaboration recommendations. In order to simulate the neutrino interactions with matter we used the Montecarlo generator GENIE, which has been officially adopted by the entire DUNE collaboration (Section \ref{sec: GENIE}). The geometry of SAND and the Near Detector complex were produced in form of GDML files, using $dunendggd$, a geometry generation tool entirely based on GGD (General Geometry Description). The present SAND's ECAL geometry in particular has been produced during this thesis (Section \ref{sec: GGD}). The propagation of the particles generated by the neutrino interactions in the geometry was done using edep-sim, a simulation tool based on Geant4 (Section \ref{sec: edep-sim}). Finally the digitization of the signal produced in the ECAL was done using C++ code, based on previous simulations performed for the KLOE detector (Section \ref{sec: digitization}).    
+The simulation performed for this thesis required the utilisation of a few different software, all selected following the ND collaboration recommendations \cite{ND collaboration}. In order to simulate the neutrino interactions with matter we used the Montecarlo generator GENIE, which has been officially adopted by the entire DUNE collaboration (Section \ref{sec: GENIE}). The geometry of SAND and the Near Detector complex were produced in form of GDML files, using $dunendggd$, a geometry generation tool entirely based on GGD (General Geometry Description). The present SAND's ECAL geometry in particular has been produced during this thesis (Section \ref{sec: GGD}). The propagation of the particles generated by the neutrino interactions in the geometry was done using edep-sim, a simulation tool based on Geant4 (Section \ref{sec: edep-sim}). Finally the digitization of the signal produced in the ECAL was done using C++ code, based on previous simulations performed for the KLOE detector (Section \ref{sec: digitization}).    
 \section{GENIE: MC neutrino generator}
 \label{sec: GENIE}
-GENIE is a ROOT-based neutrino Montecarlo (MC) generator, designed using object-oriented methodologies and developed in C++. The present version provides comprehensive neutrino interaction modelling in a range that spans from about 100 MeV to a few hundred GeV, with the long term goal of expanding down to around 1 MeV and up to $\sim 1$ PeV. \\
-GENIE has been adopted by the majority of neutrino experiment including the Numi neutrino beam-line at Fermilab, and is the first attempt at a canonical neutrino event generator. Such a tool is essential in the design and execution of the new generation of neutrino experiments, including DUNE, that aim to reach a new level of precision. The universality of GENIE in the neutrino experimental field, in particular, solves many problems that the previous MC generator had, due to the fact that they developed independently for each experiment (for example GENEVE, NEUT, NeuGEN). This limitation made the generators fragile and in many cases incapable of keeping up with the state of the art in terms of theoretical models and experimental data.\\
-GENIE also responds to the necessity of having consistent modelling over the wide energetic range of interest for present and future neutrino experiments, were perturbative and non-perturbative nucleon interactions and many scattering mechanisms are relevant. Often cross section, hadronization and nuclear models have different ranges of validity and need to be pieced together in order to cover all of the available phase space. There are also cases outside these ranges of validity for which new models need to be developed with the additional problem of the general lack of data in the ranges of modern accelerator neutrino experiments. In many cases the simulations are still tuned using data from bubble chamber experiments that date back to the 70's and 80's.
+GENIE is a ROOT-based neutrino Montecarlo (MC) generator, designed using object-oriented methodologies and developed in C++ \cite{GENIE manual}. The present version provides comprehensive neutrino interaction modelling in a range that spans from about 100 MeV to a few hundred GeV, with the long term goal of expanding down to around 1 MeV and up to $\sim 1$ PeV. \\
+GENIE has been adopted by the majority of neutrino experiment including the Numi neutrino beam-line at Fermilab, and is the first attempt at a canonical neutrino event generator. Such a tool is essential in the design and execution of the new generation of neutrino experiments, including DUNE, that aim to reach new levels of precision. The universality of GENIE in the neutrino experimental field, in particular, solves many problems that the previous MC generator had, due to the fact that they were developed independently for each experiment (for example GENEVE, NEUT, NeuGEN). This limitation made the generators fragile and in many cases incapable of keeping up with the state of the art in terms of theoretical models and experimental data.\\
+GENIE also responds to the necessity of having consistent modelling over the wide energetic range of interest for present and future neutrino experiments, where perturbative and non-perturbative nucleon interactions and many scattering mechanisms are relevant. Often cross section, hadronization and nuclear models have different ranges of validity and need to be pieced together in order to cover all of the available phase space. There are also cases outside these ranges of validity for which new models need to be developed with the additional problem of the general lack of data in the ranges of modern accelerator neutrino experiments. In many cases the simulations are still tuned using data from bubble chamber experiments that date back to the 70's and 80's.
 \subsection{GENIE usage for the ND collaboration}
-GENIE takes as imput a neutrino flux and a geometry representation, and gives as output a file with information regarding the process simulated and the particles in the final state. In particular the output file contains the list of particles that exit the struck nucleus after scattering interaction, hadronization and final state interactions. This file is then handed to edep-sim for propagation.\\
+GENIE takes as input a neutrino flux and a geometry representation, and gives as output a file with information regarding the process simulated and the particles in the final state. In particular the output file contains the list of particles that exit the struck nucleus after scattering interaction, hadronization and final state interactions. This file is then handed to edep-sim for propagation.\\
 The fluxes files used by the ND collaboration and in the scope of this thesis are taken from the LBNF beam simulation under the guidance of the beam group. These files come in a variety of formats such as: 
 \begin{itemize}
 	\item \emph{dk2nu} files which record information about the decay of hadrons and muons that generate the neutrinos in the beam line, while also providing a flux driver to integrate into GENIE;
 	\item \emph{GSimpleNtpFlux} files, a NTuple format contained into GENIE for storing flux ray information with minimal formatting;
 	\item \emph{ROOT histograms} containing informations regarding the flux neutrino spectrum for all flavours, at the ND (before oscillation) and FD (after oscillation) and the respective CC and NC event rates as a function of energy;
 \end{itemize}  
-For the simulation performed in this thesis the latter format has been used. In particular the files are the ones produced with the optimized 3-Horn Design by the LBNF collaboration and presented in the Beam Optimization Review of October 2017. The unoscillated neutrino and antineutrino spectra and NC/CC interaction rates are shown in Fig \ref{NuFlux:fig} and Fig. \ref{NubarFlux:fig} respectively.\\
+For the simulation performed in this thesis the latter format has been used. In particular the files are the ones produced with the optimized 3-Horn Design by the LBNF collaboration and presented in the Beam Optimization Review of October 2017 \cite{flussi}. The unoscillated neutrino and antineutrino spectra and NC/CC interaction rates are shown in Fig \ref{NuFlux:fig} and Fig. \ref{NubarFlux:fig} respectively.\\
 Note that the calculation of cross sections for individual sub-processes are pre-calculated as a function of neutrino energy and stored in XML formatted splines. The ones used in this thesis have been partially retrieved from the previously existing ones recommended by the ND collaboration and partially generated using GENIE's internal spline generator. 
 \clearpage
 \begin{figure}
@@ -1095,9 +1095,8 @@ Note that the calculation of cross sections for individual sub-processes are pre
 	\includegraphics[width=0.9\textwidth]{hall.png}
 	\caption{\label{hall:fig} Image of the ND hall geometry generated with \emph{dunendggd} and drawn using the OPL ROOT graphic tool.} 
 \end{figure}
-The General Geometry Description (GGD) is a python based software system used to generate GDML files containing descriptions of constructive solid geometries. The geometry conventions are the ones used by ROOT and Geant4. \\
-The DUNE ND collaboration has developed its own geometry generation tool called \emph{duneggdnd}, entirely based on GGD. In Fig. \ref{hall:fig} an image of the ND hall geometry generated with \emph{dunendggd} and drawn using the OGL ROOT graphic tool is shown. It contains the LAr detector, HPgTPC detector and SAND. The origin of coordinates is chosen to be the location where the beam enters the hall which is assumed to be 574m from the beam's origin, directly on the beam axis
-\subsection{SAND's geometry and the ECAL}
+The General Geometry Description (GGD) is a python based software system used to generate GDML files containing descriptions of constructive solid geometries \cite{ggd}. The geometry conventions are the ones used by ROOT and Geant4. \\
+The DUNE ND collaboration has developed its own geometry generation tool called \emph{duneggdnd}, entirely based on GGD \cite{dunendggd}. In Fig. \ref{hall:fig} an image of the ND hall geometry generated with \emph{dunendggd} and drawn using the OGL ROOT graphic tool is shown. It contains the LAr detector, HPgTPC detector and SAND. The origin of coordinates is chosen to be the location where the beam enters the hall which is assumed to be 574m from the beam's origin, directly on the beam axis.\\
  \begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.8\textwidth}
@@ -1111,15 +1110,16 @@ The DUNE ND collaboration has developed its own geometry generation tool called 
 	\end{subfigure}
 	\caption{\label{kloe:fig} Front (a) and lateral (b) cross section of the SAND geometry produced with \emph{dunendggd} anddrawn with the ROOT graphical tool OGL.The main components of the detector are highlighted: the iron yoke, the magnet, the ECAL, the STT and the LAr meniscus.} 
 \end{figure}
-SAND's geometry descriptions have been produced by the Near Detector collaboration, both for the STT configuration described in Chapter 3 and for the alternative 3DST tracker. A graphical representation of the STT design developed with \emph{dunendggd} is shown in Figure \ref{kloe:fig}, with its main components (the iron yoke, the magnet, the ECAL, the STT and the LAr meniscus). Both designs are in a phase of development and tuning, making new tweaks to the geometries a frequent occurrence. In particular for the purposes of this thesis, a new geometry for SAND's electro-magnetic calorimeter has been produced.\\ 
+SAND's geometry descriptions have been produced by the Near Detector collaboration, both for the STT configuration described in Chapter 3 and for the alternative 3DST tracker. A graphical representation of the STT design developed with \emph{dunendggd} is shown in Figure \ref{kloe:fig}, with its main components highlighted:the iron yoke, the magnet, the ECAL, the STT and the LAr meniscus. Both designs are in a phase of development and tuning, making new tweaks to the geometries a frequent occurrence. The present geometries for the two active components of the detector (i.e. the ECAL and the STT) need to be described more in detail.
+\subsection{Sand's ECAL}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.65\textwidth]{ecal.png}
+	\includegraphics[width=0.55\textwidth]{ecal.png}
 	\caption{\label{ecal:fig} Image of the SAND's ECAL's geometry generated with \emph{dunendggd} and drawn using the OPL ROOT graphic tool. The distance between the two inner faces of the endcaps (338cm) and the length of the barrel section (430 cm) are highlighted.} 
 \end{figure}
-As described in Section \ref{sec:ECAL} SAND's ECAL is a sampling calorimeter made of lead and scintillating fibre divided into a barrel section and two end-cap sections. The barrel calorimeter is a cylinder segmented into twenty four trapezoidal modules 4.3 m long, 23 cm thick and bases of 52 and 59 cm. The two end-caps are divided into vertical modules of variable width and height. \\
-A series of approximations, based on previous Fortran based simulations made for the KLOE detector, have been made in the geometry. The calorimeter modules have been constructed from alternating slabs of plastic scintillator and lead, rather than from individual fibres. Both the end-cap and barrel modules are composed of 209 slabs of each kind, the Pb slabs being 0.04 cm thick and the scintillating ones being 0.07 cm thick.\\
-The second major simplification is that while the barrel modules are simulated with their real dimensions and shape, the end-caps are approximated to be two hollow cylinders of inner diameter 41.6 cm and outer diameter 400 cm. The "bend" that characterises the real end-cap is not reproduced, and no further separation into modules is simulated. The end-cap segmentation, as well as the simulation of the individual Photo-multiplier cells is left to the digitisation step of the simulation.\\
+For the purposes of this thesis, a new geometry for SAND's electro-magnetic calorimeter has been produced.As described in Section \ref{sec:ECAL} SAND's ECAL is a sampling calorimeter made of lead and scintillating fibre divided into a barrel section and two end-cap sections. The barrel calorimeter is a cylinder segmented into twenty four trapezoidal modules 4.3 m long, 23 cm thick and bases of 52 and 59 cm. The two end-caps are divided into vertical modules of variable width and height. \\
+A series of approximations, based on previous Fortran simulations made for the KLOE detector, have been made in the geometry. The calorimeter modules have been constructed from alternating slabs of plastic scintillator and lead, rather than from individual fibres. Both the end-cap and barrel modules are composed of 209 slabs of each kind, the Pb slabs being 0.04 cm thick and the scintillating ones being 0.07 cm thick.\\
+The second major simplification is that while the barrel modules are simulated with their real dimensions and shape, the end-caps are approximated to be two hollow cylinders of inner diameter 41.6 cm and outer diameter 400 cm. The "bend" that characterises the real end-cap is not reproduced, and no further separation into modules is simulated. The end-cap segmentation, as well as the simulation of the individual Photo-Multiplier cells is left to the digitisation step of the simulation.\\
 In Figure \ref{ecal:fig} a graphical representation of the entire calorimeter is shown, while the individual barrel and end-cap modules are shown in Figure \ref{calmod:fig}.
 \begin{figure}
  	\centering
@@ -1134,7 +1134,7 @@ In Figure \ref{ecal:fig} a graphical representation of the entire calorimeter is
  	\end{subfigure}
  	\caption{\label{calmod:fig} Front and lateral cross section of a ECAL barrel module (a) and a ECAL endcap module. The geometries have been produced with \emph{dunendggd} and drawn with the ROOT graphical tool OGL. The components in green represent the scintillator slabs, while the the components in grey represent the Lead slabs.} 
 \end{figure}
-
+\clearpage
 \section{Edep-sim: charged particle propagation}
 \label{sec: edep-sim}
 \begin{figure}
@@ -1142,25 +1142,26 @@ In Figure \ref{ecal:fig} a graphical representation of the entire calorimeter is
 	\includegraphics[width=0.8\textwidth]{viewer.png}
 	\caption{\label{viewer:fig} Image of a $\nu_\mu$ CC interaction products generated in SAND's ECAL's geometry with GENIE and propagated using edep-sim. The green dots represent the energy deposition hits of the exiting muon. The image has been produced using edep-sim's internal viewer, edep-disp.} 
 \end{figure}
-The energy deposition simulation (edep-sim) is a wrapper around the GEANT4 particle propagation simulation. Given a particle kinematics input file and a geometry gdml or root file, edep-sim is capable of simulating the particle propagation.\\
+The energy deposition simulation (edep-sim) is a wrapper around the GEANT4 particle propagation simulation \cite{edep-sim}. Given a particle kinematics input file and a GDML or ROOT geometry file, edep-sim is capable of simulating the particle propagation.\\
 Edep-sim supports a variety input file formats, including both NEUT and GENIE output files. In particular GENIE files are read in the "rootracker" format, which is a GENIE event ROOT tree standard evolved from work on
 integrating the GENIE simulations with the nd280, INGRID and 2km detector-level MC generators. In particular during this thesis the t2k variant of the format was used. Edep-sim is also capable of generating and propagating beams of particles in a more standard way using Geant4 command macros. This capability was also used in the scope of this thesis.\\
-The output is a a standard root file containing two keys: a TGeoManager object with the simulated  geometry, and a TG4Event tree (an edep-sim specific class) containing the event information. The TG4Event class contains the event number, the run number, information about the propagated primary particles, the particle tracks and the energy deposition.\\
-In Figure a graphical representation of a neutrino event generated using GENIE and propagated using edep-sim in SND's simulated geometry is shown. In particular it is a $\nu_\mu$ CC interaction, generated in one of SAND's ECAL front modules. The figure was produced using edep-disp, edep-sim's internal event viewer.
-\section{ECAL signal digitization}
+The output is a a standard ROOT file containing two keys: a TGeoManager object with the simulated  geometry, and a TG4Event tree (an edep-sim specific class) containing the event information. The TG4Event class contains the event number, the run number, information about the propagated primary particles, the particle tracks and the energy deposition.\\
+In Figure \ref{viewer:fig} a graphical representation of a neutrino event generated using GENIE and propagated using edep-sim in SAND's simulated geometry is shown. In particular it is a $\nu_\mu$ CC interaction, generated in one of SAND's ECAL front modules. The figure was produced using edep-disp, edep-sim's internal event viewer.
+\section{Signal digitization}
 \label{sec: digitization}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{cellbarrel.png}
 	\caption{\label{cellbarrel:fig} Graphical representation of the segmentation of one of the barrel calorimeter modules. The module is divided into five vertical layers: the first four from the bottom are 4.4 cm thick and the last is 5.4 cm thick. Each layer is further divided into 12 horizontal cells. } 
 \end{figure}
-As already mentioned in Section \ref{sec:ECAL}, the photo-electrons produced in the ECAL fibres by passing charged particles, are collected by photo-multipliers connected at both ends of the calorimeter modules. These PMs define a segmentation in the signal collection into layers and cells. We simulate this division via a signal digitization C++ program that takes the information contained in the edep-sim output trees and given the position of the hits, assigns the energy deposition to the correct calorimeter cell. The program has been developed using the specifications given by the KLOE collaboration, and adapted during the scope of this thesis the the new calorimeter geometry.\\
-The barrel calorimeter modules are divided into five horizontal layers. Starting from the smaller base layers 0 to 3 contain 40 Pb slabs and 40 scintillator slabs each, for a total of 4.4 cm in thickness. Layer 4 is 5.4 cm thick, containing 49 slabs of each kind. The layers are further divided into 12 trapezoidal cells, each having equally large bases. The cells are numbered from left to right as shown in Figure \ref{cellbarrel:fig}. Each module is also assigned a number id from 0 to 23, starting from the top module and proceeding counter-clockwise.\\
-The two end-cap modules are similarly divided into four layers having the same thicknesses of the barrel module ones. Each layers contains 45 rectangular cells all having the same area. The enumeration of the cells and layers is analogous to the one for the barrel modules, while the two end-caps are given the id's 30 and 40.\\
+\subsection{The ECAL}
+As already mentioned in Section \ref{sec:ECAL}, the photo-electrons produced in the ECAL fibres by passing charged particles, are collected by photo-multipliers connected at both ends of the calorimeter modules. These PMs define a segmentation in the signal collection into layers and cells. We simulate this division via a signal digitization C++ program that takes the information contained in the edep-sim output trees and, given the position of the hits, assigns the energy deposition to the correct calorimeter cell. The program has been developed based on previous simulations performed by the KLOE collaboration, and adapted during the scope of this thesis the the new calorimeter geometry.\\
+The barrel calorimeter modules are divided into five horizontal layers. Starting from the smaller base, layers number 0 to 3 contain 40 Pb slabs and 40 scintillator slabs each, for a total of 4.4 cm in thickness. Layer 4 is 5.4 cm thick, containing 49 slabs of each kind. The layers are further divided into 12 trapezoidal cells, each having equally large bases. The cells are numbered from left to right as shown in Figure \ref{cellbarrel:fig}. Each module is also assigned a number id from 0 to 23, starting from the top module and proceeding counter-clockwise.\\
+The two end-cap modules are similarly divided into four layers having the same thicknesses of the barrel modules' ones. Each layers contains 45 rectangular cells all having the same area. The enumeration of the cells and layers is analogous to the one for the barrel modules, while the two end-caps are given the id's 30 and 40.\\
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{showevent.png}
-	\caption{\label{showevent:fig} Graphical representation of the digitized signal produced by the particles generated in a $\nu_\mu$ interaction event having vertex in one of the front calorimeter modules. The cells hit by the particles where an energy deposition took place are coloured in red and black, with the red ones having a higher dE/dx. The particle tracks are also highlighted, with the muon being coloured in blue, the neutrons in black and the photons in red. The left panel presents a projection on the ZY plane and the right one on the XY plane, both considering the global ND hall coordinates.  } 
+	\caption{\label{showevent:fig} Graphical representation of the digitized signal produced by the particles generated in a $\nu_\mu$ CC interaction event, having vertex in one of the front calorimeter modules. The cells hit by the particles are coloured in red and black, with the red ones having a higher energy deposition. The particle tracks are also highlighted, with the muon being coloured in blue, the neutrons in black and the photons in red. The left panel presents a projection on the ZY plane and the right one on the XY plane. Both are scaled according to the global ND hall coordinates.  } 
 \end{figure}
 Once the calorimeter is properly segmented we extract the information contained in the edep-sim output files, regarding the hits of the propagated particles contained in the active scintillator slabs. The hit is automatically assigned by edep-sim to the module in which the slab is contained. Given the hit position we then allocate it in the cell whose centre is the closest in terms of:
 \begin{equation}
@@ -1170,28 +1171,131 @@ Proceeding this way for each simulated event, each cell is assigned a collection
 \begin{equation}
 	E_{A}= p_1 \times \exp\bigg(-\frac{d}{alt1}\bigg)+ (1-p_1)\times \exp\bigg(-\frac{d}{alt2}\bigg)
 \end{equation}
-where $d$ is the distance between the center of the cell and the closest photo-cathode, $p_1=0.35$, $alt1=50$ cm and $alt2$ is 430 cm for planes 0 and 1, 380 cm for plane 3 and 330 cm for planes 3 and 4. For each MeV of energy deposited on the photo-cathode on average 25 photo-electrons are produced. The number of p.e. for each hit is then extracted from a Poisson distribution having $25 \times E_A$ as its most probable value. The ADC (analogue to digital converter) signal assigned to the PM for each event is proportional to the total number of photo-electrons produced on the photo-cathode (in our simple simulation the two numbers coincide).\\ 
+where $d$ is the distance between the center of the cell and the closest photo-cathode, $p_1=0.35$, $alt1=50$ cm and $alt2$ is 430 cm for planes 0 and 1, 380 cm for plane 2 and 330 cm for planes 3 and 4. For each MeV of energy deposited on the photo-cathode on average 25 photo-electrons are produced. The number of p.e. for each hit is then extracted from a Poisson distribution having $25 \times E_A$ as its most probable value. The ADC (analogue to digital converter) signal assigned to the PM for each event is proportional to the total number of photo-electrons produced on the photo-cathode In our simple simulation the two numbers coincide.\\ 
 A graphical representation of the energy deposition divided between the calorimeter cells is shown in Figure \ref{showevent:fig}. The event displayed is the same as the one shown in Figure \ref{viewer:fig}.\\
-To each photo-electron produced is assigned a time. This is simulated as being obtained via time to digital converters (TDC) applied to the PMs at both ends of the cells. Each cell is thus associated with two time values from the TDC's: $t_{TDC1}$ and  $t_{TDC1}$. The individual photo-electron time $t_{p.e.}$ is given by:
+To each photo-electron produced is also assigned a time. This is simulated as being obtained via time to digital converters (TDC) applied to the PMs at both ends of the cells. Each cell is thus associated with two time values from the TDC's: $t_{TDC1}$ and  $t_{TDC1}$. The individual photo-electron time $t_{p.e.}$ is given by:
 \begin{equation}
-t_{p.e}= t_{part}+ t_{decay}+ d \cdot v_{ph} + Gauss(\text{1ns}) 
+t_{p.e}= t_{part}+ t_{decay}+ d \cdot u_{ph} + Gauss(\text{1ns}) 
 \end{equation}
-where $t_{part}$ is the time spent by the particle inside the cell, $t_{scint}$ is the scintillation decay time, $d$ is the distance between the hit and the closest PM, $v_{ph}=5.85$ ns/m is the propagation velocity of the photons in the scintillator material (and thus $d \cdot v_{ph}$ is the photon propagation time) and $Gauss$(1ns) is the the uncertainty, extracted from a Gauss distribution with the most probable value being 1 ns. $t_{part}$ is calculated from the difference between production time of the first and last photo-electron. The scintillation decay time is given by:
+where $t_{part}$ is the time spent by the particle inside the cell, $t_{scint}$ is the scintillation decay time, $d$ is the distance between the hit and the closest PM, $u_{ph}=5.85$ ns/m is the inverse of the propagation velocity of the photons in the scintillator material (and thus $d \cdot u_{ph}$ is the photon propagation time) and $Gauss$(1ns) is the uncertainty, extracted from a Gauss distribution with the most probable value being 1 ns. \\
+$t_{part}$ is calculated from the difference between production time of the first and last photo-electron. The scintillation decay time is given by:
 \begin{equation}
 t_{decay}=t_{scin}\cdot\bigg(\frac{1}{r_{ph}(1)}-1\bigg)\cdot t_{scex}\text{  (ns)}
 \end{equation}
-where $t_{scin}=3.08 ns$ and $t_{scex}$. Each photo-electron is thus assigned a time $t_{p.e}$, producing two time arrays, one for each PM, that go in increasing order. The two TDC times $t_{TDC1}$ and $t_{TDC2}$, are thus given by selecting the p.e. time that is positioned at 15\% of the $t_{p.e.}$ list for each of the two TDC.\\
+where $t_{scin}=3.08 ns$ and $t_{scex}= 0.588$. Each photo-electron is thus assigned a time $t_{p.e}$, producing two time arrays, one for each PM, that go in increasing order. The two TDC times $t_{TDC1}$ and $t_{TDC2}$, are given by selecting the p.e. time that is positioned at 15\% of the $t_{p.e.}$ list for each of the two TDC's.\\
 At the end of the digitization process, an output file is produced, in which for each event, for every cell in which there was an energy deposition, the following information is recorded:
 \begin{itemize}
 	\item The spatial position of the cell centre in the global coordinates of the ND hall;
-	\item The module, layer and cell identification number and its length;
+	\item The module, layer and cell identification numbers and the module length;
 	\item The two ADC values, corresponding to the number of photo-electrons produced on each photo-cathode ($N_{p.e.1}$ and $N_{p.e.2}$);
 	\item The two TDC times ($t_{TDC1}$ and $t_{TDC2}$); 
 	\item Two arrays containing the photo-electron times in increasing order ($t_{p.e.1}[N_{p.e.1}]$ and $t_{p.e.2}[N_{p.e.2}]$) ;
-	\item Two hindex arrays linking the p.e. times to the hits that produced them from the Montecarlo truth;
+	\item Two index arrays linking the p.e. times to the hits that produced them stored in the Montecarlo truth edep-sim file;
 \end{itemize}
-  
-\chapter{Analysis and results}
+\subsection{The STT}
+The active component of the STT modules consists of two double layers of straw tube trackers: the first placed horizontally (XX) and the second placed vertically (YY). The first step of the digitization of these detector components, consists in dividing the hits produced by the particles propagated using edep-sim, into clusters: one for each straw contained in the detector. The hits are then reorganised from the first to the last being produced in each straw. Finally an output file is produced, where for each straw having been hit by at least a particle the following information is contained:
+\begin{itemize}
+	\item The straw name, in which the module and the plane are specified;
+	\item The x, y, and z in the ND hall coordinate system and the time associated to the hit cluster. Each of the coordinates is calculated simply as the mean between the value associated to first and last hits in the cluster;
+	\item The total energy deposition of the hit cluster;
+	\item A flag indicating if the straw hit is horizontal or vertical;
+	\item A index array mapping the cluster to the hits that produced it from the Montecarlo truth;
+\end{itemize}
+\section{Reconstruction}	
+The reconstruction C++ code is divided between the track reconstruction performed in the STT and the cluster reconstruction in the ECAL. The first performs a fit of the helicoidal trajectory of the charged particles moving in the STT magnetic field, by using the hit coordinate information from the STT digitization output, which also allows for a reconstruction of the particle initial momentum. The second reconstructs the energy deposition in the calorimeter from the digitized cell signal.
+\subsection{STT track and momentum reconstruction}
+A charged particle entering the tracking region of the SAND detector is effected by the 0.6T magnetic field pointing in the x direction of the ND hall coordinates, and describes a helical trajectory: a combination of the circular motion on ZY plane, perpendicular to the magnetic field and a linear motion parallel to $B$ in the z direction. The helix can be described parametrically as a function of the spatial progression along the trajectory $s$:
+\begin{equation}
+\begin{cases}
+	z(s)=z_0+R\Big(\cos(\Phi_0+\frac{hs\cos\lambda}{R})-\cos\Phi_0\Big)\\
+	y(s)=y_0+R\Big(\cos(\Phi_0+\frac{hs\cos\lambda}{R})-\cos\Phi_0\Big)\\
+	x(s)=x_0+s\sin\lambda
+\end{cases}
+\end{equation} 
+where $(x_0,y_0,z_0)$ can be taken as the coordinates of the first point along the trajectory, $\Phi_0$ is the angle between the z axis and the line connecting the centre of the circumference $(y_C,z_C)$ and the point $(y_0,z_0)$ in the YZ plane, $R$ is the radius of the circumference, $\lambda$ is the angle between the velocity vector $\vec{v}$ and the plane perpendicular to $\vec{B}$ known as dip-angle and finally $h=\pm1$ is the sense of rotation of the helix.\\
+The projection of the trajectory on the YZ place thus describes a circle:
+\begin{align}
+(z-z_0+R\cos\Phi_0)^2+(y-y_0+R\cos\Phi_0)^2=\\(z-z_c)^2+(y-y_c)^2=R^2
+\end{align}
+Performing a circular fit on the YZ coordinates of the hits recorded in the horizontal straws, we can get the most probable values for $R$ and $(y_C,z_C)$ for each particle trajectory.\\
+We would now like, in order to have a complete description of the particle motion, to perform a reconstruction the dip-angle $\lambda$. In order to do so we first approximate the circular motion in the YZ plane to a parabolic motion by applying a first order Taylor expansion in $s/R$. This is justified if $s/R<<1$, and thus if the portion of the circular trajectory described by the particle is small with respects to $R$, which is true for the energetic muons entering SAND. We also switch from $\Phi_0$ to the angular direction of the track in $(x_0,y_0,z_0)$ which we indicate as $\varphi_0=\pi/2-Phi_0$. Finally we write $(y_0,z_0)$ as $y_0=d_0\cos\varphi_0$ and $z_0=-d_0\sin\varphi_0$, where $d_0$ is simply the distance of the initial point from the centre of coordinates in the YZ plane. The equations of motion then become:
+\begin{equation}
+\begin{cases}
+x(s)=-d_0\sin\varphi_0+s\cos\lambda\cos\varphi_0+\frac{h}{2R}s^2\cos^2\lambda\sin\varphi_0\\
+x(s)=d_0\cos\varphi_0+s\cos\lambda\sin\varphi_0-\frac{h}{2R}s^2\cos^2\lambda\cos\varphi_0\\
+x(s)=x_0+s\sin\lambda
+\end{cases}
+\end{equation}   
+We can now perform a coordinates rotation in the YZ plane of an angle $\varphi_0$, so that the new z axis,which we call $\rho$, is directed along the track trajectory in $(x_0,y_0,z_0)$:
+\begin{align}
+\rho &=z\cos\varphi_0+y\sin\varphi_0\\
+y'&=-z\sin\varphi_0+y\cos\varphi_0
+\end{align}
+The equations of motion can then be divided between the plane $y'z$ , longitudinal to the trajectory and transverse plane $\rho z$:
+\begin{equation}
+\begin{cases}
+z=z_0+\rho\tan\lambda\\
+y'=d_0-\frac{h}{2R}\rho^2 
+\end{cases}
+\end{equation}
+From the first equation we can see that performing a linear fit on the transverse plane gives us the best values for $\tan\lambda$ and $z_0$. In order to do so we use the information from the trajectory hits in the vertical straws, which give us the x and z coordinates. The y values are extrapolated using the R and $(y_C,z_C)$ from the circular fit:
+\begin{equation}
+y= y_C + h\sqrt{R^2-(z-z_C)^2}
+\end{equation} 
+The value of $h=\pm1$ (+1 is clockwise, while -1 is counter-clockwise), is given accordingly by the sign of the product of the z distance between the first and second hit of the track and the y distance between $y_C$ and $y_0$: $(z_1-z_0)\times(y_0-y_C)$.\\
+In order to calculate $\rho$ we also need the values of $\cos\varphi_0$ and $\cos\varphi_0$. We can calculate them as:
+\begin{align}
+\cos\varphi_0=h(y_0-y_c)/R\\
+\sin\varphi_0=-h(z_0-z_c)/R
+\end{align} 
+If both fits were successful wehave estimates for $R$, $(y_C,z_C)$ and $\lambda$. With this information we can reconstruct the initial transverse momentum of the particle on the YZ plane using the formula:
+\begin{equation}
+p_T=0.3\times B\cos\lambda
+\end{equation}
+We can then get the three components of the momentum in the ND hall coordinate system as:
+\begin{equation}
+\begin{cases}
+p_z=p_T\cos\varphi_0\\
+p_y=p_T\sin\varphi_0\\
+p_x=p_T\tan\varphi_0 
+\end{cases}
+\end{equation}
+Having the three momentum components we can then reconstruct the total momentum module, which in case of relativistic particles is about the same as the particle energy:
+\begin{equation}
+E_{reco}\simeq p_{reco} = \sqrt{p_x^2+p_y^2+p_z^2}
+\end{equation}
+\begin{figure}
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\includegraphics[width=\textwidth]{helicoidal.png}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}
+		\includegraphics[width=\textwidth]{circular.png}
+		\caption{}
+	\end{subfigure}
+	\caption{\label{helix:fig}(a) Helicoidal motion of a charged particle in the magnetic field $\vec{B}$ which in the STT is parallel to the x axis in the ND hall (b) Projection of the helicoidal motion on the $yz$ plane} 
+\end{figure}
+\subsection{ECAL cluster reconstruction}
+The information from the the digitized signal produced in the calorimeter, is used to divide the cells with energy deposition into cluster, each associated to a specific particle track. In order to do so we first find for each cell, which was the particle that produced the most p.e., using the track id. from the Montecarlo truth. For each track that produced the largest amount of p.e. in at least one cell, we create a collection of cells, or cluster, containing each cell in which the particle had the largest energy deposition.\\
+For each cell in the cluster we evaluate the position of where the particle hit it and when. In the ND hall coordinates the $z$ is always taken as the centre of the cell. For the barrel ECAL modules, which are placed horizontally, the $y$ coordinate is also estimated this way, while the $x$ is evaluated using the information from the cell TDC's:  
+\begin{equation}
+\label{eq: cell x}
+x=\frac{t_{TDC1}-t_{TDC2}}{2u_{p.e.}}+x_{cell}
+\end{equation}
+where $x_{cell}$ is the coordinate of the cell centre, while $t_{TDC1}$, $t_{TDC1}$ and $u_{p.e.}$ are the same quantities defined in Section \ref{sec: digitization}. For the end-cap cells, which are placed vertically the opposite is true: the $x$ is taken as the cell centre, while the $y$ is calculated as in Eq. \ref{eq: cell x}. The time value for each cell is calculated by taking the mean from the two TDC value and subtracting the maximum photon propagation time:
+\begin{equation}
+t=\frac{1}{2}(t_{TDC_1}+t_{TDC2}-u_{p.e.}\times L)
+\end{equation} 
+where $L$ is the total length of the cell.\\
+For each cluster a weighted average for each of the coordinates $(x_{cl},y_{cl},z_{cl},t_{cl})$ is calculated, using the total energy deposition for each cell $E_{cell}$ as weights. These values are given in the output file together with the total energy deposition $E_{cl}$ and the standard deviations' squares.\\
+The average  $(x,y,z,t)$ is also calculated for each calorimeter layer in the cluster. These values are then used to perform linear fits on the $zx$ and $zy$ planes in order to estimate the components of the direction versor of the particle track. Whether the particle is entering or escaping the detector is evaluated by calculating:
+\begin{equation}
+d=\frac{(z_{out} - z_{in})(t_{out} - t_{in})}{|(z_{out} - z_{in})(t_{out} - t_{in})|}=\pm1
+\end{equation} 
+where $z_{out}$ and $z_{in}$ are the $z$ coordinates for the most outer and most inner layer hit in the cluster respectively (analogous for $t_{out}$ and $t_{in}$). The particle is escaping if $d=+1$ and entering if $d=-1$. 
+\chapter{Beam monitoring analysis and results}
 \begin{thebibliography}{90}             %crea l'ambiente bibliografia
 \rhead[\fancyplain{}{\bfseries \leftmark}]{\fancyplain{}{\bfseries
 \thepage}}
@@ -1300,6 +1404,24 @@ vol. D95, no. 9, p. 096014, 2017.
 \bibitem{HYperk Physics}E. Kearns et al., "Hyper-Kamiokande Physics Opportunities", in Proceedings, 2013 Community Summer Study on the Future of U.S. Particle Physics: Snowmass on the Mississippi (CSS2013): Minneapolis, MN, USA, July 29-August 6, 2013, 2013.
 \bibitem{DUNE 3}R. Acciarri et al., "Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Conceptual Design Report Volume 3: The Physics Program for DUNE at LBNF", 2015.
 \bibitem{DUNE 4}R. Acciarri et al., "Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Conceptual Design Report Volume 4: The DUNE Detectors at LBNF", 2016.
+\bibitem{ArgonCube}Auger, M and Ereditato, A and Sinclair, JR, "ArgonCube: a Modular Approach for Liquid Argon TPC Neutrino Detectors for Near Detector Environments",CERN, ArgonCube Collaboration, Geneva, CERN-SPSC-2017-025. SPSC-I-246,Jun 2017,CERN-SPSC-2017-025, "https://cds.cern.ch/record/2268439".
+\bibitem{ArgonCube images}https://argoncube.org/
+\bibitem{HPgTPC}Kirsty Duffy, "High-Pressure Gaseous Argon TPC for the DUNE Near Detector", 2019, 1910.06422, arXiv, physics.ins-det.
+\bibitem{KLOE} Franzini, Paolo and Moulson, Matthew,"The Physics of DAFNE and KLOE", vol 56, 1545-4134, http://dx.doi.org/10.1146/annurev.nucl.56.080805.140459, 10.1146/annurev.nucl.56.080805.140459, Annual Review of Nuclear and Particle Science, 2006 Nov, pag 207-251.
+\bibitem{SAND} G. Adamov et al., "A Proposal to enhance the DUNE Near-Detector Complex", DUNE Document Database, DUNE-doc-13262, 2019.
+\bibitem{KLOE magnet}K. M. Smith et al. Progress in the design and manufacture of the KLOE solenoid for the daphne ring at Frascati. IEEE Trans. Appl. Supercond., 7:630-632, 1997
+\bibitem{ECAL}M. Adinolfi et al. "The KLOE electromagnetic calorimeter", Nucl. Instrum. Meth., A482:364-386, 2002.
+\bibitem{NuTeV}G. P. Zeller et al. "A Precise determination of electroweak parameters in neutrino nucleon scattering", Phys. Rev. Lett., 88:091802, 2002.
+\bibitem{Adler}Stephen L. Adler, "Tests of the Conserved Vector Current and Partially Conserved Axial-Vector Current Hypotheses in High-Energy Neutrino Reactions", Phys. Rev., 135:B963-B966, 1964.
+\bibitem{GLS}David J. Gross and Chris H. Llewellyn Smith, "High-energy neutrino - nucleon scattering, current algebra and partons. Nucl. Phys.", B14:337-347, 1969.
+\bibitem{strangeness}Sergey Alekhin, Johannes Blumlein, Sergey Kulagin, Sven-Olaf Moch, and Roberto Petti, "Strange and non-strange distributions from the collider data", PoS, DIS2018:008, 2018.
+\bibitem{ND collaboration} https://cdcvs.fnal.gov/redmine/projects/dune-neardet-design/wiki/
+\bibitem{GENIE manual}Costas Andreopoulos and Christopher Barry and Steve Dytman and Hugh Gallagher and Tomasz Golan and Robert Hatcher and Gabriel Perdue and Julia Yarba, "The GENIE Neutrino Monte Carlo Generator: Physics and User Manual", 2015, arXiV:1510.05494, hep-ph.
+\bibitem{flussi} https://home.fnal.gov/~ljf26/DUNEFluxes
+\bibitem{ggd} https://github.com/brettviren/gegede
+\bibitem{dunendggd} https://github.com/gyang9/dunendggd
+\bibitem{edep-sim} https://github.com/ClarkMcGrew/edep-sim
+
 \end{thebibliography}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%non numera l'ultima pagina sinistra
 

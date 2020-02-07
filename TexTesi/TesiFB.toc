@@ -57,8 +57,13 @@
 \contentsline {section}{\numberline {4.1}GENIE: MC neutrino generator}{63}% 
 \contentsline {subsection}{\numberline {4.1.1}GENIE usage for the ND collaboration}{64}% 
 \contentsline {section}{\numberline {4.2}GGD: geometry generation tool }{67}% 
-\contentsline {subsection}{\numberline {4.2.1}SAND's geometry and the ECAL}{67}% 
+\contentsline {subsection}{\numberline {4.2.1}Sand's ECAL}{69}% 
 \contentsline {section}{\numberline {4.3}Edep-sim: charged particle propagation}{71}% 
-\contentsline {section}{\numberline {4.4}ECAL signal digitization}{72}% 
-\contentsline {chapter}{\numberline {5}Analysis and results}{77}% 
-\contentsline {chapter}{Bibliografia}{79}% 
+\contentsline {section}{\numberline {4.4}Signal digitization}{72}% 
+\contentsline {subsection}{\numberline {4.4.1}The ECAL}{72}% 
+\contentsline {subsection}{\numberline {4.4.2}The STT}{75}% 
+\contentsline {section}{\numberline {4.5}Reconstruction}{76}% 
+\contentsline {subsection}{\numberline {4.5.1}STT track and momentum reconstruction}{76}% 
+\contentsline {subsection}{\numberline {4.5.2}ECAL cluster reconstruction}{78}% 
+\contentsline {chapter}{\numberline {5}Beam monitoring analysis and results}{81}% 
+\contentsline {chapter}{Bibliografia}{83}% 

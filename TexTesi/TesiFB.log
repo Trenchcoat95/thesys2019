@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.17)  1 FEB 2020 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.17)  7 FEB 2020 18:55
 entering extended mode
 **./TesiFB.tex
 (TesiFB.tex
@@ -720,9 +720,9 @@ File: KLOEsection.png Graphic file (type png)
 Package pdftex.def Info: KLOEsection.png  used on input line 954.
 (pdftex.def)             Requested size: 312.00119pt x 246.55995pt.
 
-Overfull \hbox (3.63353pt too wide) in paragraph at lines 949--957
+Overfull \hbox (0.36967pt too wide) in paragraph at lines 949--957
 []\OT1/cmr/m/n/12 SAND will reuse the ex-ist-ing su-per-con-duct-ing mag-net em
--ployed by KLOE.
+-ployed by KLOE
  []
 
 [52]
@@ -737,11 +737,10 @@ File: STTmodule.png Graphic file (type png)
 <use STTmodule.png>
 Package pdftex.def Info: STTmodule.png  used on input line 992.
 (pdftex.def)             Requested size: 312.00119pt x 218.97664pt.
- [56 <./STTmodule.png>]
-Underfull \vbox (badness 6775) has occurred while \output is active []
+ [56]
+Underfull \vbox (badness 2799) has occurred while \output is active []
 
- [57]
-[58] [59] [60] [61] [62
+ [57 <./STTmodule.png>] [58] [59] [60] [61] [62
 
 ]
 Chapter 4.
@@ -776,46 +775,57 @@ Package pdftex.def Info: hall.png  used on input line 1095.
 <kloelat.png, id=303, 789.70032pt x 755.07094pt>
 File: kloelat.png Graphic file (type png)
 <use kloelat.png>
-Package pdftex.def Info: kloelat.png  used on input line 1104.
+Package pdftex.def Info: kloelat.png  used on input line 1103.
 (pdftex.def)             Requested size: 312.00119pt x 298.31311pt.
 <kloefront.png, id=304, 912.40875pt x 755.07094pt>
 File: kloefront.png Graphic file (type png)
 <use kloefront.png>
-Package pdftex.def Info: kloefront.png  used on input line 1109.
+Package pdftex.def Info: kloefront.png  used on input line 1108.
 (pdftex.def)             Requested size: 312.00119pt x 258.19547pt.
 
 
-LaTeX Warning: Float too large for page by 72.70854pt on input line 1113.
+LaTeX Warning: Float too large for page by 72.70854pt on input line 1112.
 
 <ecal.png, id=305, 932.73468pt x 679.78969pt>
 File: ecal.png Graphic file (type png)
 <use ecal.png>
 Package pdftex.def Info: ecal.png  used on input line 1117.
-(pdftex.def)             Requested size: 253.49762pt x 184.7489pt.
-<ECALmodule.png, id=306, 974.89218pt x 364.36125pt>
+(pdftex.def)             Requested size: 214.50119pt x 156.32759pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67
+
+
+ <./hall.png>] [68 <./kloelat.png> <./kloefront.png>]
+<ECALmodule.png, id=316, 974.89218pt x 364.36125pt>
 File: ECALmodule.png Graphic file (type png)
 <use ECALmodule.png>
 Package pdftex.def Info: ECALmodule.png  used on input line 1127.
 (pdftex.def)             Requested size: 350.99762pt x 131.18106pt.
-<endcapECAL.png, id=307, 609.9588pt x 542.025pt>
+<endcapECAL.png, id=317, 609.9588pt x 542.025pt>
 File: endcapECAL.png Graphic file (type png)
 <use endcapECAL.png>
 Package pdftex.def Info: endcapECAL.png  used on input line 1132.
 (pdftex.def)             Requested size: 312.00119pt x 277.25615pt.
-[67
 
+Overfull \hbox (2.39871pt too wide) in paragraph at lines 1120--1137
+\OT1/cmr/m/n/12 magnetic calorime-ter has been pro-duced.As de-scribed in Sec-t
+ion 3.2.2[] SAND's
+ []
 
- <./hall.png>] [68 <./kloelat.png> <./kloefront.png>]
-<viewer.png, id=318, 791.95876pt x 527.72156pt>
+[69 <./ecal.png>] [70 <./ECALmodule.png> <./endcapECAL.png>]
+<viewer.png, id=327, 791.95876pt x 527.72156pt>
 File: viewer.png Graphic file (type png)
 <use viewer.png>
 Package pdftex.def Info: viewer.png  used on input line 1142.
 (pdftex.def)             Requested size: 312.00119pt x 207.90419pt.
- [69 <./ecal.png>]
-[70 <./ECALmodule.png> <./endcapECAL.png>]
+
 Underfull \vbox (badness 2142) has occurred while \output is active []
 
- [71 <./viewer.png>]
+ [71
+
+ <./viewer.png>]
 <cellbarrel.png, id=331, 645.612pt x 234.6366pt>
 File: cellbarrel.png Graphic file (type png)
 <use cellbarrel.png>
@@ -824,52 +834,77 @@ Package pdftex.def Info: cellbarrel.png  used on input line 1154.
 <showevent.png, id=332, 1202.4925pt x 576.1525pt>
 File: showevent.png Graphic file (type png)
 <use showevent.png>
-Package pdftex.def Info: showevent.png  used on input line 1162.
+Package pdftex.def Info: showevent.png  used on input line 1163.
 (pdftex.def)             Requested size: 390.0pt x 186.86052pt.
 
-Overfull \hbox (8.76819pt too wide) in paragraph at lines 1157--1166
+Overfull \hbox (8.76819pt too wide) in paragraph at lines 1158--1167
 \OT1/cmr/m/n/12 the ECAL fi-bres by pass-ing charged par-ti-cles, are col-lecte
 d by photo-multipliers
  []
 
-[72 <./cellbarrel.png>] [73 <./showevent.png>] [74] [75] [76
+[72 <./cellbarrel.png>] [73 <./showevent.png>] [74] [75] [76] [77]
+<helicoidal.png, id=353, 703.87968pt x 536.0025pt>
+File: helicoidal.png Graphic file (type png)
+<use helicoidal.png>
+Package pdftex.def Info: helicoidal.png  used on input line 1270.
+(pdftex.def)             Requested size: 185.25238pt x 141.06671pt.
+<circular.png, id=354, 772.38562pt x 562.35094pt>
+File: circular.png Graphic file (type png)
+<use circular.png>
+Package pdftex.def Info: circular.png  used on input line 1275.
+(pdftex.def)             Requested size: 185.25238pt x 134.87259pt.
+ [78 <./helicoidal.png> <./circular.png>] [79] [80
 
 ]
 Chapter 5.
-[77] [78
+[81] [82
 
-] [79] [80] [81] [82] [83] (TesiFB.aux) ) 
+] [83] [84] [85] [86]
+Underfull \hbox (badness 1888) in paragraph at lines 1407--1408
+\OT1/cmr/m/n/12 CERN-SPSC-2017-025. SPSC-I-246,Jun 2017,CERN-SPSC-2017-025,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1410--1411
+[]\OT1/cmr/m/n/12 Franzini, Paolo and Moul-son, Matthew,"The Physics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1410--1411
+\OT1/cmr/m/n/12 of DAFNE and KLOE", vol 56, 1545-4134,
+ []
+
+[87] [88] (TesiFB.aux) ) 
 Here is how much of TeX's memory you used:
- 4926 strings out of 492895
- 74227 string characters out of 3123735
- 148939 words of memory out of 3000000
- 8676 multiletter control sequences out of 15000+200000
+ 4959 strings out of 492895
+ 74727 string characters out of 3123735
+ 149048 words of memory out of 3000000
+ 8707 multiletter control sequences out of 15000+200000
  14641 words of font info for 59 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 42i,23n,43p,1229b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/39334/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/39334/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/3
-9334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
+ 42i,23n,43p,1150b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/39334/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/39334/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/39334
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/39334/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/39334/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/39334/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
+/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/39334/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/39334/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/39334
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr6.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/39334/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/39334/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/
-39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb>
-Output written on TesiFB.pdf (89 pages, 12256343 bytes).
+/cm/cmsy10.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb><C:/Users/39334/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/39334/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/39334/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on TesiFB.pdf (94 pages, 12690260 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
+ 443 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 
