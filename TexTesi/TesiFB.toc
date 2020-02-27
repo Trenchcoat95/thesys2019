@@ -1,21 +1,21 @@
 \babel@toc {english}{}
-\contentsline {chapter}{Introduction}{v}% 
+\contentsline {chapter}{Abstract and Introduction}{iii}% 
 \contentsline {chapter}{\numberline {1}Neutrino physics overview}{1}% 
 \contentsline {section}{\numberline {1.1}Brief history of neutrinos}{1}% 
 \contentsline {section}{\numberline {1.2}Neutrinos in the Standard Model and neutrino masses}{2}% 
 \contentsline {subsection}{\numberline {1.2.1}Limits on neutrino masses}{4}% 
 \contentsline {section}{\numberline {1.3}Theory of neutrino oscillations }{5}% 
-\contentsline {subsection}{\numberline {1.3.1}Three flavours oscillations in vacuum}{6}% 
+\contentsline {subsection}{\numberline {1.3.1}Three flavours oscillations in vacuum}{5}% 
 \contentsline {subsection}{\numberline {1.3.2}Charge-parity symmetry violation}{7}% 
 \contentsline {subsection}{\numberline {1.3.3}Two flavor scenario}{8}% 
-\contentsline {subsection}{\numberline {1.3.4}MSW matter effects}{10}% 
+\contentsline {subsection}{\numberline {1.3.4}MSW matter effects}{9}% 
 \contentsline {section}{\numberline {1.4}Neutrino oscillation experiments}{12}% 
 \contentsline {subsection}{\numberline {1.4.1}Solar experiments: $\theta _{12}$ and $\Delta m_{12}^2$}{13}% 
 \contentsline {subsection}{\numberline {1.4.2}Reactor experiments}{16}% 
 \contentsline {subsubsection}{VLB: confermation of solar experiment results}{16}% 
 \contentsline {subsubsection}{Measurement of $\theta _{13}$ }{17}% 
 \contentsline {subsection}{\numberline {1.4.3}Atmospheric experiments: $\Delta m_{31}^2 $ and $ \theta _{23}$}{18}% 
-\contentsline {subsection}{\numberline {1.4.4}Accelerator experiments}{20}% 
+\contentsline {subsection}{\numberline {1.4.4}Accelerator experiments}{19}% 
 \contentsline {subsection}{\numberline {1.4.5}$\delta _{CP}$ experimental results}{21}% 
 \contentsline {subsection}{\numberline {1.4.6}Mass hierarchy experimental results}{22}% 
 \contentsline {section}{\numberline {1.5}State of the art and future prospects}{22}% 
@@ -31,52 +31,54 @@
 \contentsline {subsection}{\numberline {2.2.1}Sensitivities and systematics}{36}% 
 \contentsline {subsection}{\numberline {2.2.2}Mass ordering and $\delta _{CP}$}{39}% 
 \contentsline {subsubsection}{Significance for mass ordering and $\delta _{CP}$ measurements}{41}% 
-\contentsline {subsection}{\numberline {2.2.3}Precision measurements}{42}% 
-\contentsline {subsection}{\numberline {2.2.4}Proton decay measurements}{46}% 
-\contentsline {subsection}{\numberline {2.2.5}Supernova neutrino measurements}{47}% 
-\contentsline {subsection}{\numberline {2.2.6}Oscillation physics with atmospheric neutrinos}{49}% 
-\contentsline {subsection}{\numberline {2.2.7}Near detector physics}{49}% 
-\contentsline {chapter}{\numberline {3}SAND}{51}% 
-\contentsline {section}{\numberline {3.1}Requirements}{51}% 
-\contentsline {section}{\numberline {3.2}Detector components}{52}% 
-\contentsline {subsection}{\numberline {3.2.1}KLOE's magnet}{52}% 
-\contentsline {subsection}{\numberline {3.2.2}KLOE's electro-magnetic calorimeter}{53}% 
-\contentsline {subsection}{\numberline {3.2.3}The inner tracker}{55}% 
-\contentsline {subsubsection}{The straw tube tracker}{56}% 
-\contentsline {subsubsection}{The liquid Argon meniscus}{57}% 
-\contentsline {section}{\numberline {3.3}Physics Program}{58}% 
-\contentsline {subsection}{\numberline {3.3.1}Reducing the systematics}{58}% 
-\contentsline {subsection}{\numberline {3.3.2}Precision measurements and new physics}{59}% 
-\contentsline {subsubsection}{Precision measurements in the electro-weak sector}{59}% 
-\contentsline {subsubsection}{Isospin physics tests}{60}% 
-\contentsline {subsubsection}{Strangeness measurements of the nucleus}{60}% 
-\contentsline {subsubsection}{Nucleon structure and QCD studies}{61}% 
-\contentsline {subsubsection}{Neutrino-nucleus interaction studies}{61}% 
-\contentsline {subsubsection}{New physics searches}{61}% 
-\contentsline {chapter}{\numberline {4}The simulation}{63}% 
-\contentsline {section}{\numberline {4.1}GENIE: MC neutrino generator}{63}% 
-\contentsline {subsection}{\numberline {4.1.1}GENIE usage for the ND collaboration}{64}% 
-\contentsline {section}{\numberline {4.2}GGD: geometry generation tool }{67}% 
-\contentsline {subsection}{\numberline {4.2.1}SAND's ECAL: geometry}{69}% 
-\contentsline {subsection}{\numberline {4.2.2}SAND's STT: geometry}{70}% 
-\contentsline {section}{\numberline {4.3}Edep-sim: charged particle propagation}{72}% 
-\contentsline {section}{\numberline {4.4}Signal digitization}{73}% 
-\contentsline {subsection}{\numberline {4.4.1}SAND's ECAL: digitization}{73}% 
-\contentsline {subsection}{\numberline {4.4.2}SAND's STT: digitization}{76}% 
-\contentsline {section}{\numberline {4.5}Reconstruction}{77}% 
-\contentsline {subsection}{\numberline {4.5.1}SAND's ECAL: cluster reconstruction}{77}% 
-\contentsline {subsection}{\numberline {4.5.2}SAND's STT: track reconstruction}{78}% 
-\contentsline {chapter}{\numberline {5}Beam monitoring: analysis and results}{81}% 
-\contentsline {section}{\numberline {5.1}Overview}{81}% 
-\contentsline {section}{\numberline {5.2}Preliminary measurements}{82}% 
-\contentsline {subsection}{\numberline {5.2.1}Muon energy loss calibration}{82}% 
-\contentsline {subsection}{\numberline {5.2.2}Fiducial cut}{84}% 
-\contentsline {subsection}{\numberline {5.2.3}Muon track reconstruction efficiency}{88}% 
+\contentsline {subsection}{\numberline {2.2.3}Precision measurements}{45}% 
+\contentsline {subsection}{\numberline {2.2.4}Proton decay measurements}{48}% 
+\contentsline {subsection}{\numberline {2.2.5}Supernova neutrino measurements}{49}% 
+\contentsline {subsection}{\numberline {2.2.6}Oscillation physics with atmospheric neutrinos}{50}% 
+\contentsline {subsection}{\numberline {2.2.7}Near detector physics}{51}% 
+\contentsline {chapter}{\numberline {3}SAND}{53}% 
+\contentsline {section}{\numberline {3.1}Requirements}{53}% 
+\contentsline {section}{\numberline {3.2}Detector components}{54}% 
+\contentsline {subsection}{\numberline {3.2.1}KLOE's magnet}{54}% 
+\contentsline {subsection}{\numberline {3.2.2}KLOE's electro-magnetic calorimeter}{55}% 
+\contentsline {subsection}{\numberline {3.2.3}The inner tracker}{57}% 
+\contentsline {subsubsection}{The straw tube tracker}{57}% 
+\contentsline {subsubsection}{The liquid Argon meniscus}{59}% 
+\contentsline {section}{\numberline {3.3}Physics Program}{59}% 
+\contentsline {subsection}{\numberline {3.3.1}Reducing the systematics}{59}% 
+\contentsline {subsection}{\numberline {3.3.2}Precision measurements and new physics}{60}% 
+\contentsline {subsubsection}{Precision measurements in the electro-weak sector}{61}% 
+\contentsline {subsubsection}{Isospin physics tests}{61}% 
+\contentsline {subsubsection}{Strangeness measurements of the nucleus}{62}% 
+\contentsline {subsubsection}{Nucleon structure and QCD studies}{62}% 
+\contentsline {subsubsection}{Neutrino-nucleus interaction studies}{62}% 
+\contentsline {subsubsection}{New physics searches}{63}% 
+\contentsline {chapter}{\numberline {4}The simulation}{65}% 
+\contentsline {section}{\numberline {4.1}GENIE: MC neutrino generator}{65}% 
+\contentsline {subsection}{\numberline {4.1.1}GENIE usage for the ND collaboration}{66}% 
+\contentsline {section}{\numberline {4.2}GGD: geometry generation tool }{69}% 
+\contentsline {subsection}{\numberline {4.2.1}SAND's ECAL: geometry}{71}% 
+\contentsline {subsection}{\numberline {4.2.2}SAND's STT: geometry}{72}% 
+\contentsline {section}{\numberline {4.3}Edep-sim: charged particle propagation}{74}% 
+\contentsline {section}{\numberline {4.4}Signal digitization}{75}% 
+\contentsline {subsection}{\numberline {4.4.1}SAND's ECAL: digitization}{75}% 
+\contentsline {subsection}{\numberline {4.4.2}SAND's STT: digitization}{78}% 
+\contentsline {section}{\numberline {4.5}Reconstruction}{79}% 
+\contentsline {subsection}{\numberline {4.5.1}SAND's ECAL: cluster reconstruction}{79}% 
+\contentsline {subsection}{\numberline {4.5.2}SAND's STT: track reconstruction}{80}% 
+\contentsline {chapter}{\numberline {5}Beam monitoring: analysis and results}{83}% 
+\contentsline {section}{\numberline {5.1}Overview}{83}% 
+\contentsline {section}{\numberline {5.2}Preliminary measurements}{85}% 
+\contentsline {subsection}{\numberline {5.2.1}Muon energy loss calibration}{85}% 
+\contentsline {subsection}{\numberline {5.2.2}Fiducial cut}{87}% 
+\contentsline {subsection}{\numberline {5.2.3}Muon track reconstruction efficiency}{89}% 
 \contentsline {subsection}{\numberline {5.2.4}Quality selection}{90}% 
-\contentsline {section}{\numberline {5.3}Two-sample statistical tests}{91}% 
-\contentsline {subsection}{\numberline {5.3.1}Approximated $\chi ^2$ test}{91}% 
-\contentsline {subsection}{\numberline {5.3.2}Kolmogorov-Smirnov test}{92}% 
-\contentsline {subsection}{\numberline {5.3.3}The Anderson-Darling test}{93}% 
-\contentsline {section}{\numberline {5.4}Beam monitoring study results}{93}% 
-\contentsline {subsection}{\numberline {5.4.1}Evolution of the p-value with the sample}{95}% 
-\contentsline {chapter}{Bibliografia}{97}% 
+\contentsline {section}{\numberline {5.3}Beam monitoring study results}{92}% 
+\contentsline {subsection}{\numberline {5.3.1}Two-sample statistical tests}{93}% 
+\contentsline {subsubsection}{Two-sample $\chi ^2$ test}{93}% 
+\contentsline {subsubsection}{Kolmogorov-Smirnov test}{94}% 
+\contentsline {subsubsection}{The Anderson-Darling test}{95}% 
+\contentsline {subsection}{\numberline {5.3.2}The control samples}{95}% 
+\contentsline {subsection}{\numberline {5.3.3}Results}{97}% 
+\contentsline {subsubsection}{Evolution of p-value and sigma with the sample}{98}% 
+\contentsline {chapter}{Bibliografia}{101}% 
