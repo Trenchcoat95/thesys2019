@@ -83,33 +83,34 @@
 \pagenumbering{roman}                   
 \tableofcontents                       
 \rhead[\fancyplain{}{\bfseries\leftmark}]{\fancyplain{}{\bfseries\thepage}}
-\lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries INDICE}}
+\lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries CONTENTS}}
 
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
 \chapter*{Abstract}
 \rhead[\fancyplain{}{\bfseries Abstract}]{\fancyplain{}{\bfseries\thepage}}
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Abstract}}
-\addcontentsline{toc}{chapter}{Abstract and Introduction}
+\addcontentsline{toc}{chapter}{Abstract}
 The Deep Underground Neutrino Experiment (DUNE) will be a next generation neutrino oscillation long baseline accelerator experiment. It  will be composed of a Near Detector (ND) system located a few hundred meters from the neutrino source at Fermilab, and a Far Detector (FD) system composed of three multi-kiloton LArTPCs. Of the three Near Detectors, SAND (System for on-Axis Neutrino Detection) will have as its main purpose to provide constraints on all the systematic uncertainties relevant for the oscillation analysis. Among these, one of the detector's main task will be beam monitoring which consists in using the flux measurements to spot potential anomalies in the beam production. This thesis studies the beam monitoring capabilities of the SAND detector, via neutrino flux and detector simulations.
 \clearpage
 \chapter*{Sommario}
-Il Deep Underground Neutrino Experiment (DUNE) un esperimento da ``long baseline" di nuova generazione sull'oscillazione di neutrini da acceleratore . Sarà composto da un sistema di Near Detector (ND) posizionato a poche centinaia di metri dalla fonte di neutrini al Fermilab, a un sistema di Far Detector (FD) composto da tre LArTPC dell'ordine dela tonnellata. Dei tre Near Detector, SAND (System for on-Axis Neutrino Detectin) avrà come sua funzione principale quella di produrre constraints su tutte le incertezze sistematiche che interessano le misure di oscillazione di neutrini. Tra queste, una delle principali funzioni del detector sarà il monitoring del fascio, che consiste nel usare misure di flusso per identificare eventuali anomalie nella produzione del fascio. Questa tesi studia le capacità di monitoring del fascio del detector SAND, tramite simulazioni del flusso di neutrini e dei detector. 
+Il Deep Underground Neutrino Experiment (DUNE) un esperimento da ``long baseline" di nuova generazione sull'oscillazione di neutrini da acceleratore . Sarà composto da un sistema di Near Detector (ND) posizionato a poche centinaia di metri dalla fonte di neutrini al Fermilab, a un sistema di Far Detector (FD) composto da tre LArTPC dell'ordine dela tonnellata. Dei tre Near Detector, SAND (System for on-Axis Neutrino Detection) avrà come sua funzione principale quella di produrre constraints su tutte le incertezze sistematiche che interessano le misure di oscillazione di neutrini. Tra queste, una delle principali funzioni del detector sarà il monitoring del fascio, che consiste nel usare misure di flusso per identificare eventuali anomalie nella produzione del fascio. Questa tesi studia le capacità di monitoring del fascio del detector SAND, tramite simulazioni del flusso di neutrini e dei detector. 
 \clearpage
 \chapter*{Introduction}                 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%imposta l'intestazione di pagina
 \rhead[\fancyplain{}{\bfseries Introduction}]{\fancyplain{}{\bfseries\thepage}}
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Introduction}}
-Since their discovery neutrino oscillations have become one of the most direct evidence of the fact that the Standard Model of particle physics is not a complete theory. Many of the parameters that control the phenomenon have been accurately measured by a variety of experiments, exploiting either the natural neutrino fluxes from the Sun and atmospheric cosmic rays or artificial ones produced by nuclear reactors or particle accelerators. \\
+\addcontentsline{toc}{chapter}{Introduction}
+Since their discovery neutrino oscillations have become one of the most direct evidence of the fact that the Standard Model of particle physics is not a complete theory. Many of the parameters that govern the phenomenon have been accurately measured by a variety of experiments, exploiting either the natural neutrino fluxes from the Sun and atmospheric cosmic rays or artificial ones produced by nuclear reactors or particle accelerators. \\
 The Deep Underground Neutrino Experiment (DUNE) will be a next generation neutrino oscillation Long Baseline accelerator experiment. The experiment is set to reach new levels of precision, allowing for the first time a definitive measurement of the neutrino oscillation CP-violation and of the neutrino mass ordering. \\
-DUNE will be composed of a Near Detector (ND) system located a few hundred meters from the neutrino source at Fermilab, and a Far Detector (FD) system composed of three multi-kiloton Liquid Argon Time Projection Chambers (LArTPC) located at 1300 km from the source. The ND system will be composed of three individual detectors: ArgonCube, HPgTPC (High Pressure gas TPC) and SAND (System for on-Axis Neutrino Detectin). While the first two will be movable and both based on Argon, the SAND design considered in this thesys (one of a few still in consideration) will take a totally different approach by implementing a modular Straw Tube Tracker (STT), integrating many different nuclear targets. SAND will also be the only detector in DUNE to re-use parts from an older detector: it will implement the electro-magnetic calorimeter, magnet and iron structure from the KLOE (K-LOng Experiment) detector. \\
+DUNE will be composed of a Near Detector (ND) system located a few hundred meters from the neutrino source at Fermilab, and a Far Detector (FD) system composed of three multi-kiloton Liquid Argon Time Projection Chambers (LArTPC) located at 1300 km from the source. The ND system will be composed of three individual detectors: ArgonCube, HPgTPC (High Pressure gas TPC) and SAND (System for on-Axis Neutrino Detection). While the first two both based on Argon technologies, the SAND design considered in this thesis (one of a few still in consideration) will take a totally different approach by implementing a modular Straw Tube Tracker (STT), integrating many different nuclear targets. SAND will also be the only detector in DUNE to re-use parts from an older detector: it will implement the electro-magnetic calorimeter, magnet and iron structure from the KLOE (K-LOng Experiment) detector. \\
 SAND's main purpose will be to provide constraints on all the systematic uncertainties relevant for the oscillation analysis. These include measurements of interaction cross sections, physics and detector responses and neutrino flux spectrum, composition and spread.\\
-One of the main tasks related to the flux measurements include beam monitoring: using the flux information from the ND measurements to spot potential anomalies in the beam production. The purpose of this thesis is to study the beam monitoring capabilities of the SAND detector, via neutrino flux and detector simulations. The text is divided into five chapters:
+One of SAND's main tasks will be beam monitoring, which consists in using the flux information from the ND measurements to spot potential anomalies in the beam production. The purpose of this thesis is to study the beam monitoring capabilities of the SAND detector, via neutrino flux and detector simulations. The text is divided into five chapters:
 \begin{itemize}
 	\item \emph{Chapter 1}: Summary of the history of neutrino physics and its future prospects, and brief theoretical overview of the neutrino oscillation phenomenon; 
-	\item \emph{Chapter 2}: Description of the DUNE experiment components and facilities and its physics goals; 
+	\item \emph{Chapter 2}: Description of the DUNE experiment's components and facilities and its physics goals; 
 	\item \emph{Chapter 3}: Description of the SAND detector and its main purposes and experimental physics opportunities;
-	\item \emph{Chapter 4}: Overview of the software and data used for the DUNE neutrino flux and detector simulation;
+	\item \emph{Chapter 4}: Overview of the software and data used for the DUNE neutrino flux and detector simulations;
 	\item \emph{Chapter 5}: Description, analysis and results of the beam monitoring study;
 \end{itemize}
 \clearpage{\pagestyle{empty}\cleardoublepage}
@@ -787,10 +788,10 @@ where $\Phi_{ND}(\nu_{\mu,e})$ is the beam flux, $\varepsilon_{ND}(\nu_{\mu,e})$
 	\item \emph{Differences in detector efficiencies $\varepsilon_{FD}/\varepsilon_{ND}$.} These uncertainties mostly arise from the differences in event selection between the two detectors and in particular the modelling of the energy scales. These are also virtually inexistent in the case that ND and FD are identical.
 	\item \emph{Differences in the neutrino flux $\Phi_{FD}/\Phi_{ND}$.} The fluxes at the Near and Far detector are radically different since the ND is very close to the beamline and sees an expanded source, while the FD is 1300 km away. A Monte Carlo is used to simulate the beam propagation, but it is itself not immune from inaccuracies: errors in the hadron production, focusing of the horns composition of the beam pipe and decay channel geometry can all contribute. 
 \end{itemize} 
-\begin{figure}
+\begin{figure}[t!]
 	\centering
 	\renewcommand{\figurename}{Table}
-	\includegraphics[width=0.81\textwidth]{uncertainties.png}
+	\includegraphics[width=0.75\textwidth]{uncertainties.png}
 	\caption{\label{uncertainties:fig} Dominant systematics on the $\nu_e$ appearence channel for T2K and MINOS and projection for LBNE (Long Baseline Neutrino Experiment), the preliminary name used for DUNE. \cite{DUNE symmetries}} 
 \end{figure}
 The $\nu_\mu$ expected signal is given by:
@@ -816,7 +817,11 @@ The main sources of uncertainties are known from previous experiments such as T2
 In Table \ref{uncertainties:fig} the dominant uncertainties for $\nu_e$ appearance for the T2K and MINOS and a preliminary prediction for DUNE are summarized. The precision is expected to improve from all fronts.
 
 
-
+\begin{figure}[t!]
+	\centering
+	\includegraphics[width=0.85\textwidth]{oscillograms.png}
+	\caption{\label{oscillograms:fig} $\mathcal{A}_{CP}$ total asymmetry as a function of baseline and energy. The top two oscillograms show the asymmetry for $\delta_{CP}=0$ (i.e. $\mathcal{A}_{matter}$) for Normal (left) and Inverted (right) mass ordering. The two bottom oscillograms show the asymmetry in vacuum (i.e. $\mathcal{A}_{\delta}$) for $\delta_{CP}=\pi/2$ (left) and $\delta_{CP}=-\pi/2$ (right). DUNE's baseline (1300km) and the 1st and 2nd oscillation nodes are highlighted in black \cite{DUNE 2}. } 
+\end{figure}
 \subsection{Mass ordering and $\delta_{CP}$}
 As it can be seen from Eq. \ref{eq:asymmetry} both a non-zero $\delta_{CP}$ and matter effects can induce asymmetries between $P(\nu_\mu \rightarrow \nu_e)$ and $P(\bar{\nu}_\mu \rightarrow \bar{\nu}_e)$and thus:
 \begin{equation}
@@ -857,6 +862,11 @@ In general the matter effects have the largest impacts when the oscillation node
 \begin{equation}
 \frac{L(\text{km})}{E(\text{GeV})} = (2n-1)\frac{\pi}{2}\frac{1}{(1.27\times\Delta m_{31}^2(\text{eV}^2))} \simeq(2n-1)\times 510 \ \text{km/GeV}
 \end{equation}
+\begin{figure}[t!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{asymmetrydelta.png}
+	\caption{\label{asymmetrydelta:fig} Total $\mathcal{A}_{CP}$ as a function of $\delta_{CP}/\pi$ for four different baselines (290 km, 810 km, 1300 km and 2300 km). The black (red) lines indicate the asymmetries at the first (second) node, the full ones being for NH and the dashed ones for IH \cite{DUNE 2}. } 
+\end{figure}
 For an experiment such as DUNE, where we have a baseline of $L\sim1300$ km (highlighted in black in Figure \ref{oscillograms:fig}) and an energy range $E\sim5-10$ GeV, the matter effects are maximal, and it is then crucial that they are disentangled from the CP effects.\\
 Knowing the value of $|\Delta m_{31}^2 |$ (only the sign is still unknown), one can see, though, that for a baseline $>$ 1200km, the size of $\mathcal{A}_{matter}$ surpasses the highest possible value of $\mathcal{A}_{\delta}$ which makes the disambiguation between the two effects possible. In Figure \ref{asymmetrydelta:fig} the plots show the total asymmetry at the first (black) and second (red) nodes as a function of $\delta_{CP}$ for four different values of $L$: 290 km, 810 km, 1300 km (baseline of DUNE) and 2300 km. Depending on the hierarchy asymmetries will have different values because of the matter effects and are plotted as full and dashed lines respectively. As the baseline gets bigger, given the same node, the CP-induced asymmetry will stay the same while matter induced one will get bigger since the dependencies on $L$ and E are:
 \begin{equation}
@@ -866,17 +876,8 @@ Knowing the value of $|\Delta m_{31}^2 |$ (only the sign is still unknown), one 
 \mathcal{A}_{matter} \propto L\times E
 \end{equation}
 If one considers then the case in which the $\delta_{CP}$ asymmetries is maximal (green line in the plots) is easy to see that if $\mathcal{A}_{matter} < \mathcal{A}_\delta^{max}$ the same total asymmetry is compatible with both hierarchies and multiple value of $\delta_{CP}$. This is true for baselines shorter than 1200km. For DUNE, where $L\sim1300$km these ambiguities don't exist.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.85\textwidth]{oscillograms.png}
-	\caption{\label{oscillograms:fig} $\mathcal{A}_{CP}$ total asymmetry as a function of baseline and energy. The top two oscillograms show the asymmetry for $\delta_{CP}=0$ (i.e. $\mathcal{A}_{matter}$) for Normal (left) and Inverted (right) mass ordering. The two bottom oscillograms show the asymmetry in vacuum (i.e. $\mathcal{A}_{\delta}$) for $\delta_{CP}=\pi/2$ (left) and $\delta_{CP}=-\pi/2$ (right). DUNE's baseline (1300km) and the 1st and 2nd oscillation nodes are highlighted in black \cite{DUNE 2}. } 
-\end{figure}
+
 \subsubsection{Significance for mass ordering and $\delta_{CP}$ measurements}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.8\textwidth]{asymmetrydelta.png}
-	\caption{\label{asymmetrydelta:fig} Total $\mathcal{A}_{CP}$ as a function of $\delta_{CP}/\pi$ for four different baselines (290 km, 810 km, 1300 km and 2300 km). The black (red) lines indicate the asymmetries at the first (second) node, the full ones being for NH and the dashed ones for IH \cite{DUNE 2}. } 
-\end{figure}
 The sensitivity with which the DUNE experiment will be able to measure the mass ordering (MO) and CP-Violation (CPV), is evaluated by fitting the simulated oscillation spectra of $\nu_\mu \rightarrow \nu_{\mu,e}$ and $\bar{\nu}_\mu \rightarrow \bar{\nu}_{\mu,e}$ for different values of the oscillation parameters and confronting the results with the expected theoretical values in terms of $\Delta\chi^2$:
 \begin{equation}
 \Delta\chi^2_{MO}= |\chi^2_{MH^{test}=IH}-\chi^2_{MH^{test}=NH}| 
@@ -885,6 +886,7 @@ The sensitivity with which the DUNE experiment will be able to measure the mass 
 \Delta\chi^2_{CPV}= \min (\Delta\chi^2_{CP}(\delta_{CP}^{test}=0),\Delta\chi^2_{CP}(\delta_{CP}^{test}=\pi))
 \end{equation}
 with $\Delta\chi^2_{CP}=\chi^2(\delta_{CP}^{test})-\chi^2(\delta_{CP}^{true})$. The significance with which DUNE will be able to assess the mass ordering grows with the exposure, defined as kt of active volume $\times$ MW beam power $\times$ years, and varies wildly with the value of $\delta_{CP}$ (Figure \ref{exposure-MO:fig}). In order to ensure the DUNE objective of reaching $\sqrt{\Delta\chi^2}=5$ for every value of $\delta_{CP}$ approximately an exposure of 200-400 kt$\times$MW$\times$years will be needed. The significance for $\delta_{CP}$ similarly grows with exposure (Figure \ref{exposure-deltaCP:fig}), apart from 0 and $\pi$. The significance for both MO and CPV also depends strongly on the values of all the other oscillation parameters (Figure \ref{MOsignificance-param:fig} and \ref{CPVsignificance-param:fig}), making precision measurements with DUNE mandatory.
+\clearpage
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{exposure-MO.png}
@@ -902,7 +904,7 @@ with $\Delta\chi^2_{CP}=\chi^2(\delta_{CP}^{test})-\chi^2(\delta_{CP}^{true})$. 
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.6\textwidth]{exposure-CPV.png}
+	\includegraphics[width=0.58\textwidth]{exposure-CPV.png}
 	\caption{\label{exposure-deltaCP:fig} CPV significance as a function of exposure for two different beam designs (left and right) and three values of CP asymmetry (0\%,50\%,100\%). \cite{DUNE 2} } 
 \end{figure}
 \begin{figure}
@@ -914,6 +916,7 @@ with $\Delta\chi^2_{CP}=\chi^2(\delta_{CP}^{test})-\chi^2(\delta_{CP}^{true})$. 
 	\includegraphics[width=0.375\textwidth]{CPVVSm31.png}
 	\caption{\label{CPVsignificance-param:fig} CPV significance as a function of $\delta_{CP}/\pi$ at a fix value of exposure 300 kt$\times$MW$\times$years for different values of the oscillation parameters: $\theta_{23}$ (upper-left), $\theta_{13}$ (upper-right), $\delta m_{31}^2$ (bottom) \cite{DUNE 2}.} 
 \end{figure}
+\clearpage
 \subsection{Precision measurements}
 \begin{figure}
 	\centering
@@ -940,6 +943,11 @@ DUNE will also be able to perform unitarity tests of the PMNS matrix by measurin
 	\caption{\label{octant:fig} $\Delta\chi^2_{octant}$ as a function of $\theta_{23}$. The yellow areas indicate the $1\sigma$ and $3\sigma$ intervals for the value of $\theta_{23}$ from recent global fits. The green area represents the range in sensitivity due to differences in beam design and $\delta_{CP}$ value \cite{DUNE symmetries}.} 
 \end{figure}  
 \subsection{Proton decay measurements}
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ProtonDecay.png}
+	\caption{\label{ProtonDecay:fig} Feynman diagrams for two major proton decay modes: the main decay for SUSY GUTs $p^+\rightarrow K^+ \bar{\nu}$ (left) and the main decay for gauge-mediation GUTs $p^+\rightarrow e^+ \pi^0$ (right)\cite{DUNE symmetries}.} 
+\end{figure}
 Almost all Grand Unified Theories (GUTs) predict proton decay and baryon number non conservation. Detecting a proton decay would be in fact one of the only viable experimental strategies to probe these theories since the unification scale is in excess of about $10^{15}$ GeV with respects to energies accessible to accelerator experiments.\\
 The non-detection of proton decay sets proton life-time constraints and progressively rules out theories based on their predictions. The most recent limits set by Super-Kamiokande have in fact confirmed the ruling out of minimal SU(5) (previously established by IMB and Kamiokande) and has disproved minimal SUSY SU(5). The next generation of large underground experiments such as Hyper-Kamiokande and DUNE will be well equipped to continue the search and, at the very least, make the constraints more stringent.\\
 From the theoretical body of work, two main decay mode emerge, the first from supersymmetric GUTs and the second from gauge-mediated GUTs (see Figure \ref{ProtonDecay:fig} for the Feynmann diagrams):
@@ -950,11 +958,6 @@ p^+ \rightarrow K^+ \bar{\nu}
 p^+ \rightarrow e^+ \pi^0
 \end{equation}
 The first decay mode is especially interesting for large LArTPCs (such as the FD of DUNE) since it presents a kaon in its final state: kaons have an especially high ionization rate and would be detected with great efficiency using liquid Argon technologies. The second one is perhaps better known and has its most clear signature in Cherenkov detectors, since it consists of an electromagnetic shower ignited by the the $e^+$ and two $\gamma$ from the $\pi^0$ decay.
-\begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{ProtonDecay.png}
-	\caption{\label{ProtonDecay:fig} Feynman diagrams for two major proton decay modes: the main decay for SUSY GUTs $p^+\rightarrow K^+ \bar{\nu}$ (left) and the main decay for gauge-mediation GUTs $p^+\rightarrow e^+ \pi^0$ (right)\cite{DUNE symmetries}} 
-\end{figure}
 \subsection{Supernova neutrino measurements}
 \begin{figure}
 	\centering
@@ -995,7 +998,7 @@ N_X(E_{rec})= \int_{E_{\nu}}dE_\nu \Phi(E_\nu)P_{osc}(E_\nu) \sigma_X(E_\nu) R_{
 \end{equation} 
 $\Phi$ is the incoming neutrino flux, $\sigma_X$ is the cross section of the process on a given nucleus, $R_{phys}$ is the physics response introduced by nuclear smearing and $R_{det}$ is the detector acceptance for the final state particles. $E_\nu$, $E_{vis}$ and $E_{rec}$ are the neutrino true energy, the total energies of the visible final state particles and the final reconstructed energy. The main terms in the expression need to be unfolded. This is not possible by using only one detector and one nuclear target. \\
 The main goal of the ND will be to provide constraints on all the systematic uncertainties  relevant for the oscillation analysis. The basic requirement is that the combined systematics must be smaller than the correspondent statistical uncertainties. To this end a detailed knowledge of the neutrino interactions in Argon is needed, since the far detectors will be a LArTPC. Since DUNE will operate over a wide energy range ($0.5<E_\nu<10$ GeV), this includes contributions from all the main neutrino processes: $\sim 25 \%$ quasi-elastic (QE), 42$\%$ resonances (RES) and 33\% deep inelastic scattering (QES), the most critical regions being the one related to resonances and the transition region to DIS. The ND complex as it's currently planned can provide sufficiently precise measurements for neutrino and anti-neutrino interactions in Ar. This will be possible thanks to the combination of the high flux of neutrinos, large mass LArTPC ArgonCube ($\sim 25$ tons), which will offer a large statistics of events detected using a technology similar to the FD, and a High Pressure Ar gas TPC (HPgTPC), which will be able to detect low threshold particles.\\
-Utilizing Ar as the sole nuclear target in the ND complex though would cause severe limitations. The Argon nucleus is not a good target for flux measurements $\Phi(E_\nu)$, since the nuclear effects on the final state are significant. The nuclear smearing factor $R_{phys}$ introduces significant modifications in the spectrum reconstruction. A characterisation of these effects using only Ar as a target is impossible, since the factors in eq. \ref{eq:NX} cannot be decoupled. This fact introduces irreducible systematics and forces a large reliance on Montecarlo and model corrections. This is particularly problematic when searching for new physics, since new unexpected signals could be eliminated by ad-hoc tunings of the models.\\
+Utilizing Ar as the sole nuclear target in the ND complex though would cause severe limitations. The Argon nucleus is not a good target for flux measurements $\Phi(E_\nu)$, since the nuclear effects on the final state are significant. The nuclear smearing factor $R_{phys}$ introduces significant modifications in the spectrum reconstruction. A characterisation of these effects using only Ar as a target is impossible, since the factors in eq. \ref{eq:NX} cannot be decoupled. This fact introduces irreducible systematics and forces a large reliance on Monte Carlo and model corrections. This is particularly problematic when searching for new physics, since new unexpected signals could be eliminated by ad-hoc tunings of the models.\\
 SAND has been designed to offer a solution to these problems. It will not only offer a variety of nuclear targets, but thanks to its Straw Tube Tracker (STT) it will be able to reach the levels of precisions needed to constrain the systematic uncertainties for the oscillation measurements, while also having an independent physics program.  
 \section{Detector components}
 SAND aims to be a compact detector capable of calorimetry and precision tracking on events produced on different materials such as Argon and Hydrogen. The original KLOE electromagnetic calorimeter (ECAL) and magnet will be reused, while the inner drift chamber will be replaced. The tracker design considered in the scope of this thesis is based on straw tube technology with the addition of a small liquid Argon region used for inter-calibration: the LAr meniscus.
@@ -1103,7 +1106,7 @@ SAND would also enhance the sensitivity of the ND to dark sector physics. This i
 The simulation performed for this thesis required the utilisation of a few different software, all selected following the ND collaboration recommendations \cite{ND collaboration}. In order to simulate the neutrino interactions with matter we used the neutrino event generator GENIE, which has been officially adopted by the DUNE collaboration (Section \ref{sec: GENIE}). The geometry of SAND and the Near Detector complex were produced in form of GDML files, using $dunendggd$, a geometry generation tool entirely based on GGD (General Geometry Description). The present SAND's ECAL geometry in particular has been produced during this thesis (Section \ref{sec: GGD}). The propagation of the particles generated by the neutrino interactions in the geometry was done using edep-sim, a simulation tool based on Geant4 (Section \ref{sec: edep-sim}). Finally the digitization and reconstruction of the signal produced in the ECAL and STT was done using C++ code, based on previous simulations performed for the KLOE detector (Sections \ref{sec: digitization} and \ref{sec: Reconstruction}).    
 \section{GENIE: MC neutrino generator}
 \label{sec: GENIE}
-GENIE is a ROOT-based neutrino Montecarlo (MC) generator, designed using object-oriented methodologies and developed in C++ \cite{GENIE manual}. The present version provides comprehensive neutrino interaction modelling in a range that spans from about 100 MeV to a few hundred GeV, with the long term goal of expanding down to around 1 MeV and up to $\sim 1$ PeV. \\
+GENIE is a ROOT-based neutrino Monte Carlo (MC) generator, designed using object-oriented methodologies and developed in C++ \cite{GENIE manual}. The present version provides comprehensive neutrino interaction modelling in a range that spans from about 100 MeV to a few hundred GeV, with the long term goal of expanding down to around 1 MeV and up to $\sim 1$ PeV. \\
 GENIE has been adopted by the majority of neutrino experiment, and is the first attempt at a canonical neutrino event generator. Such a tool is essential in the design and execution of the new generation of neutrino experiments, including DUNE, that aim to reach new levels of precision. The universality of GENIE in the neutrino experimental field, in particular, solves many problems that the previous MC generator had, due to the fact that they were developed independently for each experiment (for example GENEVE, NEUT, NeuGEN). This limitation made the generators fragile and in many cases incapable of keeping up with the state of the art in terms of theoretical models and experimental data.\\
 GENIE also responds to the necessity of having consistent modelling over the wide energetic range of interest for present and future neutrino experiments, where perturbative and non-perturbative nucleon interactions and many scattering mechanisms are relevant. Often cross section, hadronization and nuclear models have different ranges of validity and need to be pieced together in order to cover all of the available phase space. There are also cases outside these ranges of validity for which new models need to be developed with the additional problem of the general lack of data in the ranges of modern accelerator neutrino experiments. In many cases the simulations are still tuned using data from bubble chamber experiments that date back to the 70's and 80's.
 \subsection{GENIE usage for the ND collaboration}
@@ -1201,7 +1204,7 @@ The STT is composed by 3 different modular components:
 The Liquid Argon meniscus, complemented by two straw tube XXYY planes placed on the contact surface between the LAr and the STT modules, completes the composition of SAND's inner tracking region.\\ 
 The dimensions and composition of the modules' internal elements are coherent with the ones reported in Section \ref{sec: inner tracker}, with the only omitted components being the support structures.\\
 The STT is composed of 90 total modules plus the LAr meniscus, which is positioned at the front of the detector. Proceeding downstream the first 85 modules are alternated between the 78 polypropylene ones and the 7 graphite ones. Specifically, after the first three modules, which are polypropylene, the graphite modules are one every thirteen. The last 5 modules are slab-less.\\ 
-While the thickness of the modules are consistent throughout the tracker region, their XY plane area varies so that the corners always touch the internal walls of the calorimeter modules and the smallest possible amount of empty space is left.
+While the thickness of the modules are consistent throughout the tracker region, their $xy$ plane area varies so that the corners always touch the internal walls of the calorimeter modules and the smallest possible amount of empty space is left.
 \clearpage
 \section{Edep-sim: charged particle propagation}
 \label{sec: edep-sim}
@@ -1224,7 +1227,7 @@ For signal digitization we mean the simulation of the signal production in the r
 	\caption{\label{cellbarrel:fig} Graphical representation of the segmentation of one of the barrel calorimeter modules. The module is divided into five vertical layers: the first four from the bottom are 4.4 cm thick and the last is 5.4 cm thick. Each layer is further divided into 12 horizontal cells. } 
 \end{figure}
 \subsection{SAND's ECAL: digitization}
-The photo-electrons produced in the ECAL fibres by passing charged particles, are collected by photo-multiplier tubes connected at both ends of the calorimeter modules. These PMs define a segmentation in the signal collection into layers and cells. We simulate this division via a signal digitization C++ program that takes the information contained in the edep-sim output trees and, given the position of the hits, assigns the energy deposition to the correct calorimeter cell. The program has been developed based on previous simulations performed by the KLOE collaboration, and adapted during the scope of this thesis the new calorimeter geometry.\\
+The photo-electrons produced in the ECAL fibres by passing charged particles, are collected by photo-multiplier tubes connected at both ends of the calorimeter modules. These PMs define a segmentation in the signal collection into layers and cells. We simulate this division via a signal digitization C++ program that takes the information contained in the edep-sim output trees and, given the position of the hits, assigns the energy deposition to the correct calorimeter cell. The program has been developed based on previous simulations performed by the KLOE collaboration, and adapted during the scope of this thesis to the new geometry.\\
 The barrel calorimeter modules are divided into five horizontal layers. Starting from the smaller base, layers number 0 to 3 contain 40 Pb slabs and 40 scintillator slabs each, for a total of 4.4 cm in thickness. Layer 4 is 5.4 cm thick, containing 49 slabs of each kind. The layers are further divided into 12 trapezoidal cells, each having equally large bases. The cells are numbered from left to right as shown in Figure \ref{cellbarrel:fig}. Each module is also assigned a number id from 0 to 23, starting from the top module and proceeding clockwise with respects to the positive $x$ axis.\\
 The two end-cap modules are similarly divided into four layers having the same thicknesses of the barrel modules' ones. Each layers contains 45 rectangular cells all having the same area. The enumeration of the cells and layers is analogous to the one for the barrel modules, while the two end-caps are given the id's 30 and 40.\\
 \begin{figure}[t!]
@@ -1256,7 +1259,7 @@ At the end of the digitization process, an output file is produced, in which for
 	\item The two ADC values, corresponding to the number of photo-electrons produced on each photo-cathode ($N_{p.e.1}$ and $N_{p.e.2}$);
 	\item The two TDC times ($t_{TDC1}$ and $t_{TDC2}$); 
 	\item Two arrays containing the photo-electron times in increasing order ($t_{p.e.1}[N_{p.e.1}]$ and $t_{p.e.2}[N_{p.e.2}]$) ;
-	\item Two index arrays linking the p.e. times to the hits that produced them stored in the Montecarlo truth edep-sim file;
+	\item Two index arrays linking the p.e. times to the hits that produced them stored in the Monte Carlo truth edep-sim file;
 \end{itemize}
 \subsection{SAND's STT: digitization}
 The active component of the STT modules consists of two double layers of straw tube trackers: the first placed horizontally (XX) and the second placed vertically (YY). The first step of the digitization of these detector components, consists in dividing the hits produced by the particles propagated using edep-sim, into clusters: one for each straw contained in the detector. The hits are then reorganised from the first to the last being produced in each straw. Finally an output file is generated, where for each straw hit by at least one particle, the following information is contained:
@@ -1265,13 +1268,13 @@ The active component of the STT modules consists of two double layers of straw t
 	\item The $x$, $y$, and $z$ in the ND hall coordinate system and the time associated to the hit cluster. Each of the coordinates is calculated simply as the mean between the value associated to first and last hits in the cluster;
 	\item The total energy deposition of the hit cluster;
 	\item A flag indicating if the straw hit is horizontal or vertical;
-	\item A index array mapping the cluster to the hits that produced it from the Montecarlo truth;
+	\item A index array mapping the cluster to the hits that produced it from the Monte Carlo truth;
 \end{itemize}
 \section{Reconstruction}
 \label{sec: Reconstruction}	
 The reconstruction C++ code is divided between the track reconstruction performed in the STT and the cluster reconstruction in the ECAL. The first performs a fit of the helicoidal trajectory described by the charged particles moving in the STT magnetic field. It does so using the hit coordinate information from the STT digitization output, which also allows for a reconstruction of the particle initial momentum. The second reconstructs the energy deposition in the calorimeter from the digitized cell signal.
 \subsection{SAND's ECAL: cluster reconstruction}
-The information from the digitized signal produced in the calorimeter, is used to group the cells with energy deposition into cluster, each associated to a specific particle track. In order to do so we first find for each cell, the particle that produced the most p.e., using the track id. from the Montecarlo truth. For each track that produced the largest amount of p.e. in at least one cell, we create a collection of cells, or cluster, containing each cell in which the particle had the largest energy deposition.\\
+The information from the digitized signal produced in the calorimeter, is used to group the cells with energy deposition into cluster, each associated to a specific particle track. In order to do so we first find for each cell, the particle that produced the most p.e., using the track id. from the Monte Carlo truth. For each track that produced the largest amount of p.e. in at least one cell, we create a collection of cells, or cluster, containing each cell in which the particle had the largest energy deposition.\\
 For each cell in the cluster we evaluate the position of where the particle hit it and when. In the ND hall coordinates the $z$ is always taken as the centre of the cell. For the barrel ECAL modules, which are placed horizontally, the $y$ coordinate is also estimated this way, while the $x$ is evaluated using the information from the cell TDC's:  
 \begin{equation}
 \label{eq: cell x}
@@ -1290,7 +1293,7 @@ d=\frac{(z_{out} - z_{in})(t_{out} - t_{in})}{|(z_{out} - z_{in})(t_{out} - t_{i
 where $z_{out}$ and $z_{in}$ are the $z$ coordinates for the most outer and most inner layer hit in the cluster, respectively (analogously for $t_{out}$ and $t_{in}$). The particle is escaping if $d=+1$ and entering if $d=-1$. 
 \subsection{SAND's STT: track reconstruction}
 \label{sec: track reconstruction}
-A charged particle entering the tracking region of the SAND detector is effected by the 0.6 T magnetic field $\vec{B}$, pointing in the $x$ direction of the ND hall coordinates. It thus describes a helical trajectory: a combination of the circular motion on $zy$ plane, perpendicular to the magnetic field and a linear motion parallel to $B$ in the x direction (Figure \ref{helix:fig}). The helix can be described parametrically as a function of the spatial progression along the trajectory $s$:
+A charged particle entering the tracking region of the SAND detector is effected by the 0.6 T magnetic field $\vec{B}$, pointing in the $x$ direction of the ND hall coordinates. It thus describes a helical trajectory: a combination of the circular motion on $zy$ plane, perpendicular to the magnetic field and a linear motion parallel to $B$ in the x direction (Figure \ref{helix:fig}). The helix can be described parametrically as a function of the spatial progression along the trajectory $s$ \cite{tracking}:
 \begin{equation}
 \begin{cases}
 	z(s)=z_0+R\Big(\cos(\Phi_0+\frac{hs\cos\lambda}{R})-\cos\Phi_0\Big)\\
@@ -1316,7 +1319,7 @@ Performing a circular fit on the hits recorded in the horizontal straws, on the 
 		\includegraphics[width=\textwidth]{circular.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{helix:fig}(a) Helicoidal motion of a charged particle in the magnetic field $\vec{B}$ which in the STT is parallel to the $x$ axis in the ND hall (b) Projection of the helicoidal motion on the $yz$ plane} 
+	\caption{\label{helix:fig}(a) Helicoidal motion of a charged particle in the magnetic field $\vec{B}$ which in the STT is parallel to the $x$ axis in the ND hall (b) Projection of the helicoidal motion on the $yz$ plane \cite{tracking}.} 
 \end{figure}
 We would now like, in order to have a complete description of the particle motion, to perform a reconstruction on the dip-angle $\lambda$. In order to do so we first approximate the circular motion in the $yz$ plane to a parabolic motion by applying a first order Taylor expansion in $s/R$. This is justified if $s/R\ll1$, and thus if the portion of the circular trajectory described by the particle is small with respects to $R$; this is true for the energetic muons entering SAND. We also switch from $\Phi_0$ to the angular direction of the track in $(x_0,y_0,z_0)$ which we indicate as $\varphi_0=\pi/2-\Phi_0$. Finally we write $(y_0,z_0)$ as $y_0=d_0\cos\varphi_0$ and $z_0=-d_0\sin\varphi_0$, where $d_0$ is simply the distance between the initial point and the origin of coordinates in the $yz$ plane. The equations of motion then become:
 \begin{equation}
@@ -1331,7 +1334,7 @@ We can now perform a coordinate rotation in the $yz$ plane of an angle $\varphi_
 \rho &=z\cos\varphi_0+y\sin\varphi_0\\
 y'&=-z\sin\varphi_0+y\cos\varphi_0
 \end{align}
-The equations of motion can then be divided between the plane $y'z$ and the plane $\rho z$:
+The equations of motion can now be re-written to be divided between the plane $y'z$ and the plane $\rho z$:
 \begin{equation}
 \begin{cases}
 x=x_0+\rho\tan\lambda\\
@@ -1351,7 +1354,7 @@ In order to calculate $\rho$ we also need the values of $\cos\varphi_0$ and $\si
 \cos\varphi_0&=h(y_0-y_c)/R\\
 \sin\varphi_0&=-h(z_0-z_c)/R
 \end{align} 
-If both fits were successful we now have estimates for $R$, $(y_C,z_C)$ and $\lambda$. With this information we can reconstruct the initial transverse momentum of the particle on the YZ plane using the formula:
+If both fits were successful we now have estimates for $R$, $(y_C,z_C)$ and $\lambda$. With this information we can reconstruct the initial transverse momentum of the particle on the $yz$ plane using the formula:
 \begin{equation}
 p_T=0.3\times BR
 \end{equation}
@@ -1374,16 +1377,15 @@ E_{reco}\simeq p_{reco} = \sqrt{p_x^2+p_y^2+p_z^2}
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Chapter 5: Beam monitoring: analysis and results}}
 \label{chapter 5}
 \section{Overview}
-With the new high-intensity accelerator beam facilities becoming more and more powerful, while attempting measurements at increasingly high precision, real time beam monitoring is becoming essential, both to protect equipment, and to precisely measure beam properties. The simulations and analysis performed for this thesis aim to evaluate the beam monitoring capabilities of SAND for the DUNE neutrino beam.\\
-Many observables can be used for beam monitoring. In this study we have considered the reconstructed momenta of muons produced in $\nu_\mu$ CC interactions in SAND's front electro-magnetic calorimeter modules. The shape of the reconstructed momentum spectrum of the muons produced in CC interactions, depends on the original $\nu_\mu$ energy spectrum. Any anomalies in the beam production would thus in principle cause variations in both spectra. In particular we considered the anomalies generated when the second neutrino beam horn experienced a transverse displacement of +0.5 mm in the Y coordinate\\
-The nominal and modified interactions samples were simulated using the GENIE neutrino Montecarlo generator to have vertex in one of the nine frontal barrel calorimeter modules (Figure \ref{front:fig}). The particles produced in the interactions were then propagated with edep-sim, the ECAL and STT signals were digitized and the clusters and tracks reconstructed. Note that in order to shorten the simulation times the digitization and reconstruction steps were performed only on the primary particles of the interactions.\\
-No particle identification has been implemented for SAND's simulation chain at the time of writing. The muon tracks where thus selected post reconstruction from the Montecarlo truth PDG code informations. In order to select only the muons produced in CC interactions in the inner layers of the calorimeter, a selection on the energy deposition on the most outer layer of the ECAL was implemented. This energy deposition threshold, together with a selection on the $x$ position of the neutrino vertexes defined our fiducial cut. \\
+Since new measurements in the neutrino sector need a high precision knowledge of the neutrino flux produced by the new high intensity beam facility, beam monitoring is  essential. Many observables can be used for beam monitoring. In this study we have considered the reconstructed momenta of muons produced in $\nu_\mu$ CC interactions in SAND's front electro-magnetic calorimeter modules. The shape of the reconstructed momentum spectrum of the muons produced in CC interactions, depends on the original $\nu_\mu$ energy spectrum. Any anomalies in the beam production would thus in principle cause variations in both spectra. In particular we considered the anomalies generated when the first neutrino beam horn experienced a transverse displacement of +0.5 mm in the $y$ coordinate\\
+Neutrino interactions samples were simulated using the GENIE neutrino Monte Carlo generator forcing the interaction vertexes to be in one of the nine frontal barrel calorimeter modules (Figure \ref{front:fig}). The particles produced in the interactions were then propagated with edep-sim, the ECAL and STT signals were digitized and the clusters and tracks reconstructed. Note that in order to shorten the simulation times the digitization and reconstruction steps were performed only on the primary particles of the interactions.\\
+No particle identification has been implemented for SAND's simulation chain at the time of writing. The muon tracks where thus selected from the Monte Carlo truth PDG code informations. In order to reject the background coming from particles outside KLOE and then passing through the calorimeter (not simulated in this work), a selection on the energy deposition on the most outer layer of the ECAL was implemented. This energy deposition threshold, together with a selection on the $x$ position of the neutrino vertexes defined our fiducial cut. \\
 Only the successfully reconstructed muons were considered. Additionally the $\chi^2$ values for the linear and circular fits were used to identify a reconstruction quality selection. \\
 We studied the sensitivity to the beam modification by applying two-sample homogeneity tests on the reconstructed muon momentum distributions. We used samples roughly corresponding to the amount of CC interactions expected in the front calorimeters of SAND in a week, as suggested by the ND collaboration for beam monitoring measures. Given the CC interaction event rate $r_{CC}=4.685\times 10^{5}\ \text{ev}[\nu_{\mu}(CC)]/$ton/week, the module mass $m_{mod}=2.75$ ton, the number of target modules $n_{mod}=9$ and the fraction of CC events with respects to the total $f_{CC}=2/3$ this corresponds to:
 \begin{equation}
 N_{week}=r_{CC}\times f_{CC}^{-1} \times m_{mod} \times n_{mod}\simeq 1.74\times 10^6
 \end{equation} 
-We thus produced a ``nominal" (standard neutrino beam energy distribution) and a ``shifted" (neutrino beam produced with +0.5 mm Y shift in the second horn) sample both containing exactly $N=1750000$ neutrino interactions.
+We thus produced a ``nominal" (standard neutrino beam energy distribution) and a ``shifted" (neutrino beam produced with +0.5 mm $y$ shift in the first horn) sample both containing exactly $N=1750000$ neutrino interactions.
 \begin{figure}[t]
 	\centering
 	\begin{subfigure}[b]{0.55\textwidth}
@@ -1398,7 +1400,7 @@ We thus produced a ``nominal" (standard neutrino beam energy distribution) and a
 	\caption{\label{front:fig} Graphical representation (produced with OGL) of the 9 front calorimeter barrel modules GEANT4 geometries. The two panels show the projection (a) on the $xy$ plane and (b) on the $yz$ plane.} 
 \end{figure}
 \section{Preliminary measurements}
-A series of preliminary measurements were needed before the application of the beam monitoring tests. Firstly we needed to extrapolate the calibration coefficient between the energy loss of a minimum ionizing particle (MIP) in a calorimeter module cell and the total number of p.e. produced. This was essential to be able to set the p.e. threshold used for the outer layer cut.\\
+A series of preliminary measurements were needed before the application of the beam monitoring tests. Firstly we needed to evaluate the calibration coefficient between the energy loss of a minimum ionizing particle (MIP) in a calorimeter module cell and the total number of p.e. produced. This was essential to be able to set the p.e. threshold used for the outer layer cut.\\
 An evaluation of the reconstruction algorithm efficiency with respect to energy was also performed, together with a study on the efficiency of the front layer energy deposition cut and reconstruction selection.
 \begin{figure}[t]
 	\centering
@@ -1412,10 +1414,10 @@ An evaluation of the reconstruction algorithm efficiency with respect to energy 
 	\includegraphics[width=\textwidth]{hEcell.png}
 	\caption{\label{hEcell:fig} Distribution of total number of photo-electrons produced at the passage of a 10 GeV muon in a ECAL cell. The histogram has been produced from a set of 1000 simulated muons hitting a calorimeter module. These were generated using the GEANT4 particle gun mode implemented in edep-sim. The red line indicates a Landau fit, the results of which are summarized in the box in the upper right corner of the histogram canvas.} 
 \end{figure}
-In order to measure the calibration constant between the MIP loss and the photo-electron production in the calorimeter cells, we simulated a set of 1000 up-going muons with an initial energy of 10 GeV, hitting the top calorimeter barrel module's inner base at the centre of one of its cells. The muons were generated using a simple GEANT4 particle gun via edep-sim, while the geometry is the same as for the general simulation. A graphical representation of one of these events is shown in Figure \ref{muoncalo:fig}. The particle gun was placed on the surface of the calorimeter so that no interactions with other elements of the geometry were possible before the particle hit the module.\\
+In order to measure the calibration constant between the MIP energy loss and the photo-electron production in the calorimeter cells, we simulated a set of 1000 up-going muons with an initial energy of 10 GeV, hitting the top calorimeter barrel module's inner base at the centre of one of its cells. The muons were generated using a simple GEANT4 particle gun via edep-sim, while the geometry is the same as for the general simulation. A graphical representation of one of these events is shown in Figure \ref{muoncalo:fig}. The particle gun was placed on the surface of the calorimeter so that no interactions with other elements of the geometry were possible before the particle hit the module.\\
 The hits and relative energy losses were then assigned to the calorimeter cells during digitization producing two ADC values for each cell. The distribution of the sum of the two ADC values, which in our simple digitization algorithm corresponds with the total production of photo-electrons, is shown in Figure \ref{hEcell:fig}. Performing a Landau fit on the histogram we find that the most probable value is: 
 \begin{equation}
-N_{p.e.}^{cell}=(97.39\pm0.34) \ \text{p.e.}
+N_{p.e.}^{cell}=(97.4\pm0.3) \ \text{p.e.}
 \end{equation}
 We can approximate the energy loss of the muon with the one experienced by a minimum ionizing particle (MIP) traversing 40 slabs of lead for a total of $\Delta x_{Pb}=1.6$ cm and 40 slabs of plastic scintillator for a total thickness of $\Delta x_{Sc}=2.8$ cm:
 \begin{equation}
@@ -1424,7 +1426,7 @@ We can approximate the energy loss of the muon with the one experienced by a min
 where $(dE/dx)^{MIP}\sim2 \ \text{MeV/(g/cm}^2)$ is the average energy loss of a MIP and  $\rho_{Pb}=11.34$ g/cm$^3$ and $\rho_{Sc}=1.06$ g/cm$^3$ are the densities of lead and the scintillating material respectively. \\
 The average number of photo-electrons produced per cell per MeV is given by the calibration coefficient:
 \begin{equation}
-c=\frac{N_{p.e.}^{cell}}{\Delta E_{cell}}\simeq 2.31 \text{ [p.e./Mev]}
+c=\frac{N_{p.e.}^{cell}}{\Delta E_{cell}}\simeq 2.31 \text{ [p.e./MeV]}
 \end{equation}
 This is roughly in agreement with previous calibrations performed by the KLOE collaboration using cosmic ray muons, which measured an average number of p.e. per PMT per MeV of about 1 p.e./MeV \cite{KLOE}.
 
@@ -1441,7 +1443,7 @@ This is roughly in agreement with previous calibrations performed by the KLOE co
 		\includegraphics[width=\textwidth]{yz_fiducial.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{vertexes:fig}Spatial distribution in ND hall global coordinates of the true neutrino interaction vertexes of the events that survive the outer layer cut (black) and those that don't (red). The two panels show the projection (a) on the $xy$ plane and (b) on the $yz$ plane. A simplified profile of the ECAL barrel is outlined in black. } 
+	\caption{\label{vertexes:fig}Spatial distribution in ND hall global coordinates of the true neutrino interaction vertexes of the events that survive the outer layer cut (black) and those that don't (blue). The two panels show the projection (a) on the $xy$ plane and (b) on the $yz$ plane. A simplified profile of the ECAL barrel is outlined in black. } 
 \end{figure}
 Selecting from the total one week nominal sample of 1.75$\times10^6$ events, only the $\nu_\mu$ CC interactions, we are left with $1318845$ events. All the muons in this sample are the product of CC interactions in the front calorimeter modules. In a realistic physical scenario, the sample would include also a certain amount of muons that are the product of $\nu_\mu$ CC from outside the detector either from the neutrino beam or from cosmic rays.\\
 In order to eliminate these external events from our sample we introduce an energy deposition threshold on the outer layer of $\Delta E_{th}=15$ MeV. Using the calibration coefficient found in Section \ref{sec: calibration} we then find the threshold in number of total photo-electrons produced:
@@ -1460,7 +1462,7 @@ Any event having photo-electron production on the outer layer $\geq 35$ p.e. is 
 		\includegraphics[width=\textwidth]{fiducial_eff.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{fiducialefficiency:fig}(a) Energy (Montecarlo truth) distribution of neutrinos from the CC nominal sample (grey); Energy (Montecarlo truth) distribution of neutrinos surviving the fiducial cut (yellow) (b) Selection efficiency as a function of neutrino energy from the Montecarlo truth.} 
+	\caption{\label{fiducialefficiency:fig}(a) Energy (Monte Carlo truth) distribution of neutrinos from the CC nominal sample (grey); Energy (Monte Carlo truth) distribution of neutrinos surviving the fiducial cut (yellow). (b) Selection efficiency as a function of neutrino energy from the Monte Carlo truth.} 
 \end{figure}
 In order to eliminate the events that are likely going to produce muons that won't fully traverse the STT, which we expect to have poor momentum reconstruction, we also define a  spatial cut on the x position of the interaction vertex:
 \begin{equation}
@@ -1471,12 +1473,12 @@ In order to estimate the vertex position we use the space information from the f
 x_{V}=\frac{\sum_{i=1}^{N_{cell}}x_i^{cell}E_i^{cell}}{E_{tot}^{cell}}
 \end{equation} 
 $N_{cell}$ is the number of hit cells, $x_i^{cell}$ is the estimated position of the particle transit within the cell and $E_{tot}^{cell}$ is the total ADC p.e. production in the front calorimeter modules.\\
-We define the combination of the outer layer energy deposition and the vertex selection as our fiducial cut. In Figure \ref{vertexes:fig} we show the spatial distribution of the interaction vertexes of the events surviving the fiducial cut (black), together with those that don't (red). In Figure \ref{fiducialefficiency:fig} (a) we show the distribution of the true Montecarlo neutrino energy before and after the cut.\\
+We define the combination of the outer layer energy deposition and the vertex selection as our fiducial cut. In Figure \ref{vertexes:fig} we show the spatial distribution of the interaction vertexes of the events surviving the fiducial cut (black), together with those that don't (blue). In Figure \ref{fiducialefficiency:fig} (a) we show the distribution of the true Monte Carlo neutrino energy before and after the cut.\\
 We can define the cut efficiency $\varepsilon_{cut}$ as the ratio between the events surviving the selection $N_{fid}=383116$ and the total number of CC events $N_{CC}=1318845$:
 \begin{equation}
-\varepsilon_{cut}=\frac{N_{fid}}{N_{CC}}=0.2905 \pm 0.0005
+\varepsilon_{cut}=\frac{N_{fid}}{N_{CC}}=0.2905 \pm 0.0004
 \end{equation}  
-The selection efficiency distribution with respects to the neutrino energy is shown in Figure \ref{fiducialefficiency:fig} (b). Note that $\varepsilon_{cut}$ gets worse at higher energy. This is might be due to nuclei fragmentation in DIS $\nu_\mu$ interactions which produce a large quantity of scattered nucleons that can deposit energy in the calorimeter.
+The selection efficiency distribution with respects to the neutrino energy is shown in Figure \ref{fiducialefficiency:fig} (b). Note that $\varepsilon_{cut}$ decreases at higher energy. This might be due to nuclei fragmentation in DIS $\nu_\mu$ interactions which produce a large quantity of scattered nucleons that can deposit energy in the calorimeter.
 
 \subsection{Muon track reconstruction efficiency}
 \begin{figure}[t]
@@ -1490,13 +1492,12 @@ The selection efficiency distribution with respects to the neutrino energy is sh
 		\includegraphics[width=\textwidth]{eff_reco.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{reconstructionefficiency:fig}(a) Distributions of the true Montecarlo momenta of the muons from the fiducial sample (blue) and only the ones correctly reconstructed (green)  (b) Reconstruction algorithm efficiency as a function of the true Montecarlo muon momentum.} 
+	\caption{\label{reconstructionefficiency:fig}(a) Distributions of the true Monte Carlo momenta of the muons from the fiducial sample (blue) and only the ones correctly reconstructed (green).  (b) Reconstruction algorithm efficiency as a function of the true Monte Carlo muon momentum.} 
 \end{figure}
 The STT track reconstruction algorithms described in Section \ref{sec: Reconstruction} can sometimes fail. If either one of the two fits fail, the reconstruction is considered unsuccessful and the event is flagged and discarded for the final momentum reconstruction.\\
-The circular fit is considered not successful if the track has less than three hits on horizontal straw tubes. The linear fit always fails if the circular fit is unsuccessful, since it necessitates the $(y_C,z_C)$ and $R$ estimates in order to calculate the $\rho$ coordinates. The other failure conditions are analogous to the circular fit ones, with additional problems occurring when extrapolating the $y$ coordinate from the $x$ and $z$ values obtained from the vertical straws.\\
-The total reconstruction efficiency is given by the ratio between the number of correctly reconstructed muons $N_{reco}=351267$ and the total number of muons in the fiducial sample $N_{fid}=400329$:
+The total reconstruction efficiency is given by the ratio between the number of correctly reconstructed muons $N_{reco}=351267$ and the total number of muons in the fiducial sample $N_{fid}=383116$:
 \begin{equation}
-\varepsilon_{reco}=\frac{N_{reco}}{N_{fid}}=0.878\pm0.002
+\varepsilon_{reco}=\frac{N_{reco}}{N_{fid}}=0.9168\pm0.0004
 \end{equation}   
 In Figure \ref{reconstructionefficiency:fig} (a) we show the distribution of the muon real momenta from the two samples and in Figure \ref{reconstructionefficiency:fig} (b) we show $\varepsilon_{reco}$ as a function of the muon momentum.
 
@@ -1513,7 +1514,7 @@ In Figure \ref{reconstructionefficiency:fig} (a) we show the distribution of the
 		\includegraphics[width=\textwidth]{ptrueVSprecoQ.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{ptrueVSpreco:fig}Reconstructed momenta as a function of the true Montecarlo ones, before (a) and after (b) the quality cut is applied} 
+	\caption{\label{ptrueVSpreco:fig}Reconstructed momenta as a function of the true Monte Carlo ones, before (a) and after (b) the quality cut is applied.} 
 \end{figure}
 By plotting the reconstructed muon momentum of those events for which the track fits were considered successful (Figure \ref{ptrueVSpreco:fig} (a)), we see that in a considerable amount of cases, especially at low energies, $p_\mu$ is underestimated. We might then want to calculate $\chi^2$-like statistic values for linear ($\chi^2_{ln}$) and circular ($\chi^2_{cr}$) fits and use them to select a sample of well reconstructed muons. For the linear fit (see Section \ref{sec: track reconstruction} for the definitions of the variables) performed on $N_{hits}$ straw hits we define:
 \begin{equation}
@@ -1544,22 +1545,22 @@ The plots are shown in Figure \ref{chi:fig} (a) and (b) respectively. Starting f
 \begin{equation}
 \chi^2_{ln}<10^5 
 \end{equation}
-In Figure \ref{ptrueVSpreco:fig} (b) we show the reconstructed momenta as a function of the true Montecarlo momenta after the quality cut is applied. The efficiency of this selection is given by the ratio between the number of events having sufficiently small $\chi^2$ values $N_{qual}=326322$ and the total amount of reconstructed muons $N_{reco}$:
+In Figure \ref{ptrueVSpreco:fig} (b) we show the reconstructed momenta as a function of the true Monte Carlo momenta after the quality cut is applied. The efficiency of this selection is given by the ratio between the number of events having sufficiently small $\chi^2$ values $N_{qual}=326322$ and the total amount of reconstructed muons $N_{reco}$:
 \begin{equation}
-\varepsilon_{qual}=\frac{N_{qual}}{N_{reco}}= 0.970 \pm 0.002
+\varepsilon_{qual}=\frac{N_{qual}}{N_{reco}}= 0.9290 \pm 0.0004
 \end{equation}  
 \section{Beam monitoring study results}
 \begin{figure}[t!]
 	\centering
 	\includegraphics[width=0.7\textwidth]{numuFlux_change.png}
-	\caption{\label{numuchange:fig}(Blue) Muon neutrino flux as a function of neutrino energy produced by the DUNE neutrino beam in standard conditions (Orange) Muon neutrino flux as a function of neutrino energy generated when the second horn had a transverse displacement of +0.5 mm in the Y coordinate.} 
+	\caption{\label{numuchange:fig}(Blue) Muon neutrino flux as a function of neutrino energy produced by the DUNE neutrino beam in standard conditions. (Red) Muon neutrino flux as a function of neutrino energy generated when the second horn had a transverse displacement of +0.5 mm in the $y$ coordinate.} 
 \end{figure}
-To perform the beam monitoring measurements, we considered the muon neutrino flux produced by the neutrino beam in standard conditions and we confronted it with the one generated when the second horn had a transverse displacement of +0.5mm in the Y coordinate. The corresponding neutrino fluxes simulated by the Beam facilities group as a function of energy in units of $\nu_\mu/m^2/POT/\text{GeV}$ are shown in Figure \ref{numuchange:fig}.\\
+To study the beam monitoring performances, we considered the muon neutrino flux produced by the beam in standard conditions (hereafter nominal) and we confronted it with the one generated when the second horn had a transverse displacement of +0.5 mm in the $y$ coordinate (hereafter shifted). The corresponding neutrino fluxes simulated by the Beam facilities group as a function of energy in units of $\nu_\mu/m^2/POT/\text{GeV}$ are shown in Figure \ref{numuchange:fig}.\\
 Note that the $\nu_\mu$ fluxes were also generated by the collaboration with modifications to many other critical parameters. These include: transverse displacement in both horns and the proton beam; modifications in the proton beam radius and angle on target; shifts in the values of the decay pipe radius, horn currents, target density and horn water layer thickness. The critical parameter for this study has been selected arbitrarily and is not of special interest over any of the others.\\ 
 \subsection{Two-sample statistical tests}
-In order to spot an anomaly in the neutrino beam production, we would like to test if the modified muon energy spectrum is not consistent with the original one i.e. if the hypothesis that the two histograms are sampled from the same distributions is incorrect. We do not have a clearly defined null hypothesis for what the common distribution would be, so we can only compare the two histograms bin by bin with a so called two-sample statistical test \cite{two-sample}. Of the many possible tests that exist we decided to use three: the $\chi^2$ test, which is a valid two-sample test in the large sample approximation; the Kolmogorov-Smirnov test; the Anderson-Darling test. We implemented the first as a C++ algorithm, while for the second and third we used the ROOT functions KolmogorovTest and AndersonDarlingTest \cite{ROOT}. Since the $\chi^2$ test is the only one directly implemented by me, the p-values obtained with it will be treated as the reference. \\
+In order to spot an anomaly in the neutrino beam production, we would like to test if the shifted muon energy spectrum is not consistent with the original one i.e. if the hypothesis that the two histograms are sampled from the same distributions is incorrect. We do not have a clearly defined null hypothesis for what the common distribution would be, so we can only compare the two histograms bin by bin with a so called two-sample statistical test \cite{two-sample}. Of the many possible tests that exist we decided to use three: the $\chi^2$ test, which is a valid two-sample test in the large sample approximation; the Kolmogorov-Smirnov test; the Anderson-Darling test. We implemented the first as a C++ algorithm, while for the second and third we used the ROOT functions KolmogorovTest and AndersonDarlingTest \cite{ROOT}. Since the $\chi^2$ test is the only one directly implemented by me, the p-values obtained with it will be treated as the reference. \\
 \subsubsection{Two-sample $\chi^2$ test}
-Given two histograms with the same number of bins $k$ and boundaries, the bin contents are the realisations of two random variables U and V. We call $u_i$ and $v_i$ the real bin contents and $\mu_i$ and $\nu_i$ their expected values. The bin contents distributions have the shapes of Poisson functions and the sampling distributions of the difference between the two histograms is:
+Given two histograms with the same number of bins $k$ and boundaries, the bin contents are the realisations of two random variables U and V. We call $u_i$ and $v_i$ the real bin contents and $\mu_i$ and $\nu_i$ their expected values. The bin contents distributions have the shapes of Poisson functions for high statistics and the sampling distributions of the difference between the two histograms is:
 \begin{equation}
 P(\Delta_i)=\frac{1}{(2\pi)^{k/2}}\bigg(\prod_{i=1}^{k}\frac{1}{\sigma_i}\bigg)\exp\bigg(-\frac{1}{2}\sum_{i=1}^{k}\frac{\Delta_i^2}{\sigma_i^2}\bigg)
 \end{equation}
@@ -1578,7 +1579,7 @@ T=\sum_{i=1}^{k}\frac{(u_i-v_i)^2}{u_i+v_i}
 Note that if for bin $i$ we have $u_i = v_i = 0$, its contribution to the sum is zero.\\
 $T$ follows approximately a $\chi^2$ distribution for $k-1$ degrees of freedom, as long as we are in a situation where the two samples are large enough that the bin contents are distributed normally. We can thus estimate from the $\chi^2$ distribution, the p-value, which in this case is the probability of having two histograms that are as in agreement  or less than the ones we are testing, if they are sampled from the same distribution.
 \subsubsection{Kolmogorov-Smirnov test}
-The two-sample Kolmogorov-Smirnov test consists in measuring the maximum difference between the two cumulative distribution functions (CDFs) and compare with the null homogeneity hypothesis expectations.\\
+The two-sample Kolmogorov-Smirnov test consists in measuring the maximum difference between the two cumulative distribution functions (CDFs) and compare with the null homogeneity hypothesis expectations \cite{KS}.\\
 We approximate the cumulative distribution functions as histograms:
 \begin{align}
 u_{ci}=\sum_{j=1}^{i}u_j/N_u\\
@@ -1598,11 +1599,11 @@ c(\alpha)=\sqrt{-\ln(\alpha/2)\cdot(1/2)}
 \end{equation}
 Note that the Kolmogorov-Smirnoff test tends to emphasize differences near the peak of the distribution, where the largest fluctuations are expected for Poisson probabilities.
 \subsubsection{The Anderson-Darling test}
-The Anderson-Darling test is a modified version of the Kolmogorov-Smirnov test design to improve the sensitivity to the tails of the CDFs. The original statistical test, designed to test the compatibility of a data set $x$ having an empirical CDF $F_m(x)$, with a continuous distribution, having the CDF $F_0(x)$ under the null hypothesis is:
+The Anderson-Darling test is a modified version of the Kolmogorov-Smirnov test design to improve the sensitivity to the tails of the CDFs \cite{AD general}. The original statistical test, designed to test the compatibility of a data set $x$ having an empirical CDF $F_m(x)$, with a continuous distribution, having the CDF $F_0(x)$ under the null hypothesis is:
 \begin{equation}
 A^2_m=m\int_{-\inf}^{\inf}\frac{[F_m(x)-F_0(x)]^2}{F_0(x)[1-F_0(x)]}dF_0(x)
 \end{equation}
-Scholz and Stephens adapted this statistic to the k-sample case, which in our simple two-sample situation reads:
+Scholz and Stephens, in their 1986 article \cite{AD}, which ROOT cites as its reference for the AndersonDarlingTest function implementation, adapted this statistic to the k-sample case, which in our simple two-sample situation reads:
 \begin{multline}
 T_{AD}=\frac{1}{N_u+N_v}\sum_{j=k_{min}}^{k_{max}-1}\frac{u_j+v_j}{\Sigma_{j}(N_u+N_v-\Sigma_j)}\\
 \times\big[((N_u+N_v)\Sigma_{uj}-N_u\Sigma_j)^2/N_u+((N_u+N_v)\Sigma_{vj}-N_v\Sigma_j)^2/N_v\big]
@@ -1616,7 +1617,7 @@ The null hypothesys can be rejected at $\alpha$ confidence level for a test if:
 \begin{equation}
 \frac{T_{AD}-1}{\sigma_{(N_u+N_v)}}\geq z_{2}(1-\alpha)
 \end{equation}
-where $z_{2}(1-\alpha)$ is the $(1-\alpha)$-percentile of the standardized asymptotic function $Z_{k-1}=[T_{AD}-1]/\sigma_{(N_u+N_v)}$ and $\sigma_{N}$ is the standard deviation of $T_{AD}$. More information on how these parameters are defined and on how ROOT implements the Anderson-Darling test can be found in \cite{AD}. 
+where $z_{2}(1-\alpha)$ is the $(1-\alpha)$-percentile of the standardized asymptotic function $Z_{k-1}=[T_{AD}-1]/\sigma_{(N_u+N_v)}$ and $\sigma_{N}$ is the standard deviation of $T_{AD}$. 
 \subsection{The control samples}
 \begin{figure}[t!]
 	\centering
@@ -1629,11 +1630,11 @@ where $z_{2}(1-\alpha)$ is the $(1-\alpha)$-percentile of the standardized asymp
 		\includegraphics[width=\textwidth]{ptrueFluxeseverything.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{control:fig}(a) Reconstructed momenta distributions from two control half-statistics samples produced with the nominal neutrino beam. The fiducial and momentum reconstruction successfulness cuts are applied (b) True Montecarlo momenta distributions from the nominal and shifted samples. A fiducial cut is applied. Both histograms are in logarithmic scale.} 
+	\caption{\label{control:fig}(a) Reconstructed momenta distributions from two control half-statistics samples produced with the nominal neutrino beam. The fiducial and momentum reconstruction successfulness cuts are applied (b) True Monte Carlo momenta distributions from the nominal and shifted samples. A fiducial cut is applied. Both histograms are in logarithmic scale.} 
 \end{figure}
-As a first control on our methodology we decided to apply the $\chi^2$ test to the reconstructed momenta from two nominal samples. If the method is capable of distinguishing between the products of two different neutrino beam configurations, we expect to obtain a p-value for two control samples that follow the same distribution that is close to 1. We derive the two samples by applying the fiducial cut and momentum reconstruction control to the one week simulation and dividing the events randomly into two groups (the correspondent momenta distributions are plotted in Figure \ref{control:fig} (a)). We obtain a p-value and a confidence level in number of $\sigma$'s:
+As a first control on our methodology we decided to apply the $\chi^2$ test to the reconstructed momenta from two nominal samples. If the method is capable of distinguishing between the products of two different neutrino beam configurations, we expect to obtain a p-value for two control samples that follow the same distribution that is close to 1. We derive the two samples by applying the fiducial cut and momentum reconstruction control to the one week simulation and dividing the events randomly into two groups (the correspondent momenta distributions are plotted in Figure \ref{control:fig} (a)). For the $\chi^2$ statistic we obtain a p-value and a confidence level in number of $\sigma$'s:
 \begin{align}
-p_{control}  =& 0.527;&  \sigma^{KS}_{control}= 0.633& \ (\chi^2)
+p_{control}  =& 0.527;&  \sigma_{control}= 0.633& \ (\chi^2)
 \end{align}  
 where the number of degrees of freedom is given by the number of bins in the histograms minus 1: $n.d.f.=39$.\\
 The correspondent p-values and confidence levels were obtained for the Kolmogorov-Smirnov (K.S.) and Anderson-Darling (A.D.) test using more finely binned histograms ($n_{bin}=1000$), as suggested on the ROOT reference manual:
@@ -1641,7 +1642,7 @@ The correspondent p-values and confidence levels were obtained for the Kolmogoro
 p_{control}^{KS}  =& 0.245;&  \sigma^{KS}_{control}= 1.16& \ (K.S.)\\
 p_{control}^{AD}  =& 0.264;&  \sigma^{AD}_{control}= 1.12& \ (A.D.)
 \end{align}
-As a second control we decided to apply the test to the real momenta from the nominal and shifted samples. A fiducial cut was applied by selecting only the CC events whose vertexes were not on the outer layer of the calorimeter and for which the vertex true $x$ coordinate was $|x_{V}^{truth}|<1.5$ m (the two distributions are plotted in Figure \ref{control:fig} (b)). This was done in order to gauge what the best possible p-value (i.e. the smallest and most decisive) might be: 
+As a second control we decided to apply the test to the true Monte Carlo momenta from the nominal and shifted samples. A fiducial cut was applied by selecting only the CC events whose interactions were not on the outer layer of the calorimeter and for which the vertex true $x$ coordinate was $|x_{V}^{truth}|<1.5$ m (the two distributions are plotted in Figure \ref{control:fig} (b)). This was done in order to gauge what the best possible p-value (i.e. the smallest and most decisive) might be: 
 \begin{align}
 p_{truth}=& 5.15\times 10^{-7};&\sigma_{truth}=5.02  & \ (\chi^2) \\
 p_{truth}^{KS}  = &1.41\times 10^{-4}; &\sigma^{KS}_{truth}=3.81& \ (K.S.)\\
@@ -1659,7 +1660,7 @@ No p-value obtained from the reconstructed momenta should be smaller than $p_{tr
 	\caption{\label{pto:fig}Reconstructed momenta distributions from the nominal and shifted samples. The fiducial, reconstruction and quality selections are applied. Both histograms are in logarithmic scale.} 
 \end{figure}
 \subsection{Results}
-The first two samples considered for beam monitoring are the muon reconstructed momenta after the fiducial cut and the selection on the successfulness of the reconstruction are applied. The reconstructed  momentum distributions of the muons produced with nominal and shifted neutrino fluxes are shown in Figure \ref{p:fig}. \\
+The first two samples considered for beam monitoring are the muon reconstructed momenta after the fiducial cut and the selection on the successfulness of the muon reconstruction are applied. The reconstructed  momentum distributions of the muons produced with nominal and shifted neutrino fluxes are shown in Figure \ref{p:fig}. \\
 Applying the statistical tests on the reconstructed momenta samples we find:
 \begin{align}
 p_{reco}=& 1.55 \times 10^{-3};&\sigma_{reco}=3.17& \ (\chi^2) \\
@@ -1673,7 +1674,8 @@ p_{reco}^{KS}=&0.295; &\sigma^{KS}_{reco}=1.05&\ (K.S.)\\
 p_{reco}^{AD}  = &0.137; &\sigma^{AD}_{reco}=1.49 &\ (A.D.)
 \end{align}
 \subsubsection{Evolution of p-value and sigma with the sample}
-In order to study how the p-value and significance level grew with the data, we applied the $\chi^2$ to increasingly larger samples. We show the results for quality cut reconstructed momenta samples in Figure \ref{ev:fig}. As we should expect as the samples become larger the $\chi^2$ and number of $\sigma$'s grow, while the p-value decreases.
+In order to study how the p-value and significance level grew with the data, we performed the same analysis to increasingly larger samples. We show the results in Figure \ref{ev:fig}. As we should expect, as the samples become larger the $\chi^2$ and number of $\sigma$'s increase, while the p-value decreases. Moreover it can be seen from Figure \ref{ev:fig}, that with a sample grater than 1.2 million events, comparable to (even if smaller) the one expected during a week of data taking, is possible to identify the beam anomaly with a confidence level corresponding to more than 3 $\sigma$'s. \\
+In conclusion this work confirms the high potentiality of the SAND detector as beam monitoring especially given the fact the more clean sample of neutrino interaction on the internal SAND tracking device were not taken into account.
 \begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.475\textwidth}
@@ -1690,24 +1692,28 @@ In order to study how the p-value and significance level grew with the data, we 
 		\includegraphics[width=\textwidth]{sigma.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{ev:fig}Evolution of the values of (a) $\chi^2$, (b) p-value and (c) confidence level in number of sigmas for increasingly larger samples where all the cuts were applied. On the $x$-axis we show the size of the total event sample before any cut was applied.} 
+	\caption{\label{ev:fig}Evolution of the values of (a) $\chi^2$, (b) p-value and (c) confidence level in number of sigmas for increasingly larger samples where all the cuts were applied. On the abscissa we show the size of the total event sample before any cut was applied.} 
 \end{figure}
 \clearpage
-\section*{Conclusions}
-We used a $\chi^2$ two-sample test to assess the capability of the SAND detector to monitor neutrino beam changes on a weekly basis. We compared the reconstructed muon momentum spectra generated in a week by CC $\nu_\mu$ interactions produced with reference beam configuration, with the one produced on the same time span by a displacement of 0.5 mm of the second beam horn over one transversal axis.\\
-In order to meet the weekly requirement, we used the front part of the SAND barrel calorimeters as neutrino target to provide enough mass. We then produced the two datasets using a detailed simulation, which starts from the beam energy spectrum, simulates neutrino interactions, propagates their products inside SAND and digitizes the response of the crossed detectors. Generated events were then reconstructed and analysed using custom made software based on standard techniques.\\
-Considering a 0.5 mm horn displacement we observe that even in the case of a perfect detector with a perfect reconstruction, (i.e. using the Monte Carlo ``truth"), the significance of the difference among the two datasets does not exceed 5 $\sigma$, thus defining our sensitivity limit.\\
-After a detailed analysis, we found that we are able to separate the two reconstructed samples at 3.8 $ \sigma$ confidence level, a significant result, in
-view of the considerations expressed above. \\
-This result, although already within the DUNE requirements, can still be improved, for instance, by also including in the dataset the events with a neutrino interaction in the STT, not considered in this study. In this case, while the ``true" sample will marginally increase its sensitivity due to the larger statistics, we expect that the improved resolution on the reconstructed quantities, due to the lack of multiple scattering in the calorimeter, will be useful to get the discriminating power of the reconstructed samples closer to the ideal one.\\
-Another promising route would be to consider the reconstructed position on the $xy$ plane of the interaction vertexes, either in the front calorimeters or in the STT. We expect that a modification in the beam production would produce a change both in the median of the transverse space distribution and on its shape. Unfortunately the flux spectra used to simulate the neutrino interactions for this thesis contained no spatial informations, making it impossible to consider the vertex position distribution in the study. Detailed simulations of the neutrino production kinematics produced by the Fermilab accelerator group are currently being validated and will soon be available, allowing to explore this hypothesis.
+\chapter*{Conclusions and outlooks}
+\rhead[\fancyplain{}{\bfseries Conclusions and outlooks}]{\fancyplain{}{\bfseries\thepage}}
+\lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Conclusions and outlooks}}
+\addcontentsline{toc}{chapter}{Conclusions and outlooks}
+The field of neutrino oscillation is of central importance in modern particle physics, offering a unique evidence that the Standard Model is not a complete theory. The DUNE experiment is set to reach new levels of precision in the measurement of the parameters that govern the oscillation phenomenon, in particular allowing for the determination of the $\delta_{CP}$ and the neutrino mass ordering.\\
+SAND will be one of the three Near Detectors for the DUNE experiment, its main goal being to provide constraints on all the systematic uncertainties relevant for the oscillation analysis. Among these, one of the detector's main task will be beam monitoring, which consists in using the flux measurements to spot potential anomalies in the beam production. This thesis studies the beam monitoring capabilities of the SAND detector, via neutrino flux and detector simulations.\\
+We used a $\chi^2$ two-sample test to identify anomalies on a weekly basis. We compared the reconstructed muon momentum spectra in CC $\nu_\mu$ interactions produced with reference beam configuration in a week, with the one produced on the same time span by a displacement of 0.5 mm of the first beam horn over one transversal axis.\\
+We used the front part of the SAND barrel calorimeters as neutrino target to provide a neutrino interaction sample with enough statistics. We then produced the two datasets using a detailed simulation, which starts from the beam energy spectrum, simulates neutrino interactions, propagates their products inside SAND and digitizes the response of the crossed detectors. The events were then reconstructed and analysed using custom made software based on standard techniques.\\
+We observe that even in the case of a perfect detector with a perfect reconstruction, (i.e. using the Monte Carlo ``truth"), the significance of the difference among the two datasets does not exceed 5$\sigma$, thus defining our sensitivity limit. \\
+After a detailed analysis, we found that we are able to distinguish the two reconstructed samples at 3.8$ \sigma$ confidence level. \\
+Our result, although already within the DUNE requirements, can still be improved. For instance, events with a neutrino interaction in the STT, not considered in this study, could also be included in the dataset. In this case, while the ``true" sample will marginally increase its sensitivity due to the larger statistics, we expect that the improved resolution on the reconstructed quantities, due to the lack of multiple scattering in the calorimeter, will be useful to get the discriminating power of the reconstructed samples closer to the ideal one.\\
+Another promising route would be to consider the reconstructed position on the $xy$ plane of the interaction vertexes, both in the front calorimeters and the STT.  Modification in the beam production should produce a change both in the median of the transverse space distribution and on its shape. Detailed simulations of the neutrino production kinematics produced by the Fermilab accelerator group are currently being validated and will soon be available, allowing for the exploration of this hypothesis.
 \begin{thebibliography}{90}             %crea l'ambiente bibliografia
 \rhead[\fancyplain{}{\bfseries Bibliography }]{\fancyplain{}{\bfseries\thepage}}
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Bibliography}}
 \label{Bibliography}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%aggiunge la voce Bibliografia
                                         %   nell'indice
-\addcontentsline{toc}{chapter}{Bibliografia}
+\addcontentsline{toc}{chapter}{Bibliography}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%provare anche questo comando:
 %%%%%%%%%%%\addcontentsline{toc}{chapter}{\numberline{}{Bibliografia}}
 \bibitem{Pauli} W. Pauli, ``Letter to a physicist's gathering at Tubingen", December 4,
@@ -1806,9 +1812,13 @@ vol. D95, no. 9, p. 096014, 2017.
 \bibitem{ggd} https://github.com/brettviren/gegede
 \bibitem{dunendggd} https://github.com/gyang9/dunendggd
 \bibitem{edep-sim} https://github.com/ClarkMcGrew/edep-sim
+\bibitem{tracking} A.Andreazza, ``Tracking Systems", Lecture notes from ``Acceleratori di Particelle", Dipartimento di Fisica, Università degli studi di Milano, http://www2.fisica.unimi.it/andreazz/AA\_TrackingSystems.pdf
 \bibitem{KLOE}Lee-Franzini, J. Antonelli, A. Antonelli, Stefano Barbiellini, Guido Barone, M. Bertolucci, Sergio Bini, C. Bloise, Caterina Bolognesi, Valeria Bossi, Fabio Campana, P. Cervelli, Franco Caloi, R. Cordelli, M. Zorzi, G. Di Cosimo, Giulio Domenico, A. Erriquez, O. Farilla, A. Wölfle, S.. (1995). ``The KLOE electromagnetic calorimeter", Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment. 360. 201-205. 10.1016/0168-9002(94)01607-0. 
 \bibitem{two-sample} ``Testing Consistency of Two Histograms", Frank Porter, California Institute of Technology, Lauritsen Laboratory for High Energy Physics, Pasadena, California 91125, March 7, 2008
 \bibitem{ROOT} https://root.cern.ch/doc/master
+\bibitem{KS} Pratt, John W.
+and Gibbons, Jean D, ``Kolmogorov-Smirnov Two-Sample Tests", in "Concepts of Nonparametric Theory",1981, Springer New York, New York, NY, 318--344.
+\bibitem{AD general}M, Arshad  M.T, Rasool  Ahmad, Muhammad. (2003). ``Anderson Darling and Modified Anderson Darling Tests for Generalized Pareto Distribution". Journal of Applied Sciences. 3(2). 10.3923/jas.2003.85.88. 
 \bibitem{AD} Scholz, F. W.; Stephens, M. A. (1987). ``K-sample Anderson-Darling Tests". Journal of the American Statistical Association. 82 (399): 918-924. doi:10.1080/01621459.1987.10478517
 
 
