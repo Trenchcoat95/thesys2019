@@ -91,19 +91,19 @@
 \rhead[\fancyplain{}{\bfseries Abstract}]{\fancyplain{}{\bfseries\thepage}}
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Abstract}}
 \addcontentsline{toc}{chapter}{Abstract}
-The Deep Underground Neutrino Experiment (DUNE) will be a next generation neutrino oscillation long baseline accelerator experiment. It  will be composed of a Near Detector (ND) system located a few hundred meters from the neutrino source at Fermilab, and a Far Detector (FD) system composed of three multi-kiloton LArTPCs. Of the three Near Detectors, SAND (System for on-Axis Neutrino Detection) will have as its main purpose to provide constraints on all the systematic uncertainties relevant for the oscillation analysis. Among these, one of the detector's main task will be beam monitoring which consists in using the flux measurements to spot potential anomalies in the beam production. This thesis studies the beam monitoring capabilities of the SAND detector, via neutrino flux and detector simulations.
+The Deep Underground Neutrino Experiment (DUNE) will be a next generation neutrino oscillation long baseline accelerator experiment. It will be composed of a Near Detector (ND) system located a few hundred meters from the neutrino source at Fermilab, and a Far Detector (FD) system composed of four multi-kiloton LArTPCs. Of the three Near Detectors, SAND (System for on-Axis Neutrino Detection) will have as its main purpose to provide constraints on all the systematic uncertainties relevant for the oscillation analysis. Among these, one of the detector's main task will be beam monitoring which consists in using the flux measurements to spot potential anomalies in the beam production. This thesis studies the beam monitoring capabilities of the SAND detector, via neutrino flux and detector simulations.
 \clearpage
 \chapter*{Sommario}
-Il Deep Underground Neutrino Experiment (DUNE) un esperimento da ``long baseline" di nuova generazione sull'oscillazione di neutrini da acceleratore . Sarà composto da un sistema di Near Detector (ND) posizionato a poche centinaia di metri dalla fonte di neutrini al Fermilab, a un sistema di Far Detector (FD) composto da tre LArTPC dell'ordine dela tonnellata. Dei tre Near Detector, SAND (System for on-Axis Neutrino Detection) avrà come sua funzione principale quella di produrre constraints su tutte le incertezze sistematiche che interessano le misure di oscillazione di neutrini. Tra queste, una delle principali funzioni del detector sarà il monitoring del fascio, che consiste nel usare misure di flusso per identificare eventuali anomalie nella produzione del fascio. Questa tesi studia le capacità di monitoring del fascio del detector SAND, tramite simulazioni del flusso di neutrini e dei detector. 
+Il Deep Underground Neutrino Experiment (DUNE) sarà un esperimento sull' oscillazione di neutrini da acceleratore da ``long baseline" di nuova generazione. Sarà composto da un sistema di Near Detector (ND) posizionato a poche centinaia di metri dalla fonte di neutrini al Fermilab, a un sistema di Far Detector (FD) composto da quattro LArTPC dell'ordine di dieci migliaia di tonnellate. Dei tre rivelatori che compongono il sistema del Near Detector, SAND (System for on-Axis Neutrino Detection) avrà come sua funzione principale quella di ridurre le incertezze sistematiche che interessano le misure di oscillazione di neutrini. Tra queste, una delle principali funzioni del detector sarà il beam monitoring, che consiste nell'identificare eventuali variazioni del flusso di neutrini legate ad anomalie nella produzione del fascio. Questa tesi ha lo scopo di studiare le capacità di monitoring del fascio del rivelatore SAND, tramite simulazioni del flusso di neutrini, dei detector e della loro risposta al passaggio delle particelle. 
 \clearpage
 \chapter*{Introduction}                 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%imposta l'intestazione di pagina
 \rhead[\fancyplain{}{\bfseries Introduction}]{\fancyplain{}{\bfseries\thepage}}
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Introduction}}
 \addcontentsline{toc}{chapter}{Introduction}
-Since their discovery neutrino oscillations have become one of the most direct evidence of the fact that the Standard Model of particle physics is not a complete theory. Many of the parameters that govern the phenomenon have been accurately measured by a variety of experiments, exploiting either the natural neutrino fluxes from the Sun and atmospheric cosmic rays or artificial ones produced by nuclear reactors or particle accelerators. \\
-The Deep Underground Neutrino Experiment (DUNE) will be a next generation neutrino oscillation Long Baseline accelerator experiment. The experiment is set to reach new levels of precision, allowing for the first time a definitive measurement of the neutrino oscillation CP-violation and of the neutrino mass ordering. \\
-DUNE will be composed of a Near Detector (ND) system located a few hundred meters from the neutrino source at Fermilab, and a Far Detector (FD) system composed of three multi-kiloton Liquid Argon Time Projection Chambers (LArTPC) located at 1300 km from the source. The ND system will be composed of three individual detectors: ArgonCube, HPgTPC (High Pressure gas TPC) and SAND (System for on-Axis Neutrino Detection). While the first two both based on Argon technologies, the SAND design considered in this thesis (one of a few still in consideration) will take a totally different approach by implementing a modular Straw Tube Tracker (STT), integrating many different nuclear targets. SAND will also be the only detector in DUNE to re-use parts from an older detector: it will implement the electro-magnetic calorimeter, magnet and iron structure from the KLOE (K-LOng Experiment) detector. \\
+Since their discovery neutrino oscillations have become one of the most direct evidence of the fact that the Standard Model of particle physics is not a complete theory. Many of the parameters that govern the phenomenon have been accurately measured by a variety of experiments, exploiting either the solar and atmospheric neutrino fluxes or artificial ones produced by nuclear reactors or particle accelerators. \\
+The Deep Underground Neutrino Experiment (DUNE) will be a next generation neutrino oscillation Long Baseline accelerator experiment. The experiment is set to reach new levels of precision, allowing for the first time a definitive measurement of the possible neutrino oscillation CP-violation and of the neutrino mass ordering. \\
+The DUNE experiment will be composed of a Near Detector (ND) system located a few hundred meters from the neutrino source at Fermilab, and a Far Detector (FD) system composed of four multi-kiloton Liquid Argon Time Projection Chambers (LArTPC) located at 1300 km from the source. The ND system will be composed of three individual detectors: ArgonCube, HPgTPC (High Pressure gas TPC) and SAND (System for on-Axis Neutrino Detection). While the first two are both based on Argon technologies, the SAND design considered in this thesis (one of a few still in consideration) will take a totally different approach by implementing a modular Straw Tube Tracker (STT), integrating many different nuclear targets. SAND will also be the only detector in DUNE to re-use parts from an older detector: it will implement the electro-magnetic calorimeter, magnet and iron structure from the KLOE (K-LOng Experiment) detector. \\
 SAND's main purpose will be to provide constraints on all the systematic uncertainties relevant for the oscillation analysis. These include measurements of interaction cross sections, physics and detector responses and neutrino flux spectrum, composition and spread.\\
 One of SAND's main tasks will be beam monitoring, which consists in using the flux information from the ND measurements to spot potential anomalies in the beam production. The purpose of this thesis is to study the beam monitoring capabilities of the SAND detector, via neutrino flux and detector simulations. The text is divided into five chapters:
 \begin{itemize}
@@ -607,7 +607,7 @@ In the long-baseline accelerator field DUNE (Deep Underground Neutrino Experimen
 \rhead[\fancyplain{}{\bfseries Chapter 2: DUNE}]{\fancyplain{}{\bfseries\thepage}}
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries Chapter 2: DUNE}}
           \label{chapter 2}
-The Deep Underground Neutrino Experiment (DUNE) will be a new generation world-leading Long Baseline oscillation experiment. Among its main goals are the precise measurement of the oscillation parameters, the study of matter-antimatter asymmetry and the determination of the neutrino mass ordering. It is conceived around three main components: The neutrino beam facility, which is able to produce an intense and wide band muon neutrino and antineutrino beam; a Near Detector (ND) situated at the Fermi National Accelerator Laboratories (Fermilab, Batavia, Illinois); a massive Liquid Argon Time Projection Chamber (LArTPC) Far Detector (FD) placed 1300 km downstream at the Sanford Underground Research Facility (Lead, South Dakota).\\
+The Deep Underground Neutrino Experiment (DUNE) will be a new generation world-leading Long Baseline oscillation experiment. Among its main goals are the precise measurement of the oscillation parameters, the study of matter-antimatter asymmetry and the determination of the neutrino mass ordering. It is conceived around three main components: The neutrino beam facility, which is able to produce an intense and wide band muon neutrino and antineutrino beam; a Near Detector (ND) situated at the Fermi National Accelerator Laboratories (Fermilab, Batavia, Illinois); a multiple massive Liquid Argon Time Projection Chamber (LArTPC) Far Detector (FD) complex placed 1300 km downstream at the Sanford Underground Research Facility (Lead, South Dakota).\\
 In this Chapter we will discuss DUNE's physics programme (Section 1) as well as the configuration of the neutrino beam and its main detectors (Section 2). The SAND detector, which is one of DUNE's Near Detectors system is the subject of the studies performed in this thesis and will be discussed more in detail in the next chapter.
 \begin{figure}[t]
 	\centering
@@ -615,7 +615,7 @@ In this Chapter we will discuss DUNE's physics programme (Section 1) as well as 
 	\caption{\label{NeutrinoBeam:fig} Schematic representation of the LBNF neutrino beamline facilities at Fermilab \cite{DUNE 3}. } 
 \end{figure}
 \section{LBNF/DUNE's facilities and design}
-The experimental facilities and detectors will be divided between the Long-Baseline Neutrino Facility (LBNF), hosted by Fermilab and the DUNE collaboration. The first will provide the facilities in Illinois (Near Detector Facilities) and South Dakota at SURF (Far Detector facilities), necessary for the scientific program of DUNE. The collaboration will supervise the Numi neutrino beam with the necessary upgrades, the ND conventional facilities in Fermilab and the construction of the caverns necessary to host the four liquid Argon far detectors. The DUNE collaboration will overview the design and construction of the detectors themselves \cite{DUNE 4}.
+The experimental facilities and detectors will be divided between the Long-Baseline Neutrino Facility (LBNF), hosted by Fermilab and the DUNE collaboration. The first will provide the facilities in Illinois (Near Detector Facilities) and South Dakota at SURF (Far Detector facilities), necessary for the scientific program of DUNE. The collaboration will supervise the neutrino beam with the necessary upgrades, the ND conventional facilities in Fermilab and the construction of the caverns necessary to host the four liquid Argon far detectors. The DUNE collaboration will overview the design and construction of the detectors themselves \cite{DUNE 4}.
 \subsection{LBNF beamline}
 The LBNF BeamLine at Fermilab is a horn-focused, sign-selected neutrino beam, designed to meet the DUNE's long-baseline physics requirements \cite{DUNE 3}. It is focused towards the South Dakota facilities hosting the Far Detectors, 1480 m underground and 1300 km away from the FNAL facilities.\\
 The main components of the beamline are shown in Figure \ref{NeutrinoBeam:fig}. A primary beam of accelerated protons (60-120 GeV) is produced in the Fermilab Main Injector (MI) (the primary beam main specifications and characteristics for 12 GeV protons are listed in Table \ref{tab:beam}). It is then extracted and transported through a man-made hill, at the apex of which it is bent downwards, toward a target at ground level, in the LBNF Target Hall. The total bend amounts to $7.2^\circ$ westward and $5.4^\circ$ downwards and directs the flux toward the Far Detectors.\\
@@ -656,10 +656,10 @@ When the accelerated protons hit the target, mesons are generated; these are the
 	\caption{\label{tab:beam}Summary of the main primary proton beam parameters \cite{DUNE 3}}
 \end{table}%
 \clearpage
-The horn polarity can be changed shifting between to current configurations: FHC (Forward Horn Current) and RHC (Reverse Horn Current). This makes it possible to selectively focus only positive or negative hadrons, thus producing either $\nu_\mu$ or $\bar{\nu}-\mu$ fluxes respectively. Both polarities will produced high purity fluxes, with an expected contamination from the ``incorrect" neutrino type (i.e. $\nu_\mu$ in RHC mode and vice-versa) of less than 10\% in the oscillation energy region. This type of impurities are introduced by hadrons of the opposite sign propagating at the centre of the beam, where no magnetic field is present. A small $\nu_e$ and $\bar{\nu}_e$ component is also introduced by the decay of secondary kaons and tertiary muons from pion decays.The neutrino and antineutrino expected fluxes obtained focusing  positive and negative particles are shown in Figure \ref{NuSpectrum:fig}. \\
+The horn polarity can be changed shifting between to current configurations: FHC (Forward Horn Current) and RHC (Reverse Horn Current). This makes it possible to selectively focus only positive or negative hadrons, thus producing either $\nu_\mu$ or $\bar{\nu}_\mu$ fluxes respectively. Both polarities will produce high purity fluxes, with an expected contamination from the ``incorrect" neutrino type (i.e. $\nu_\mu$ in RHC mode and vice-versa) of less than 10\% in the oscillation energy region. This type of impurities are introduced by hadrons of the opposite sign propagating at the centre of the beam, where no magnetic field is present. A small $\nu_e$ and $\bar{\nu}_e$ component is also introduced by the decay of secondary kaons and tertiary muons from pion decays. The neutrino and antineutrino expected fluxes obtained focusing  positive and negative particles are shown in Figure \ref{NuSpectrum:fig}. \\
 The facility is set to run initially with a power of 1.2 MW (later upgrading to 2.4 MW), corresponding to $1.1 \times 10^{21}$ protons-on-target (POT) per year, for 120 GeV protons. This assumes that $7.5\times10^{13}$ protons are produced for each 1.2 s MI cycle and a total efficiency of 0.56 for the entire focusing and transportation system in LBNF.\\
 \subsection{FD reference design: single phase LArTPC }
-The reference design for DUNE's Far Detector consists of three 10 kt single-phase liquid Argon time projection chambers (for a total fiducial mass of 40 kt), each suspended inside a cryostat and augmented with a photon detection system (a model of the reference design is shown in Figure \ref{FD-SinglePhase:fig}). \\
+The reference design for DUNE's Far Detector consists of four 10 kt single-phase liquid Argon time projection chambers (for a total fiducial mass of 40 kt), each suspended inside a cryostat and augmented with a photon detection system (a model of the reference design is shown in Figure \ref{FD-SinglePhase:fig}). \\
 The LArTPC technology has been pioneered by ICARUS. The charged particles in liquid Argon (LAr) produce ionization and scintillation light. The electrons drifting from production points towards the segmented anode plane producing a signal are then used to provide spatial information. The prompt scintillation photons are collected by a photon detection system that provide the absolute timing of the event. In particular a detector is single-phase if the ionization, drift and collection all occur in liquid Argon.\\
 The two main active components of the detector are then the actual Time Projection Chamber (TPC) and the Photon Detection System (Photon Detector System), with the electronics divided in Cold Electronics (CE), mounted inside the Liquid Argon TPC, and the rest of the Data Aquisition System (DAQ).
 \clearpage
@@ -801,7 +801,7 @@ N_{FD}^{exp}(\nu_\mu) = N_{ND}^{data}(\nu_\mu) \otimes \frac{\Phi_{FD}(\nu_\mu)}
 The $\nu_e$ expected signal is given by:
 \begin{equation}
 \begin{split}
-N_{FD}^{exp}(\nu_\mu) & = \underbrace{N_{ND}^{data}(\nu_\mu) \otimes \frac{\Phi_{FD}(\nu_\mu)}{\Phi_{ND}(\nu_\mu)} \otimes P(\nu_\mu \rightarrow \nu_e) \otimes \frac{\varepsilon_{FD}(\nu_e)}{\varepsilon_{ND}(\nu_\mu)} \otimes \frac{\sigma_{FD}(\nu_e)}{\sigma_{ND}(\nu_\mu)}}_{\text{Expected signal}} \\
+N_{FD}^{exp}(\nu_e) & = \underbrace{N_{ND}^{data}(\nu_\mu) \otimes \frac{\Phi_{FD}(\nu_\mu)}{\Phi_{ND}(\nu_\mu)} \otimes P(\nu_\mu \rightarrow \nu_e) \otimes \frac{\varepsilon_{FD}(\nu_e)}{\varepsilon_{ND}(\nu_\mu)} \otimes \frac{\sigma_{FD}(\nu_e)}{\sigma_{ND}(\nu_\mu)}}_{\text{Expected signal}} \\
 & + \underbrace{N_{ND}^{data}(\nu_e) \otimes \frac{\Phi_{FD}(\nu_e)}{\Phi_{ND}(\nu_e)} \otimes P(\nu_e \rightarrow \nu_e) \otimes \frac{\varepsilon_{FD}(\nu_e)}{\varepsilon_{ND}(\nu_e)} \otimes \frac{\sigma_{FD}(\nu_e)}{\sigma_{ND}(\nu_e)}}_{\text{Electronic events from the beam}} \\
 & + \pi^0\text{NC background prediction from }N_{ND}^{data}(\nu_e)\\
 & + \nu_\tau \text{ background prediction from }N_{ND}^{data}(\nu_\mu)
@@ -810,7 +810,7 @@ N_{FD}^{exp}(\nu_\mu) & = \underbrace{N_{ND}^{data}(\nu_\mu) \otimes \frac{\Phi_
 The main sources of uncertainties are known from previous experiments such as T2K and MINOS. They include:
 \begin{itemize}
 	\item \emph{Beam flux uncertainties}: related to the precision with which the ND is capable to measure the unoscillated beam flux in both shape and normalization.
-	\item \emph{$\nu_\mu$ energy-scale uncertainties}: the muonic neutrino energy spectrum measured in the ND is then used to predict the $\nu_e$ appearance channel in the FD.
+	\item \emph{$\nu_\mu$ energy-scale uncertainties}: the muonic neutrino energy spectrum measured in the ND is used to predict the $\nu_e$ appearance channel in the FD.
 	\item \emph{Absolute $\nu_e$ energy-scale uncertainty}: an accurate measurement of the spectral shape of the $\nu_e$ appearance channel at the ND, is essential to obtain a high MH and CP-violation sensitivity. The determination of the electron neutrino energy is influenced by the detector response, which introduces important systematic uncertainties in the absolute $\nu_e$ energy scale. 
 	\item \emph{Simulation uncertainties}: uncertainties related to the modelling of the neutrino interactions with the target nuclei in the near and far detectors.
 \end{itemize}
@@ -827,7 +827,7 @@ As it can be seen from Eq. \ref{eq:asymmetry} both a non-zero $\delta_{CP}$ and 
 \begin{equation}
 \mathcal{A}_{CP}= \mathcal{A}_{\delta}+ \mathcal{A}_{matter}
 \end{equation}
-In figure \ref{oscillograms:fig} the asymmetries induced by CP violation ($\mathcal{A}_{\delta}$) in case that $\delta_{CP}=\pm\pi/2$ and by matter effects ($\mathcal{A}_{matter}$) are plotted separatly in 2D oscillograms as a function of baseline and energy. In reality though the two asymmetries. In experiments where both are relevant, as is the case for DUNE, if one wants to use  measurements of total asymmetry both to measure $\delta_{CP}$ and the mass ordering, it's mandatory to be able to disambiguate between the two \cite{DUNE 2}. \\
+In figure \ref{oscillograms:fig} the asymmetries induced by CP violation ($\mathcal{A}_{\delta}$) in case that $\delta_{CP}=\pm\pi/2$ and by matter effects ($\mathcal{A}_{matter}$) are plotted separatly in 2D oscillograms as a function of baseline and energy. In reality though the two asymmetries are never separated. In experiments where both are relevant, as is the case for DUNE, if one wants to use  measurements of total asymmetry both to measure $\delta_{CP}$ and the mass ordering, it's mandatory to be able to disambiguate between the two \cite{DUNE 2}. \\
 For the MSW effects in particular the asymmetries are introduced by a CP violating term $P_{\sin\delta}$ in the oscillation probability:
 \begin{equation}
 P(\nu_\mu \rightarrow \nu_e) \simeq P(\nu_e \rightarrow \nu_\mu) \simeq P_0+P_{\sin\delta}+P_{\cos\delta}+P_3
@@ -856,7 +856,7 @@ A=\sqrt{3}G_FN_e2E/\Delta m_{31}^2
 \alpha = |\Delta m_{12}^2 |/|\Delta m_{31}^2 |
 \end{equation}
 \\
-Note that since the value of $\Delta m_{31}^2$ switches between normal and inverted hierarchy, the asymmetry effects induced by the passage through matter will also be different: for normal (inverted) hierarchy $P(\nu_\mu-\nu_e)$ is enhanced (suppressed) and $P(\bar{\nu_\mu}\rightarrow\bar{\nu_e})$ is suppressed (enhanced); 
+Note that since the value of $\Delta m_{31}^2$ switches between normal and inverted hierarchy, the asymmetry effects induced by the passage through matter will also be different: for normal (inverted) hierarchy $P(\nu_\mu-\nu_e)$ is enhanced (suppressed) and $P(\bar{\nu}_\mu\rightarrow\bar{\nu}_e)$ is suppressed (enhanced); 
 the matter effects shift the phase of oscillation pattern for a fixed baseline to lower energies (by about -100 MeV) in the IH. \\
 In general the matter effects have the largest impacts when the oscillation nodes for $\theta_{13}$ are reached (the first two nodes are highlighted in black in Figure \ref{oscillograms:fig}):
 \begin{equation}
@@ -1197,7 +1197,7 @@ In Figure \ref{ecal:fig} a graphical representation of the entire calorimeter is
 The Straw Tube Tracker is currently in a design stage and its configuration is subject to frequent modifications. In this section we describe the geometry used in the simulations performed during this thesis.\\
 The STT is composed by 3 different modular components:
 \begin{itemize}
-	\item The standard polypropylene modules, composed of a C$_3$H$\_6$ target slab, a XXYY straw tube tracking plane and a 150 foils TR radiator;
+	\item The standard polypropylene modules, composed of a C$_3$H$_6$ target slab, a XXYY straw tube tracking plane and a 150 foils TR radiator;
 	\item The graphite modules composed of a C target slab and  a XXYY straw tube tracking plane;
 	\item The slab-less modules, which do not offer any target slab and only include the straw tubes planes and the TR radiator; 
 \end{itemize}
@@ -1334,7 +1334,7 @@ We can now perform a coordinate rotation in the $yz$ plane of an angle $\varphi_
 \rho &=z\cos\varphi_0+y\sin\varphi_0\\
 y'&=-z\sin\varphi_0+y\cos\varphi_0
 \end{align}
-The equations of motion can now be re-written to be divided between the plane $y'z$ and the plane $\rho z$:
+The equations of motion can now be re-written to be divided between the plane $y'\rho$ and the plane $\rho x$:
 \begin{equation}
 \begin{cases}
 x=x_0+\rho\tan\lambda\\
@@ -1347,7 +1347,7 @@ y= y_C + h\sqrt{R^2-(z-z_C)^2}
 \end{equation} 
 The value of $h=\pm1$ (+1 is clockwise, while -1 is counter-clockwise), is given accordingly by the sign of the product of the z distance between the first and second hit of the track and the y distance between $y_C$ and $y_0$: 
 \begin{equation}
-h=\frac{(z_1-z_0)(y_0-y_C)}{|(z_1-z_0)(y_0-y_C)|}=\pm1
+h=\frac{(z_1-z_0)(y_C-y_0)}{|(z_1-z_0)(y_C-y_0)|}=\pm1
 \end{equation}
 In order to calculate $\rho$ we also need the values of $\cos\varphi_0$ and $\sin\varphi_0$. We can calculate them as:
 \begin{align}
@@ -1356,7 +1356,7 @@ In order to calculate $\rho$ we also need the values of $\cos\varphi_0$ and $\si
 \end{align} 
 If both fits were successful we now have estimates for $R$, $(y_C,z_C)$ and $\lambda$. With this information we can reconstruct the initial transverse momentum of the particle on the $yz$ plane using the formula:
 \begin{equation}
-p_T=0.3\times BR
+p_T\text{ [GeV]}=0.3\times B\text{ [T]}R\text{ [m]}
 \end{equation}
 We can then get the three components of the momentum in the ND hall coordinate system as:
 \begin{equation}
@@ -1462,7 +1462,7 @@ Any event having photo-electron production on the outer layer $\geq 35$ p.e. is 
 		\includegraphics[width=\textwidth]{fiducial_eff.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{fiducialefficiency:fig}(a) Energy (Monte Carlo truth) distribution of neutrinos from the CC nominal sample (grey); Energy (Monte Carlo truth) distribution of neutrinos surviving the fiducial cut (yellow). (b) Selection efficiency as a function of neutrino energy from the Monte Carlo truth.} 
+	\caption{\label{fiducialefficiency:fig}(a) Energy (Monte Carlo truth) distribution of neutrinos from the CC nominal sample (grey); Energy (Monte Carlo truth) distribution of neutrinos surviving the fiducial cut (blue). (b) Selection efficiency as a function of neutrino energy from the Monte Carlo truth.} 
 \end{figure}
 In order to eliminate the events that are likely going to produce muons that won't fully traverse the STT, which we expect to have poor momentum reconstruction, we also define a  spatial cut on the x position of the interaction vertex:
 \begin{equation}
@@ -1543,7 +1543,7 @@ res = 1-p_\mu^{true}/p_\mu^{reco}
 \end{equation}
 The plots are shown in Figure \ref{chi:fig} (a) and (b) respectively. Starting from these resolution distributions and proceeding by trial and error we found the selection:
 \begin{equation}
-\chi^2_{ln}<10^5 
+\chi^2_{cr}<10^5 
 \end{equation}
 In Figure \ref{ptrueVSpreco:fig} (b) we show the reconstructed momenta as a function of the true Monte Carlo momenta after the quality cut is applied. The efficiency of this selection is given by the ratio between the number of events having sufficiently small $\chi^2$ values $N_{qual}=326322$ and the total amount of reconstructed muons $N_{reco}$:
 \begin{equation}
@@ -1632,7 +1632,7 @@ where $z_{2}(1-\alpha)$ is the $(1-\alpha)$-percentile of the standardized asymp
 	\end{subfigure}
 	\caption{\label{control:fig}(a) Reconstructed momenta distributions from two control half-statistics samples produced with the nominal neutrino beam. The fiducial and momentum reconstruction successfulness cuts are applied (b) True Monte Carlo momenta distributions from the nominal and shifted samples. A fiducial cut is applied. Both histograms are in logarithmic scale.} 
 \end{figure}
-As a first control on our methodology we decided to apply the $\chi^2$ test to the reconstructed momenta from two nominal samples. If the method is capable of distinguishing between the products of two different neutrino beam configurations, we expect to obtain a p-value for two control samples that follow the same distribution that is close to 1. We derive the two samples by applying the fiducial cut and momentum reconstruction control to the one week simulation and dividing the events randomly into two groups (the correspondent momenta distributions are plotted in Figure \ref{control:fig} (a)). For the $\chi^2$ statistic we obtain a p-value and a confidence level in number of $\sigma$'s:
+As a first control for our methodology we decided to apply the $\chi^2$ test to the reconstructed momenta from two nominal samples. If the method is capable of distinguishing between the products of two different neutrino beam configurations, we expect to obtain a p-value for two control samples that follow the same distribution that is close to 1. We derive the two samples by applying the fiducial cut and momentum reconstruction control to the one week simulation and dividing the events randomly into two groups (the correspondent momenta distributions are plotted in Figure \ref{control:fig} (a)). For the $\chi^2$ statistic we obtain a p-value and a confidence level in number of $\sigma$'s:
 \begin{align}
 p_{control}  =& 0.527;&  \sigma_{control}= 0.633& \ (\chi^2)
 \end{align}  
@@ -1663,9 +1663,9 @@ No p-value obtained from the reconstructed momenta should be smaller than $p_{tr
 The first two samples considered for beam monitoring are the muon reconstructed momenta after the fiducial cut and the selection on the successfulness of the muon reconstruction are applied. The reconstructed  momentum distributions of the muons produced with nominal and shifted neutrino fluxes are shown in Figure \ref{p:fig}. \\
 Applying the statistical tests on the reconstructed momenta samples we find:
 \begin{align}
-p_{reco}=& 1.55 \times 10^{-3};&\sigma_{reco}=3.17& \ (\chi^2) \\
-p_{reco}^{KS}  = &0.382; &\sigma^{KS}_{reco}=0.874&\ (K.S.)\\
-p_{reco}^{AD}  = &0.158; &\sigma^{AD}_{reco}=1.41 &\ (A.D.)
+p_{reco}= & 1.55 \times 10^{-3};&\sigma_{reco}=3.17& \ (\chi^2) \\
+p_{reco}^{KS}  = &0.382; &\sigma^{KS}_{reco}=0.874& \ (K.S.)\\
+p_{reco}^{AD}  = &0.158; &\sigma^{AD}_{reco}=1.41 & \ (A.D.)
 \end{align}
 We repeat the procedure by applying the quality cut described in Section \ref{sec:quality} to both samples (reconstructed momentum distributions for the new samples are shown in Figure \ref{pto:fig}). The new p-values and significance levels from the reconstructed samples are:
 \begin{align}
@@ -1692,7 +1692,7 @@ In conclusion this work confirms the high potentiality of the SAND detector as b
 		\includegraphics[width=\textwidth]{sigma.png}
 		\caption{}
 	\end{subfigure}
-	\caption{\label{ev:fig}Evolution of the values of (a) $\chi^2$, (b) p-value and (c) confidence level in number of sigmas for increasingly larger samples where all the cuts were applied. On the abscissa we show the size of the total event sample before any cut was applied.} 
+	\caption{\label{ev:fig}Evolution of the values of (a) T ($\chi^2$ test statistics), (b) p-value and (c) confidence level in number of sigmas for increasingly larger samples where all the cuts were applied. On the abscissa we show the size of the total event sample before any cut was applied.} 
 \end{figure}
 \clearpage
 \chapter*{Conclusions and outlooks}
@@ -1816,9 +1816,9 @@ vol. D95, no. 9, p. 096014, 2017.
 \bibitem{KLOE}Lee-Franzini, J. Antonelli, A. Antonelli, Stefano Barbiellini, Guido Barone, M. Bertolucci, Sergio Bini, C. Bloise, Caterina Bolognesi, Valeria Bossi, Fabio Campana, P. Cervelli, Franco Caloi, R. Cordelli, M. Zorzi, G. Di Cosimo, Giulio Domenico, A. Erriquez, O. Farilla, A. Wölfle, S.. (1995). ``The KLOE electromagnetic calorimeter", Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment. 360. 201-205. 10.1016/0168-9002(94)01607-0. 
 \bibitem{two-sample} ``Testing Consistency of Two Histograms", Frank Porter, California Institute of Technology, Lauritsen Laboratory for High Energy Physics, Pasadena, California 91125, March 7, 2008
 \bibitem{ROOT} https://root.cern.ch/doc/master
-\bibitem{KS} Pratt, John W.
-and Gibbons, Jean D, ``Kolmogorov-Smirnov Two-Sample Tests", in "Concepts of Nonparametric Theory",1981, Springer New York, New York, NY, 318--344.
-\bibitem{AD general}M, Arshad  M.T, Rasool  Ahmad, Muhammad. (2003). ``Anderson Darling and Modified Anderson Darling Tests for Generalized Pareto Distribution". Journal of Applied Sciences. 3(2). 10.3923/jas.2003.85.88. 
+\bibitem{KS} Pratt, John W. and Gibbons, Jean D, ``Kolmogorov-Smirnov Two-Sample Tests", in "Concepts of Nonparametric Theory", 1981, Springer New York, New York, NY, 318-344.
+\bibitem{AD general} Anderson, T.W., and D.A. Darling (1954), ``A test of goodness-of-fit", J. Am. Stat. Assoc., Vol. 49, 765?769.
+
 \bibitem{AD} Scholz, F. W.; Stephens, M. A. (1987). ``K-sample Anderson-Darling Tests". Journal of the American Statistical Association. 82 (399): 918-924. doi:10.1080/01621459.1987.10478517
 
 
